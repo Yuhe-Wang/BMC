@@ -1,0 +1,1 @@
+SFloat View3D::getPointValue(SFloat x, SFloat y, SFloat z) in View3D.cpp

@@ -1,0 +1,10 @@
+Change the Vector from double to float to fit GPU
+
+implement tperp(p) trying to improve efficiency:
+			ZFloat tp = tperp(p);
+			ZFloat range = (p.E - ERangeCut)*WaterRangeCS(p.E);
+			if (range < tp*voxden) // can deposit without further simulation
+			{
+				deposit(p.iabsv, p.E*p.weight);
+				return 1; //end the simulation of this electron
+			}

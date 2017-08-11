@@ -1,0 +1,13 @@
+fix gMeshMM running problem -> stack overflow in void PENELOPE::loadCommonData(). -> use ArrayMgr isntead ^_^
+
+check if gMeshMM can produce correct results: almost identical but there's very minor difference.
+
+add *.h file to the VS explorer ^_^
+
+fix GPU gamma running problem
+
+merge the change of the contour drawing in DoseViewer ^_^
+
+Check if MyDebug configuration can generate debug information ^_^
+
+address fast math optino in GPU compilation ^_^

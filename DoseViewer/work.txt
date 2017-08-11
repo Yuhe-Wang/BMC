@@ -1,0 +1,51 @@
+find algorithm to make the contrast better ???
+
+add drawing box contour function ^_^
+
+try to show the exteranal RED file ^_^
+
+add function to average the phantom ^_^
+
+enable to shrink the imported dose matrix from ViewRay ^_^
+
+enable to replace/add dose to original high-resolution phantom ^_^
+
+implement the Gamma analysis for interanal and exteranl dose matrix ^_^
+
+implement GPU accelerated Gamma analysis ^_^
+
+check the correctness between GPU and CPU ^_^
+
+add multiple GPU support ^_^ (boost 4.4 times on my laptop)
+
+change RED to phantom ^_^
+
+pack the DoseViewer project, and make an istaller ^_^
+
+implement to replace the couch
+
+compile openCV with /MD optinon ^_^
+
+add compressing option to Binary File class ^_^
+
+implement how to magnify and shrink the picture^_^
+
+add 3D views at the same time^_^
+
+make the legend be proportional to the windows size^_^
+
+make the shrink at the window center^_^
+
+solve the moving out of viewport problem^_^
+
+reduce the render() calling number^_^
+
+solve the maximize - minimize shift problem^_^
+
+add axis for the 3D view
+
+add threshold and local gamma analysis
+
+modify the mathgl code so that we can define the size of the canvas^_^
+
+solve the memory leakage problem^_^

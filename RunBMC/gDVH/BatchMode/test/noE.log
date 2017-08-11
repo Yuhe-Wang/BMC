@@ -1,0 +1,2415 @@
+The host name = DESKTOP-RR7HE31
+
+The job config file name = BatchMode\test\example.py
+Short description: 4.2cm square field
+Start log time = Wed Jul 26 11:46:33 2017
+
+
+/******************* The following GPU will be used ***************************/
+
+CUDA Device #0
+Major revision number:         5
+Minor revision number:         0
+Name:                          GeForce GTX 960M
+Total global memory:           2147483648
+Total shared memory per block: 49152
+Total registers per block:     65536
+Warp size:                     32
+Maximum memory pitch:          2147483647
+Maximum threads per block:     1024
+Maximum dimension 0 of block:  1024
+Maximum dimension 1 of block:  1024
+Maximum dimension 2 of block:  64
+Maximum dimension 0 of grid:   2147483647
+Maximum dimension 1 of grid:   65535
+Maximum dimension 2 of grid:   65535
+Clock rate:                    1097500
+Total constant memory:         65536
+Texture alignment:             512
+Concurrent copy and execution: Yes
+Number of multiprocessors:     5
+Number of total cores:     640
+Kernel execution timeout:      Yes
+/************************ End GPU description *********************************/
+
+
+It costs 0.006383 seconds to init GPU 
+the contour: PTV is marked as important region
+maxLayer increased to 1
+maxLayer increased to 2
+maxLayer increased to 3
+maxLayer increased to 4
+>2ms
+Warning: cannot get couch density factor in config file; will not modify the couch density!
+
+It costs 0.254605 seconds to load phantom 
+
+Calculating dose, please wait patiently...
+
+time cost to generate particle = 0.165971 s
+time cost to execute kernels = 0.095125 s
+GPU processed ------------------------ 0.2%,   speed = 75059 h/s
+Time escaped = 0.0 min, left time expected = 2.2 min
+time cost to generate particle = 0.186656 s
+max dose = 71.4084, min dose = 0
+time cost to execute kernels = 0.068045 s
+GPU processed ------------------------ 0.4%,   speed = 82412 h/s
+Time escaped = 0.0 min, left time expected = 2.0 min
+time cost to generate particle = 0.171004 s
+max dose = 77.0503, min dose = 0
+time cost to execute kernels = 0.066584 s
+GPU processed ------------------------ 0.6%,   speed = 86374 h/s
+Time escaped = 0.0 min, left time expected = 1.9 min
+time cost to generate particle = 0.163510 s
+max dose = 73.9758, min dose = 0
+time cost to execute kernels = 0.067438 s
+GPU processed ------------------------ 0.9%,   speed = 90073 h/s
+Time escaped = 0.0 min, left time expected = 1.8 min
+time cost to generate particle = 0.165694 s
+max dose = 76.3474, min dose = 0
+time cost to execute kernels = 0.066723 s
+GPU processed ------------------------ 1.1%,   speed = 92210 h/s
+Time escaped = 0.0 min, left time expected = 1.8 min
+time cost to generate particle = 0.160643 s
+max dose = 71.175, min dose = 0
+time cost to execute kernels = 0.067587 s
+GPU processed ------------------------ 1.3%,   speed = 92753 h/s
+Time escaped = 0.0 min, left time expected = 1.8 min
+time cost to generate particle = 0.168012 s
+max dose = 79.0963, min dose = 0
+time cost to execute kernels = 0.067593 s
+GPU processed ------------------------ 1.5%,   speed = 94671 h/s
+Time escaped = 0.0 min, left time expected = 1.7 min
+time cost to generate particle = 0.165536 s
+max dose = 75.2302, min dose = 0
+time cost to execute kernels = 0.067087 s
+GPU processed ------------------------ 1.7%,   speed = 95402 h/s
+Time escaped = 0.0 min, left time expected = 1.7 min
+time cost to generate particle = 0.164384 s
+max dose = 82.746, min dose = 0
+time cost to execute kernels = 0.066296 s
+GPU processed ------------------------ 1.9%,   speed = 96403 h/s
+Time escaped = 0.0 min, left time expected = 1.7 min
+time cost to generate particle = 0.188273 s
+max dose = 71.2035, min dose = 0
+time cost to execute kernels = 0.067241 s
+GPU processed ------------------------ 2.1%,   speed = 95847 h/s
+Time escaped = 0.0 min, left time expected = 1.7 min
+time cost to generate particle = 0.187596 s
+max dose = 94.0244, min dose = 0
+time cost to execute kernels = 0.067042 s
+GPU processed ------------------------ 2.4%,   speed = 95512 h/s
+Time escaped = 0.0 min, left time expected = 1.7 min
+time cost to generate particle = 0.160984 s
+max dose = 77.4138, min dose = 0
+time cost to execute kernels = 0.067586 s
+GPU processed ------------------------ 2.6%,   speed = 96043 h/s
+Time escaped = 0.0 min, left time expected = 1.7 min
+time cost to generate particle = 0.166433 s
+max dose = 72.7524, min dose = 0
+time cost to execute kernels = 0.068057 s
+GPU processed ------------------------ 2.8%,   speed = 96045 h/s
+Time escaped = 0.0 min, left time expected = 1.7 min
+time cost to generate particle = 0.177272 s
+max dose = 74.9778, min dose = 0
+time cost to execute kernels = 0.067755 s
+GPU processed ------------------------ 3.0%,   speed = 96861 h/s
+Time escaped = 0.1 min, left time expected = 1.7 min
+max dose = 82.618, min dose = 0
+time cost to generate particle = 0.252680 s
+time cost to execute kernels = 0.066279 s
+GPU processed ------------------------ 3.2%,   speed = 94865 h/s
+Time escaped = 0.1 min, left time expected = 1.7 min
+time cost to generate particle = 0.183897 s
+max dose = 76.0412, min dose = 0
+time cost to execute kernels = 0.079174 s
+GPU processed ------------------------ 3.4%,   speed = 95383 h/s
+Time escaped = 0.1 min, left time expected = 1.7 min
+time cost to generate particle = 0.182356 s
+max dose = 72.3022, min dose = 0
+time cost to execute kernels = 0.067650 s
+GPU processed ------------------------ 3.6%,   speed = 95839 h/s
+Time escaped = 0.1 min, left time expected = 1.7 min
+time cost to generate particle = 0.167414 s
+max dose = 80.8386, min dose = 0
+time cost to execute kernels = 0.068464 s
+GPU processed ------------------------ 3.9%,   speed = 96057 h/s
+Time escaped = 0.1 min, left time expected = 1.7 min
+time cost to generate particle = 0.161681 s
+max dose = 77.8141, min dose = 0
+time cost to execute kernels = 0.068188 s
+GPU processed ------------------------ 4.1%,   speed = 96210 h/s
+Time escaped = 0.1 min, left time expected = 1.7 min
+time cost to generate particle = 0.186095 s
+max dose = 75.0736, min dose = 0
+time cost to execute kernels = 0.066735 s
+GPU processed ------------------------ 4.3%,   speed = 96494 h/s
+Time escaped = 0.1 min, left time expected = 1.7 min
+time cost to generate particle = 0.165195 s
+max dose = 80.2659, min dose = 0
+time cost to execute kernels = 0.068148 s
+GPU processed ------------------------ 4.5%,   speed = 96960 h/s
+Time escaped = 0.1 min, left time expected = 1.6 min
+time cost to generate particle = 0.163761 s
+max dose = 76.2875, min dose = 0
+time cost to execute kernels = 0.066939 s
+GPU processed ------------------------ 4.7%,   speed = 96825 h/s
+Time escaped = 0.1 min, left time expected = 1.6 min
+time cost to generate particle = 0.165982 s
+max dose = 83.3612, min dose = 0
+time cost to execute kernels = 0.068094 s
+GPU processed ------------------------ 4.9%,   speed = 96732 h/s
+Time escaped = 0.1 min, left time expected = 1.6 min
+time cost to generate particle = 0.163094 s
+max dose = 73.7539, min dose = 0
+time cost to execute kernels = 0.066540 s
+GPU processed ------------------------ 5.1%,   speed = 97158 h/s
+Time escaped = 0.1 min, left time expected = 1.6 min
+time cost to generate particle = 0.157323 s
+max dose = 76.3319, min dose = 0
+time cost to execute kernels = 0.068231 s
+GPU processed ------------------------ 5.3%,   speed = 98015 h/s
+Time escaped = 0.1 min, left time expected = 1.6 min
+time cost to generate particle = 0.162469 s
+max dose = 74.2717, min dose = 0
+time cost to execute kernels = 0.068035 s
+GPU processed ------------------------ 5.6%,   speed = 97968 h/s
+Time escaped = 0.1 min, left time expected = 1.6 min
+time cost to generate particle = 0.169660 s
+max dose = 73.3409, min dose = 0
+time cost to execute kernels = 0.067467 s
+GPU processed ------------------------ 5.8%,   speed = 98645 h/s
+Time escaped = 0.1 min, left time expected = 1.6 min
+time cost to generate particle = 0.163722 s
+max dose = 73.5953, min dose = 0
+time cost to execute kernels = 0.067580 s
+GPU processed ------------------------ 6.0%,   speed = 98481 h/s
+Time escaped = 0.1 min, left time expected = 1.6 min
+time cost to generate particle = 0.157925 s
+max dose = 73.7733, min dose = 0
+time cost to execute kernels = 0.068170 s
+GPU processed ------------------------ 6.2%,   speed = 98877 h/s
+Time escaped = 0.1 min, left time expected = 1.6 min
+time cost to generate particle = 0.183121 s
+max dose = 74.8985, min dose = 0
+time cost to execute kernels = 0.067672 s
+GPU processed ------------------------ 6.4%,   speed = 98915 h/s
+Time escaped = 0.1 min, left time expected = 1.6 min
+time cost to generate particle = 0.164258 s
+max dose = 81.0555, min dose = 0
+time cost to execute kernels = 0.068165 s
+GPU processed ------------------------ 6.6%,   speed = 98975 h/s
+Time escaped = 0.1 min, left time expected = 1.6 min
+time cost to generate particle = 0.162103 s
+max dose = 82.1904, min dose = 0
+time cost to execute kernels = 0.066886 s
+GPU processed ------------------------ 6.8%,   speed = 99205 h/s
+Time escaped = 0.1 min, left time expected = 1.6 min
+time cost to generate particle = 0.162048 s
+max dose = 87.59, min dose = 0
+time cost to execute kernels = 0.066677 s
+GPU processed ------------------------ 7.1%,   speed = 99771 h/s
+Time escaped = 0.1 min, left time expected = 1.6 min
+time cost to generate particle = 0.165528 s
+max dose = 79.505, min dose = 0
+time cost to execute kernels = 0.068013 s
+GPU processed ------------------------ 7.3%,   speed = 99684 h/s
+Time escaped = 0.1 min, left time expected = 1.6 min
+time cost to generate particle = 0.163404 s
+max dose = 82.0391, min dose = 0
+time cost to execute kernels = 0.067060 s
+GPU processed ------------------------ 7.5%,   speed = 99840 h/s
+Time escaped = 0.1 min, left time expected = 1.5 min
+time cost to generate particle = 0.163184 s
+max dose = 72.286, min dose = 0
+time cost to execute kernels = 0.067059 s
+GPU processed ------------------------ 7.7%,   speed = 99998 h/s
+Time escaped = 0.1 min, left time expected = 1.5 min
+time cost to generate particle = 0.161989 s
+max dose = 70.3434, min dose = 0
+time cost to execute kernels = 0.067530 s
+GPU processed ------------------------ 7.9%,   speed = 100180 h/s
+Time escaped = 0.1 min, left time expected = 1.5 min
+time cost to generate particle = 0.184477 s
+max dose = 73.8091, min dose = 0
+time cost to execute kernels = 0.067591 s
+GPU processed ------------------------ 8.1%,   speed = 100179 h/s
+Time escaped = 0.1 min, left time expected = 1.5 min
+time cost to generate particle = 0.166548 s
+max dose = 73.3598, min dose = 0
+time cost to execute kernels = 0.067311 s
+GPU processed ------------------------ 8.3%,   speed = 100054 h/s
+Time escaped = 0.1 min, left time expected = 1.5 min
+time cost to generate particle = 0.159139 s
+max dose = 72.0068, min dose = 0
+time cost to execute kernels = 0.066890 s
+GPU processed ------------------------ 8.6%,   speed = 100247 h/s
+Time escaped = 0.1 min, left time expected = 1.5 min
+time cost to generate particle = 0.158524 s
+max dose = 82.6392, min dose = 0
+time cost to execute kernels = 0.067108 s
+GPU processed ------------------------ 8.8%,   speed = 100382 h/s
+Time escaped = 0.1 min, left time expected = 1.5 min
+time cost to generate particle = 0.164357 s
+max dose = 69.6663, min dose = 0
+time cost to execute kernels = 0.066998 s
+GPU processed ------------------------ 9.0%,   speed = 100566 h/s
+Time escaped = 0.1 min, left time expected = 1.5 min
+time cost to generate particle = 0.180042 s
+max dose = 71.1581, min dose = 0
+time cost to execute kernels = 0.067098 s
+GPU processed ------------------------ 9.2%,   speed = 100689 h/s
+Time escaped = 0.2 min, left time expected = 1.5 min
+time cost to generate particle = 0.169738 s
+max dose = 80.1285, min dose = 0
+time cost to execute kernels = 0.067669 s
+GPU processed ------------------------ 9.4%,   speed = 100619 h/s
+Time escaped = 0.2 min, left time expected = 1.5 min
+time cost to generate particle = 0.171313 s
+max dose = 80.4762, min dose = 0
+time cost to execute kernels = 0.091004 s
+GPU processed ------------------------ 9.6%,   speed = 100586 h/s
+Time escaped = 0.2 min, left time expected = 1.5 min
+time cost to generate particle = 0.162321 s
+max dose = 76.8311, min dose = 0
+time cost to execute kernels = 0.068002 s
+GPU processed ------------------------ 9.8%,   speed = 100530 h/s
+Time escaped = 0.2 min, left time expected = 1.5 min
+time cost to generate particle = 0.160597 s
+max dose = 74.9148, min dose = 0
+time cost to execute kernels = 0.067948 s
+GPU processed ------------------------ 10.0%,   speed = 100763 h/s
+Time escaped = 0.2 min, left time expected = 1.5 min
+time cost to generate particle = 0.159803 s
+max dose = 72.9173, min dose = 0
+time cost to execute kernels = 0.067414 s
+GPU processed ------------------------ 10.3%,   speed = 100601 h/s
+Time escaped = 0.2 min, left time expected = 1.5 min
+time cost to generate particle = 0.161086 s
+max dose = 78.3344, min dose = 0
+time cost to execute kernels = 0.067011 s
+GPU processed ------------------------ 10.5%,   speed = 100543 h/s
+Time escaped = 0.2 min, left time expected = 1.5 min
+time cost to generate particle = 0.168615 s
+max dose = 76.7625, min dose = 0
+time cost to execute kernels = 0.067955 s
+GPU processed ------------------------ 10.7%,   speed = 100477 h/s
+Time escaped = 0.2 min, left time expected = 1.5 min
+time cost to generate particle = 0.167909 s
+max dose = 71.0151, min dose = 0
+time cost to execute kernels = 0.067676 s
+GPU processed ------------------------ 10.9%,   speed = 100463 h/s
+Time escaped = 0.2 min, left time expected = 1.5 min
+time cost to generate particle = 0.167373 s
+max dose = 76.1848, min dose = 0
+time cost to execute kernels = 0.069408 s
+GPU processed ------------------------ 11.1%,   speed = 100435 h/s
+Time escaped = 0.2 min, left time expected = 1.5 min
+time cost to generate particle = 0.165930 s
+max dose = 72.3934, min dose = 0
+time cost to execute kernels = 0.068273 s
+GPU processed ------------------------ 11.3%,   speed = 100581 h/s
+Time escaped = 0.2 min, left time expected = 1.5 min
+time cost to generate particle = 0.166283 s
+max dose = 76.3629, min dose = 0
+time cost to execute kernels = 0.067497 s
+GPU processed ------------------------ 11.5%,   speed = 100651 h/s
+Time escaped = 0.2 min, left time expected = 1.5 min
+time cost to generate particle = 0.182655 s
+max dose = 72.0006, min dose = 0
+time cost to execute kernels = 0.067419 s
+GPU processed ------------------------ 11.8%,   speed = 100727 h/s
+Time escaped = 0.2 min, left time expected = 1.5 min
+time cost to generate particle = 0.172758 s
+max dose = 72.1617, min dose = 0
+time cost to execute kernels = 0.067806 s
+GPU processed ------------------------ 12.0%,   speed = 100566 h/s
+Time escaped = 0.2 min, left time expected = 1.5 min
+time cost to generate particle = 0.164619 s
+max dose = 86.6939, min dose = 0
+time cost to execute kernels = 0.067586 s
+GPU processed ------------------------ 12.2%,   speed = 100783 h/s
+Time escaped = 0.2 min, left time expected = 1.5 min
+time cost to generate particle = 0.171734 s
+max dose = 74.9515, min dose = 0
+time cost to execute kernels = 0.067378 s
+GPU processed ------------------------ 12.4%,   speed = 100821 h/s
+Time escaped = 0.2 min, left time expected = 1.4 min
+time cost to generate particle = 0.171355 s
+max dose = 83.1506, min dose = 0
+time cost to execute kernels = 0.067961 s
+GPU processed ------------------------ 12.6%,   speed = 100653 h/s
+Time escaped = 0.2 min, left time expected = 1.4 min
+time cost to generate particle = 0.167433 s
+max dose = 78.5524, min dose = 0
+time cost to execute kernels = 0.067598 s
+GPU processed ------------------------ 12.8%,   speed = 100834 h/s
+Time escaped = 0.2 min, left time expected = 1.4 min
+time cost to generate particle = 0.169748 s
+max dose = 74.7779, min dose = 0
+time cost to execute kernels = 0.068565 s
+GPU processed ------------------------ 13.0%,   speed = 100896 h/s
+Time escaped = 0.2 min, left time expected = 1.4 min
+time cost to generate particle = 0.165155 s
+max dose = 75.0678, min dose = 0
+time cost to execute kernels = 0.070116 s
+GPU processed ------------------------ 13.3%,   speed = 100820 h/s
+Time escaped = 0.2 min, left time expected = 1.4 min
+time cost to generate particle = 0.168147 s
+max dose = 74.4104, min dose = 0
+time cost to execute kernels = 0.066602 s
+GPU processed ------------------------ 13.5%,   speed = 100896 h/s
+Time escaped = 0.2 min, left time expected = 1.4 min
+time cost to generate particle = 0.165431 s
+max dose = 79.5803, min dose = 0
+time cost to execute kernels = 0.067286 s
+GPU processed ------------------------ 13.7%,   speed = 100817 h/s
+Time escaped = 0.2 min, left time expected = 1.4 min
+time cost to generate particle = 0.167511 s
+max dose = 76.4918, min dose = 0
+time cost to execute kernels = 0.067175 s
+GPU processed ------------------------ 13.9%,   speed = 100777 h/s
+Time escaped = 0.2 min, left time expected = 1.4 min
+time cost to generate particle = 0.163133 s
+max dose = 79.6617, min dose = 0
+time cost to execute kernels = 0.067593 s
+GPU processed ------------------------ 14.1%,   speed = 100870 h/s
+Time escaped = 0.2 min, left time expected = 1.4 min
+time cost to generate particle = 0.170699 s
+max dose = 76.5356, min dose = 0
+time cost to execute kernels = 0.068371 s
+GPU processed ------------------------ 14.3%,   speed = 100765 h/s
+Time escaped = 0.2 min, left time expected = 1.4 min
+time cost to generate particle = 0.167502 s
+max dose = 77.5606, min dose = 0
+time cost to execute kernels = 0.067622 s
+GPU processed ------------------------ 14.5%,   speed = 100896 h/s
+Time escaped = 0.2 min, left time expected = 1.4 min
+time cost to generate particle = 0.175621 s
+max dose = 78.1366, min dose = 0
+time cost to execute kernels = 0.067223 s
+GPU processed ------------------------ 14.7%,   speed = 100787 h/s
+Time escaped = 0.2 min, left time expected = 1.4 min
+time cost to generate particle = 0.164329 s
+max dose = 82.9848, min dose = 0
+time cost to execute kernels = 0.067117 s
+GPU processed ------------------------ 15.0%,   speed = 100847 h/s
+Time escaped = 0.2 min, left time expected = 1.4 min
+time cost to generate particle = 0.173910 s
+max dose = 76.0782, min dose = 0
+time cost to execute kernels = 0.069693 s
+GPU processed ------------------------ 15.2%,   speed = 100844 h/s
+Time escaped = 0.3 min, left time expected = 1.4 min
+time cost to generate particle = 0.171873 s
+max dose = 74.973, min dose = 0
+time cost to execute kernels = 0.067737 s
+GPU processed ------------------------ 15.4%,   speed = 100956 h/s
+Time escaped = 0.3 min, left time expected = 1.4 min
+time cost to generate particle = 0.178032 s
+max dose = 79.8021, min dose = 0
+time cost to execute kernels = 0.067804 s
+GPU processed ------------------------ 15.6%,   speed = 100780 h/s
+Time escaped = 0.3 min, left time expected = 1.4 min
+time cost to generate particle = 0.165063 s
+max dose = 73.56, min dose = 0
+time cost to execute kernels = 0.067740 s
+GPU processed ------------------------ 15.8%,   speed = 100750 h/s
+Time escaped = 0.3 min, left time expected = 1.4 min
+time cost to generate particle = 0.170262 s
+max dose = 77.2936, min dose = 0
+time cost to execute kernels = 0.067858 s
+GPU processed ------------------------ 16.0%,   speed = 100863 h/s
+Time escaped = 0.3 min, left time expected = 1.4 min
+time cost to generate particle = 0.171350 s
+max dose = 73.2033, min dose = 0
+time cost to execute kernels = 0.067068 s
+GPU processed ------------------------ 16.2%,   speed = 100838 h/s
+Time escaped = 0.3 min, left time expected = 1.4 min
+time cost to generate particle = 0.165514 s
+max dose = 80.0465, min dose = 0
+time cost to execute kernels = 0.067544 s
+GPU processed ------------------------ 16.5%,   speed = 100776 h/s
+Time escaped = 0.3 min, left time expected = 1.4 min
+time cost to generate particle = 0.186207 s
+max dose = 76.1586, min dose = 0
+time cost to execute kernels = 0.067359 s
+GPU processed ------------------------ 16.7%,   speed = 100886 h/s
+Time escaped = 0.3 min, left time expected = 1.4 min
+time cost to generate particle = 0.175380 s
+max dose = 74.0469, min dose = 0
+time cost to execute kernels = 0.067530 s
+GPU processed ------------------------ 16.9%,   speed = 100797 h/s
+Time escaped = 0.3 min, left time expected = 1.4 min
+time cost to generate particle = 0.172978 s
+max dose = 81.5446, min dose = 0
+time cost to execute kernels = 0.066196 s
+GPU processed ------------------------ 17.1%,   speed = 100806 h/s
+Time escaped = 0.3 min, left time expected = 1.4 min
+time cost to generate particle = 0.166242 s
+max dose = 76.1822, min dose = 0
+time cost to execute kernels = 0.068377 s
+GPU processed ------------------------ 17.3%,   speed = 100908 h/s
+Time escaped = 0.3 min, left time expected = 1.4 min
+time cost to generate particle = 0.173114 s
+max dose = 78.6066, min dose = 0
+time cost to execute kernels = 0.067313 s
+GPU processed ------------------------ 17.5%,   speed = 100873 h/s
+Time escaped = 0.3 min, left time expected = 1.4 min
+time cost to generate particle = 0.166150 s
+max dose = 71.7094, min dose = 0
+time cost to execute kernels = 0.069084 s
+GPU processed ------------------------ 17.7%,   speed = 100778 h/s
+Time escaped = 0.3 min, left time expected = 1.4 min
+time cost to generate particle = 0.169342 s
+max dose = 71.5117, min dose = 0
+time cost to execute kernels = 0.068962 s
+GPU processed ------------------------ 18.0%,   speed = 100749 h/s
+Time escaped = 0.3 min, left time expected = 1.4 min
+time cost to generate particle = 0.172179 s
+max dose = 80.9882, min dose = 0
+time cost to execute kernels = 0.067740 s
+GPU processed ------------------------ 18.2%,   speed = 100785 h/s
+Time escaped = 0.3 min, left time expected = 1.4 min
+time cost to generate particle = 0.172545 s
+max dose = 75.5905, min dose = 0
+time cost to execute kernels = 0.068937 s
+GPU processed ------------------------ 18.4%,   speed = 100790 h/s
+Time escaped = 0.3 min, left time expected = 1.3 min
+time cost to generate particle = 0.175524 s
+max dose = 73.4963, min dose = 0
+time cost to execute kernels = 0.069434 s
+GPU processed ------------------------ 18.6%,   speed = 100837 h/s
+Time escaped = 0.3 min, left time expected = 1.3 min
+time cost to generate particle = 0.180899 s
+max dose = 79.2428, min dose = 0
+time cost to execute kernels = 0.068671 s
+GPU processed ------------------------ 18.8%,   speed = 100786 h/s
+Time escaped = 0.3 min, left time expected = 1.3 min
+time cost to generate particle = 0.170778 s
+max dose = 78.3157, min dose = 0
+time cost to execute kernels = 0.067506 s
+GPU processed ------------------------ 19.0%,   speed = 100894 h/s
+Time escaped = 0.3 min, left time expected = 1.3 min
+time cost to generate particle = 0.176330 s
+max dose = 79.4396, min dose = 0
+time cost to execute kernels = 0.066565 s
+GPU processed ------------------------ 19.2%,   speed = 100866 h/s
+Time escaped = 0.3 min, left time expected = 1.3 min
+time cost to generate particle = 0.176431 s
+max dose = 75.5485, min dose = 0
+time cost to execute kernels = 0.067533 s
+GPU processed ------------------------ 19.5%,   speed = 100807 h/s
+Time escaped = 0.3 min, left time expected = 1.3 min
+time cost to generate particle = 0.171759 s
+max dose = 80.6209, min dose = 0
+time cost to execute kernels = 0.068864 s
+GPU processed ------------------------ 19.7%,   speed = 100916 h/s
+Time escaped = 0.3 min, left time expected = 1.3 min
+time cost to generate particle = 0.171797 s
+max dose = 82.8357, min dose = 0
+time cost to execute kernels = 0.066352 s
+GPU processed ------------------------ 19.9%,   speed = 100842 h/s
+Time escaped = 0.3 min, left time expected = 1.3 min
+time cost to generate particle = 0.174039 s
+max dose = 78.0714, min dose = 0
+time cost to execute kernels = 0.068312 s
+GPU processed ------------------------ 20.1%,   speed = 100921 h/s
+Time escaped = 0.3 min, left time expected = 1.3 min
+time cost to generate particle = 0.166221 s
+max dose = 74.4136, min dose = 0
+time cost to execute kernels = 0.067251 s
+GPU processed ------------------------ 20.3%,   speed = 100887 h/s
+Time escaped = 0.3 min, left time expected = 1.3 min
+time cost to generate particle = 0.171567 s
+max dose = 71.7731, min dose = 0
+time cost to execute kernels = 0.068728 s
+GPU processed ------------------------ 20.5%,   speed = 100877 h/s
+Time escaped = 0.3 min, left time expected = 1.3 min
+time cost to generate particle = 0.170584 s
+max dose = 77.5788, min dose = 0
+time cost to execute kernels = 0.066784 s
+GPU processed ------------------------ 20.7%,   speed = 100937 h/s
+Time escaped = 0.3 min, left time expected = 1.3 min
+time cost to generate particle = 0.170144 s
+max dose = 81.3909, min dose = 0
+time cost to execute kernels = 0.068414 s
+GPU processed ------------------------ 21.0%,   speed = 100956 h/s
+Time escaped = 0.3 min, left time expected = 1.3 min
+time cost to generate particle = 0.176523 s
+max dose = 79.7209, min dose = 0
+time cost to execute kernels = 0.066925 s
+GPU processed ------------------------ 21.2%,   speed = 101036 h/s
+Time escaped = 0.3 min, left time expected = 1.3 min
+time cost to generate particle = 0.174289 s
+max dose = 71.3988, min dose = 0
+time cost to execute kernels = 0.067474 s
+GPU processed ------------------------ 21.4%,   speed = 101026 h/s
+Time escaped = 0.4 min, left time expected = 1.3 min
+time cost to generate particle = 0.176752 s
+max dose = 84.3902, min dose = 0
+time cost to execute kernels = 0.067984 s
+GPU processed ------------------------ 21.6%,   speed = 100900 h/s
+Time escaped = 0.4 min, left time expected = 1.3 min
+time cost to generate particle = 0.177571 s
+max dose = 81.0182, min dose = 0
+time cost to execute kernels = 0.069599 s
+GPU processed ------------------------ 21.8%,   speed = 100821 h/s
+Time escaped = 0.4 min, left time expected = 1.3 min
+time cost to generate particle = 0.181944 s
+max dose = 77.981, min dose = 0
+time cost to execute kernels = 0.067790 s
+GPU processed ------------------------ 22.0%,   speed = 100912 h/s
+Time escaped = 0.4 min, left time expected = 1.3 min
+time cost to generate particle = 0.171989 s
+max dose = 74.1291, min dose = 0
+time cost to execute kernels = 0.068159 s
+GPU processed ------------------------ 22.2%,   speed = 100792 h/s
+Time escaped = 0.4 min, left time expected = 1.3 min
+time cost to generate particle = 0.174775 s
+max dose = 82.0329, min dose = 0
+time cost to execute kernels = 0.068564 s
+GPU processed ------------------------ 22.5%,   speed = 100759 h/s
+Time escaped = 0.4 min, left time expected = 1.3 min
+time cost to generate particle = 0.170619 s
+max dose = 80.7416, min dose = 0
+time cost to execute kernels = 0.067570 s
+GPU processed ------------------------ 22.7%,   speed = 100765 h/s
+Time escaped = 0.4 min, left time expected = 1.3 min
+time cost to generate particle = 0.169849 s
+max dose = 74.6652, min dose = 0
+time cost to execute kernels = 0.066753 s
+GPU processed ------------------------ 22.9%,   speed = 100785 h/s
+Time escaped = 0.4 min, left time expected = 1.3 min
+time cost to generate particle = 0.171270 s
+max dose = 77.0915, min dose = 0
+time cost to execute kernels = 0.087130 s
+GPU processed ------------------------ 23.1%,   speed = 100710 h/s
+Time escaped = 0.4 min, left time expected = 1.3 min
+time cost to generate particle = 0.167680 s
+max dose = 76.7616, min dose = 0
+time cost to execute kernels = 0.067306 s
+GPU processed ------------------------ 23.3%,   speed = 100678 h/s
+Time escaped = 0.4 min, left time expected = 1.3 min
+time cost to generate particle = 0.173504 s
+max dose = 77.4582, min dose = 0
+time cost to execute kernels = 0.067925 s
+GPU processed ------------------------ 23.5%,   speed = 100684 h/s
+Time escaped = 0.4 min, left time expected = 1.3 min
+time cost to generate particle = 0.175273 s
+max dose = 79.4961, min dose = 0
+time cost to execute kernels = 0.068742 s
+GPU processed ------------------------ 23.7%,   speed = 100678 h/s
+Time escaped = 0.4 min, left time expected = 1.3 min
+time cost to generate particle = 0.226152 s
+max dose = 74.8047, min dose = 0
+time cost to execute kernels = 0.068229 s
+GPU processed ------------------------ 24.0%,   speed = 100302 h/s
+Time escaped = 0.4 min, left time expected = 1.3 min
+time cost to generate particle = 0.357820 s
+max dose = 77.1866, min dose = 0
+time cost to execute kernels = 0.068430 s
+GPU processed ------------------------ 24.2%,   speed = 99433 h/s
+Time escaped = 0.4 min, left time expected = 1.3 min
+time cost to generate particle = 0.539707 s
+max dose = 77.2251, min dose = 0
+time cost to execute kernels = 0.069182 s
+GPU processed ------------------------ 24.4%,   speed = 97719 h/s
+Time escaped = 0.4 min, left time expected = 1.3 min
+time cost to generate particle = 0.585282 s
+max dose = 77.14, min dose = 0
+time cost to execute kernels = 0.068415 s
+GPU processed ------------------------ 24.6%,   speed = 95355 h/s
+Time escaped = 0.4 min, left time expected = 1.3 min
+time cost to generate particle = 0.555362 s
+max dose = 81.658, min dose = 0
+time cost to execute kernels = 0.067629 s
+GPU processed ------------------------ 24.8%,   speed = 93456 h/s
+Time escaped = 0.4 min, left time expected = 1.3 min
+time cost to generate particle = 0.530870 s
+max dose = 81.2367, min dose = 0
+time cost to execute kernels = 0.066894 s
+GPU processed ------------------------ 25.0%,   speed = 91367 h/s
+Time escaped = 0.5 min, left time expected = 1.4 min
+time cost to generate particle = 0.545311 s
+max dose = 80.8079, min dose = 0
+time cost to execute kernels = 0.067853 s
+GPU processed ------------------------ 25.2%,   speed = 90000 h/s
+Time escaped = 0.5 min, left time expected = 1.4 min
+max dose = 75.2662, min dose = 0
+time cost to generate particle = 0.772488 s
+time cost to execute kernels = 0.066780 s
+GPU processed ------------------------ 25.5%,   speed = 88412 h/s
+Time escaped = 0.5 min, left time expected = 1.4 min
+time cost to generate particle = 0.507413 s
+max dose = 74.5658, min dose = 0
+time cost to execute kernels = 0.067648 s
+GPU processed ------------------------ 25.7%,   speed = 86564 h/s
+Time escaped = 0.5 min, left time expected = 1.4 min
+time cost to generate particle = 0.552013 s
+max dose = 74.9227, min dose = 0
+time cost to execute kernels = 0.071533 s
+GPU processed ------------------------ 25.9%,   speed = 85082 h/s
+Time escaped = 0.5 min, left time expected = 1.5 min
+time cost to generate particle = 0.565455 s
+max dose = 77.1213, min dose = 0
+time cost to execute kernels = 0.066926 s
+GPU processed ------------------------ 26.1%,   speed = 84045 h/s
+Time escaped = 0.5 min, left time expected = 1.5 min
+time cost to generate particle = 0.573774 s
+max dose = 77.2404, min dose = 0
+time cost to execute kernels = 0.067533 s
+GPU processed ------------------------ 26.3%,   speed = 83128 h/s
+Time escaped = 0.5 min, left time expected = 1.5 min
+time cost to generate particle = 0.478296 s
+max dose = 79.735, min dose = 0
+time cost to execute kernels = 0.068979 s
+GPU processed ------------------------ 26.5%,   speed = 82354 h/s
+Time escaped = 0.5 min, left time expected = 1.5 min
+time cost to generate particle = 0.417292 s
+max dose = 72.5661, min dose = 0
+time cost to execute kernels = 0.067294 s
+GPU processed ------------------------ 26.7%,   speed = 81874 h/s
+Time escaped = 0.5 min, left time expected = 1.5 min
+time cost to generate particle = 0.391381 s
+max dose = 75.4738, min dose = 0
+time cost to execute kernels = 0.068318 s
+GPU processed ------------------------ 27.0%,   speed = 81422 h/s
+Time escaped = 0.6 min, left time expected = 1.5 min
+time cost to generate particle = 0.380669 s
+max dose = 78.1539, min dose = 0
+time cost to execute kernels = 0.067613 s
+GPU processed ------------------------ 27.2%,   speed = 81058 h/s
+Time escaped = 0.6 min, left time expected = 1.5 min
+time cost to generate particle = 0.354711 s
+max dose = 72.5939, min dose = 0
+time cost to execute kernels = 0.067112 s
+GPU processed ------------------------ 27.4%,   speed = 80715 h/s
+Time escaped = 0.6 min, left time expected = 1.5 min
+time cost to generate particle = 0.335719 s
+max dose = 73.0699, min dose = 0
+time cost to execute kernels = 0.067859 s
+GPU processed ------------------------ 27.6%,   speed = 80339 h/s
+Time escaped = 0.6 min, left time expected = 1.5 min
+time cost to generate particle = 0.348683 s
+max dose = 75.2368, min dose = 0
+time cost to execute kernels = 0.067544 s
+GPU processed ------------------------ 27.8%,   speed = 80051 h/s
+Time escaped = 0.6 min, left time expected = 1.5 min
+time cost to generate particle = 0.323522 s
+max dose = 78.0794, min dose = 0
+time cost to execute kernels = 0.068056 s
+GPU processed ------------------------ 28.0%,   speed = 79805 h/s
+Time escaped = 0.6 min, left time expected = 1.5 min
+time cost to generate particle = 0.317215 s
+max dose = 72.1153, min dose = 0
+time cost to execute kernels = 0.069187 s
+GPU processed ------------------------ 28.2%,   speed = 79605 h/s
+Time escaped = 0.6 min, left time expected = 1.5 min
+time cost to generate particle = 0.295300 s
+max dose = 75.639, min dose = 0
+time cost to execute kernels = 0.068943 s
+GPU processed ------------------------ 28.5%,   speed = 79425 h/s
+Time escaped = 0.6 min, left time expected = 1.5 min
+time cost to generate particle = 0.315036 s
+max dose = 74.4961, min dose = 0
+time cost to execute kernels = 0.067201 s
+GPU processed ------------------------ 28.7%,   speed = 79238 h/s
+Time escaped = 0.6 min, left time expected = 1.5 min
+time cost to generate particle = 0.303360 s
+max dose = 75.7833, min dose = 0
+time cost to execute kernels = 0.067200 s
+GPU processed ------------------------ 28.9%,   speed = 79071 h/s
+Time escaped = 0.6 min, left time expected = 1.5 min
+time cost to generate particle = 0.296404 s
+max dose = 79.3166, min dose = 0
+time cost to execute kernels = 0.067689 s
+GPU processed ------------------------ 29.1%,   speed = 78918 h/s
+Time escaped = 0.6 min, left time expected = 1.5 min
+time cost to generate particle = 0.291774 s
+max dose = 77.973, min dose = 0
+time cost to execute kernels = 0.068149 s
+GPU processed ------------------------ 29.3%,   speed = 78761 h/s
+Time escaped = 0.6 min, left time expected = 1.5 min
+time cost to generate particle = 0.308369 s
+max dose = 75.9178, min dose = 0
+time cost to execute kernels = 0.067140 s
+GPU processed ------------------------ 29.5%,   speed = 78599 h/s
+Time escaped = 0.6 min, left time expected = 1.5 min
+time cost to generate particle = 0.290535 s
+max dose = 72.0624, min dose = 0
+time cost to execute kernels = 0.068190 s
+GPU processed ------------------------ 29.7%,   speed = 78488 h/s
+Time escaped = 0.6 min, left time expected = 1.5 min
+time cost to generate particle = 0.288664 s
+max dose = 73.3366, min dose = 0
+time cost to execute kernels = 0.067407 s
+GPU processed ------------------------ 30.0%,   speed = 78363 h/s
+Time escaped = 0.6 min, left time expected = 1.5 min
+time cost to generate particle = 0.261483 s
+max dose = 84.2356, min dose = 0
+time cost to execute kernels = 0.067147 s
+GPU processed ------------------------ 30.2%,   speed = 78300 h/s
+Time escaped = 0.6 min, left time expected = 1.5 min
+time cost to generate particle = 0.265883 s
+max dose = 83.2474, min dose = 0
+time cost to execute kernels = 0.068388 s
+GPU processed ------------------------ 30.4%,   speed = 78194 h/s
+Time escaped = 0.6 min, left time expected = 1.5 min
+time cost to generate particle = 0.268059 s
+max dose = 72.7467, min dose = 0
+time cost to execute kernels = 0.068163 s
+GPU processed ------------------------ 30.6%,   speed = 78077 h/s
+Time escaped = 0.7 min, left time expected = 1.5 min
+time cost to generate particle = 0.254089 s
+max dose = 72.4925, min dose = 0
+time cost to execute kernels = 0.068924 s
+GPU processed ------------------------ 30.8%,   speed = 78044 h/s
+Time escaped = 0.7 min, left time expected = 1.5 min
+time cost to generate particle = 0.271685 s
+max dose = 77.7383, min dose = 0
+time cost to execute kernels = 0.066728 s
+GPU processed ------------------------ 31.0%,   speed = 77872 h/s
+Time escaped = 0.7 min, left time expected = 1.5 min
+time cost to generate particle = 0.252913 s
+max dose = 81.3008, min dose = 0
+time cost to execute kernels = 0.067318 s
+GPU processed ------------------------ 31.2%,   speed = 77857 h/s
+Time escaped = 0.7 min, left time expected = 1.5 min
+time cost to generate particle = 0.282157 s
+max dose = 78.4311, min dose = 0
+time cost to execute kernels = 0.067865 s
+GPU processed ------------------------ 31.4%,   speed = 77801 h/s
+Time escaped = 0.7 min, left time expected = 1.5 min
+time cost to generate particle = 0.275819 s
+max dose = 76.4969, min dose = 0
+time cost to execute kernels = 0.067200 s
+GPU processed ------------------------ 31.7%,   speed = 77646 h/s
+Time escaped = 0.7 min, left time expected = 1.5 min
+time cost to generate particle = 0.247025 s
+max dose = 78.8998, min dose = 0
+time cost to execute kernels = 0.068182 s
+GPU processed ------------------------ 31.9%,   speed = 77585 h/s
+Time escaped = 0.7 min, left time expected = 1.5 min
+time cost to generate particle = 0.237708 s
+max dose = 73.0584, min dose = 0
+time cost to execute kernels = 0.067838 s
+GPU processed ------------------------ 32.1%,   speed = 77578 h/s
+Time escaped = 0.7 min, left time expected = 1.5 min
+time cost to generate particle = 0.260773 s
+max dose = 86.377, min dose = 0
+time cost to execute kernels = 0.067340 s
+GPU processed ------------------------ 32.3%,   speed = 77505 h/s
+Time escaped = 0.7 min, left time expected = 1.5 min
+time cost to generate particle = 0.248367 s
+max dose = 73.6585, min dose = 0
+time cost to execute kernels = 0.067470 s
+GPU processed ------------------------ 32.5%,   speed = 77460 h/s
+Time escaped = 0.7 min, left time expected = 1.5 min
+time cost to generate particle = 0.245293 s
+max dose = 93.1372, min dose = 0
+time cost to execute kernels = 0.066966 s
+GPU processed ------------------------ 32.7%,   speed = 77381 h/s
+Time escaped = 0.7 min, left time expected = 1.4 min
+time cost to generate particle = 0.256842 s
+max dose = 85.3329, min dose = 0
+time cost to execute kernels = 0.067515 s
+GPU processed ------------------------ 32.9%,   speed = 77414 h/s
+Time escaped = 0.7 min, left time expected = 1.4 min
+time cost to generate particle = 0.255368 s
+max dose = 79.9363, min dose = 0
+time cost to execute kernels = 0.067945 s
+GPU processed ------------------------ 33.2%,   speed = 77312 h/s
+Time escaped = 0.7 min, left time expected = 1.4 min
+time cost to generate particle = 0.237667 s
+max dose = 71.3191, min dose = 0
+time cost to execute kernels = 0.079395 s
+GPU processed ------------------------ 33.4%,   speed = 77287 h/s
+Time escaped = 0.7 min, left time expected = 1.4 min
+time cost to generate particle = 0.234823 s
+max dose = 75.1197, min dose = 0
+time cost to execute kernels = 0.068877 s
+GPU processed ------------------------ 33.6%,   speed = 77320 h/s
+Time escaped = 0.7 min, left time expected = 1.4 min
+time cost to generate particle = 0.233199 s
+max dose = 82.6475, min dose = 0
+time cost to execute kernels = 0.066716 s
+GPU processed ------------------------ 33.8%,   speed = 77235 h/s
+Time escaped = 0.7 min, left time expected = 1.4 min
+time cost to generate particle = 0.225330 s
+max dose = 73.9994, min dose = 0
+time cost to execute kernels = 0.067042 s
+GPU processed ------------------------ 34.0%,   speed = 77242 h/s
+Time escaped = 0.7 min, left time expected = 1.4 min
+time cost to generate particle = 0.232950 s
+max dose = 78.1685, min dose = 0
+time cost to execute kernels = 0.067307 s
+GPU processed ------------------------ 34.2%,   speed = 77265 h/s
+Time escaped = 0.7 min, left time expected = 1.4 min
+time cost to generate particle = 0.232647 s
+max dose = 76.9175, min dose = 0
+time cost to execute kernels = 0.068334 s
+GPU processed ------------------------ 34.4%,   speed = 77209 h/s
+Time escaped = 0.7 min, left time expected = 1.4 min
+time cost to generate particle = 0.247662 s
+max dose = 74.5346, min dose = 0
+time cost to execute kernels = 0.068188 s
+GPU processed ------------------------ 34.7%,   speed = 77241 h/s
+Time escaped = 0.7 min, left time expected = 1.4 min
+time cost to generate particle = 0.232251 s
+max dose = 79.0771, min dose = 0
+time cost to execute kernels = 0.067712 s
+GPU processed ------------------------ 34.9%,   speed = 77262 h/s
+Time escaped = 0.8 min, left time expected = 1.4 min
+time cost to generate particle = 0.244417 s
+max dose = 74.7299, min dose = 0
+time cost to execute kernels = 0.066811 s
+GPU processed ------------------------ 35.1%,   speed = 77191 h/s
+Time escaped = 0.8 min, left time expected = 1.4 min
+time cost to generate particle = 0.236236 s
+max dose = 78.442, min dose = 0
+time cost to execute kernels = 0.067513 s
+GPU processed ------------------------ 35.3%,   speed = 77213 h/s
+Time escaped = 0.8 min, left time expected = 1.4 min
+time cost to generate particle = 0.220654 s
+max dose = 72.1841, min dose = 0
+time cost to execute kernels = 0.067209 s
+GPU processed ------------------------ 35.5%,   speed = 77205 h/s
+Time escaped = 0.8 min, left time expected = 1.4 min
+time cost to generate particle = 0.224452 s
+max dose = 76.5021, min dose = 0
+time cost to execute kernels = 0.067765 s
+GPU processed ------------------------ 35.7%,   speed = 77172 h/s
+Time escaped = 0.8 min, left time expected = 1.4 min
+time cost to generate particle = 0.222378 s
+max dose = 84.6285, min dose = 0
+time cost to execute kernels = 0.067418 s
+GPU processed ------------------------ 35.9%,   speed = 77210 h/s
+Time escaped = 0.8 min, left time expected = 1.4 min
+time cost to generate particle = 0.225974 s
+max dose = 75.4899, min dose = 0
+time cost to execute kernels = 0.067109 s
+GPU processed ------------------------ 36.2%,   speed = 77224 h/s
+Time escaped = 0.8 min, left time expected = 1.4 min
+time cost to generate particle = 0.221857 s
+max dose = 74.1633, min dose = 0
+time cost to execute kernels = 0.067240 s
+GPU processed ------------------------ 36.4%,   speed = 77246 h/s
+Time escaped = 0.8 min, left time expected = 1.4 min
+time cost to generate particle = 0.235710 s
+max dose = 73.2805, min dose = 0
+time cost to execute kernels = 0.068699 s
+GPU processed ------------------------ 36.6%,   speed = 77233 h/s
+Time escaped = 0.8 min, left time expected = 1.4 min
+time cost to generate particle = 0.212574 s
+max dose = 83.5295, min dose = 0
+time cost to execute kernels = 0.089273 s
+GPU processed ------------------------ 36.8%,   speed = 77210 h/s
+Time escaped = 0.8 min, left time expected = 1.4 min
+time cost to generate particle = 0.232963 s
+max dose = 84.8494, min dose = 0
+time cost to execute kernels = 0.068285 s
+GPU processed ------------------------ 37.0%,   speed = 77238 h/s
+Time escaped = 0.8 min, left time expected = 1.4 min
+time cost to generate particle = 0.229586 s
+max dose = 72.3527, min dose = 0
+time cost to execute kernels = 0.067190 s
+GPU processed ------------------------ 37.2%,   speed = 77214 h/s
+Time escaped = 0.8 min, left time expected = 1.4 min
+time cost to generate particle = 0.211802 s
+max dose = 72.4399, min dose = 0
+time cost to execute kernels = 0.067916 s
+GPU processed ------------------------ 37.4%,   speed = 77270 h/s
+Time escaped = 0.8 min, left time expected = 1.3 min
+time cost to generate particle = 0.217320 s
+max dose = 70.8064, min dose = 0
+time cost to execute kernels = 0.067327 s
+GPU processed ------------------------ 37.7%,   speed = 77298 h/s
+Time escaped = 0.8 min, left time expected = 1.3 min
+time cost to generate particle = 0.216750 s
+max dose = 75.2285, min dose = 0
+time cost to execute kernels = 0.067373 s
+GPU processed ------------------------ 37.9%,   speed = 77331 h/s
+Time escaped = 0.8 min, left time expected = 1.3 min
+time cost to generate particle = 0.229416 s
+max dose = 75.0533, min dose = 0
+time cost to execute kernels = 0.067103 s
+GPU processed ------------------------ 38.1%,   speed = 77358 h/s
+Time escaped = 0.8 min, left time expected = 1.3 min
+time cost to generate particle = 0.210869 s
+max dose = 78.5639, min dose = 0
+time cost to execute kernels = 0.067989 s
+GPU processed ------------------------ 38.3%,   speed = 77336 h/s
+Time escaped = 0.8 min, left time expected = 1.3 min
+time cost to generate particle = 0.206365 s
+max dose = 89.4564, min dose = 0
+time cost to execute kernels = 0.067695 s
+GPU processed ------------------------ 38.5%,   speed = 77361 h/s
+Time escaped = 0.8 min, left time expected = 1.3 min
+time cost to generate particle = 0.208306 s
+max dose = 71.255, min dose = 0
+time cost to execute kernels = 0.066568 s
+GPU processed ------------------------ 38.7%,   speed = 77404 h/s
+Time escaped = 0.8 min, left time expected = 1.3 min
+time cost to generate particle = 0.204502 s
+max dose = 73.3415, min dose = 0
+time cost to execute kernels = 0.067010 s
+GPU processed ------------------------ 38.9%,   speed = 77410 h/s
+Time escaped = 0.8 min, left time expected = 1.3 min
+time cost to generate particle = 0.205596 s
+max dose = 73.3709, min dose = 0
+time cost to execute kernels = 0.067177 s
+GPU processed ------------------------ 39.2%,   speed = 77413 h/s
+Time escaped = 0.8 min, left time expected = 1.3 min
+time cost to generate particle = 0.203723 s
+max dose = 70.4635, min dose = 0
+time cost to execute kernels = 0.067729 s
+GPU processed ------------------------ 39.4%,   speed = 77434 h/s
+Time escaped = 0.8 min, left time expected = 1.3 min
+time cost to generate particle = 0.205021 s
+max dose = 78.1018, min dose = 0
+time cost to execute kernels = 0.066967 s
+GPU processed ------------------------ 39.6%,   speed = 77470 h/s
+Time escaped = 0.9 min, left time expected = 1.3 min
+time cost to generate particle = 0.214334 s
+max dose = 75.6484, min dose = 0
+time cost to execute kernels = 0.067330 s
+GPU processed ------------------------ 39.8%,   speed = 77494 h/s
+Time escaped = 0.9 min, left time expected = 1.3 min
+time cost to generate particle = 0.202630 s
+max dose = 71.7206, min dose = 0
+time cost to execute kernels = 0.068048 s
+GPU processed ------------------------ 40.0%,   speed = 77509 h/s
+Time escaped = 0.9 min, left time expected = 1.3 min
+time cost to generate particle = 0.208509 s
+max dose = 73.3613, min dose = 0
+time cost to execute kernels = 0.066337 s
+GPU processed ------------------------ 40.2%,   speed = 77591 h/s
+Time escaped = 0.9 min, left time expected = 1.3 min
+time cost to generate particle = 0.195987 s
+max dose = 74.0713, min dose = 0
+time cost to execute kernels = 0.066891 s
+GPU processed ------------------------ 40.4%,   speed = 77652 h/s
+Time escaped = 0.9 min, left time expected = 1.3 min
+time cost to generate particle = 0.207072 s
+max dose = 75.7207, min dose = 0
+time cost to execute kernels = 0.067818 s
+GPU processed ------------------------ 40.7%,   speed = 77633 h/s
+Time escaped = 0.9 min, left time expected = 1.3 min
+time cost to generate particle = 0.200916 s
+max dose = 79.9255, min dose = 0
+time cost to execute kernels = 0.068430 s
+GPU processed ------------------------ 40.9%,   speed = 77657 h/s
+Time escaped = 0.9 min, left time expected = 1.3 min
+time cost to generate particle = 0.207998 s
+max dose = 72.4986, min dose = 0
+time cost to execute kernels = 0.066602 s
+GPU processed ------------------------ 41.1%,   speed = 77718 h/s
+Time escaped = 0.9 min, left time expected = 1.3 min
+time cost to generate particle = 0.215355 s
+max dose = 78.9433, min dose = 0
+time cost to execute kernels = 0.068524 s
+GPU processed ------------------------ 41.3%,   speed = 77714 h/s
+Time escaped = 0.9 min, left time expected = 1.3 min
+time cost to generate particle = 0.199420 s
+max dose = 73.0132, min dose = 0
+time cost to execute kernels = 0.069228 s
+GPU processed ------------------------ 41.5%,   speed = 77782 h/s
+Time escaped = 0.9 min, left time expected = 1.3 min
+time cost to generate particle = 0.205449 s
+max dose = 75.5995, min dose = 0
+time cost to execute kernels = 0.066905 s
+GPU processed ------------------------ 41.7%,   speed = 77789 h/s
+Time escaped = 0.9 min, left time expected = 1.2 min
+time cost to generate particle = 0.197370 s
+max dose = 86.4055, min dose = 0
+time cost to execute kernels = 0.066774 s
+GPU processed ------------------------ 41.9%,   speed = 77813 h/s
+Time escaped = 0.9 min, left time expected = 1.2 min
+time cost to generate particle = 0.222274 s
+max dose = 74.3705, min dose = 0
+time cost to execute kernels = 0.066856 s
+GPU processed ------------------------ 42.2%,   speed = 77829 h/s
+Time escaped = 0.9 min, left time expected = 1.2 min
+time cost to generate particle = 0.197369 s
+max dose = 81.7093, min dose = 0
+time cost to execute kernels = 0.067407 s
+GPU processed ------------------------ 42.4%,   speed = 77857 h/s
+Time escaped = 0.9 min, left time expected = 1.2 min
+time cost to generate particle = 0.197641 s
+max dose = 77.0245, min dose = 0
+time cost to execute kernels = 0.069221 s
+GPU processed ------------------------ 42.6%,   speed = 77908 h/s
+Time escaped = 0.9 min, left time expected = 1.2 min
+time cost to generate particle = 0.201949 s
+max dose = 69.9413, min dose = 0
+time cost to execute kernels = 0.068684 s
+GPU processed ------------------------ 42.8%,   speed = 77973 h/s
+Time escaped = 0.9 min, left time expected = 1.2 min
+time cost to generate particle = 0.198621 s
+max dose = 75.1, min dose = 0
+time cost to execute kernels = 0.070110 s
+GPU processed ------------------------ 43.0%,   speed = 78002 h/s
+Time escaped = 0.9 min, left time expected = 1.2 min
+time cost to generate particle = 0.216715 s
+max dose = 71.0876, min dose = 0
+time cost to execute kernels = 0.067987 s
+GPU processed ------------------------ 43.2%,   speed = 78066 h/s
+Time escaped = 0.9 min, left time expected = 1.2 min
+time cost to generate particle = 0.197621 s
+max dose = 72.3915, min dose = 0
+time cost to execute kernels = 0.068007 s
+GPU processed ------------------------ 43.4%,   speed = 78098 h/s
+Time escaped = 0.9 min, left time expected = 1.2 min
+time cost to generate particle = 0.198887 s
+max dose = 79.1558, min dose = 0
+time cost to execute kernels = 0.067481 s
+GPU processed ------------------------ 43.7%,   speed = 78137 h/s
+Time escaped = 0.9 min, left time expected = 1.2 min
+time cost to generate particle = 0.193106 s
+max dose = 74.6051, min dose = 0
+time cost to execute kernels = 0.067595 s
+GPU processed ------------------------ 43.9%,   speed = 78149 h/s
+Time escaped = 0.9 min, left time expected = 1.2 min
+time cost to generate particle = 0.213950 s
+max dose = 76.4339, min dose = 0
+time cost to execute kernels = 0.068060 s
+GPU processed ------------------------ 44.1%,   speed = 78188 h/s
+Time escaped = 0.9 min, left time expected = 1.2 min
+time cost to generate particle = 0.193277 s
+max dose = 73.4653, min dose = 0
+time cost to execute kernels = 0.067710 s
+GPU processed ------------------------ 44.3%,   speed = 78244 h/s
+Time escaped = 0.9 min, left time expected = 1.2 min
+time cost to generate particle = 0.198117 s
+max dose = 75.3066, min dose = 0
+time cost to execute kernels = 0.067206 s
+GPU processed ------------------------ 44.5%,   speed = 78331 h/s
+Time escaped = 0.9 min, left time expected = 1.2 min
+time cost to generate particle = 0.193511 s
+max dose = 73.3179, min dose = 0
+time cost to execute kernels = 0.067106 s
+GPU processed ------------------------ 44.7%,   speed = 78328 h/s
+Time escaped = 1.0 min, left time expected = 1.2 min
+time cost to generate particle = 0.190971 s
+max dose = 79.9727, min dose = 0
+time cost to execute kernels = 0.067813 s
+GPU processed ------------------------ 44.9%,   speed = 78419 h/s
+Time escaped = 1.0 min, left time expected = 1.2 min
+time cost to generate particle = 0.213968 s
+max dose = 76.0592, min dose = 0
+time cost to execute kernels = 0.068238 s
+GPU processed ------------------------ 45.2%,   speed = 78470 h/s
+Time escaped = 1.0 min, left time expected = 1.2 min
+time cost to generate particle = 0.193365 s
+max dose = 74.9863, min dose = 0
+time cost to execute kernels = 0.068310 s
+GPU processed ------------------------ 45.4%,   speed = 78518 h/s
+Time escaped = 1.0 min, left time expected = 1.2 min
+time cost to generate particle = 0.214226 s
+max dose = 81.8321, min dose = 0
+time cost to execute kernels = 0.065835 s
+GPU processed ------------------------ 45.6%,   speed = 78553 h/s
+Time escaped = 1.0 min, left time expected = 1.2 min
+time cost to generate particle = 0.195193 s
+max dose = 74.3871, min dose = 0
+time cost to execute kernels = 0.067207 s
+GPU processed ------------------------ 45.8%,   speed = 78599 h/s
+Time escaped = 1.0 min, left time expected = 1.1 min
+time cost to generate particle = 0.191499 s
+max dose = 86.8831, min dose = 0
+time cost to execute kernels = 0.070567 s
+GPU processed ------------------------ 46.0%,   speed = 78617 h/s
+Time escaped = 1.0 min, left time expected = 1.1 min
+time cost to generate particle = 0.188450 s
+max dose = 83.6258, min dose = 0
+time cost to execute kernels = 0.067110 s
+GPU processed ------------------------ 46.2%,   speed = 78676 h/s
+Time escaped = 1.0 min, left time expected = 1.1 min
+time cost to generate particle = 0.218708 s
+max dose = 72.7333, min dose = 0
+time cost to execute kernels = 0.068107 s
+GPU processed ------------------------ 46.4%,   speed = 78760 h/s
+Time escaped = 1.0 min, left time expected = 1.1 min
+time cost to generate particle = 0.197199 s
+max dose = 69.3586, min dose = 0
+time cost to execute kernels = 0.068084 s
+GPU processed ------------------------ 46.7%,   speed = 78754 h/s
+Time escaped = 1.0 min, left time expected = 1.1 min
+time cost to generate particle = 0.189721 s
+max dose = 72.9948, min dose = 0
+time cost to execute kernels = 0.066930 s
+GPU processed ------------------------ 46.9%,   speed = 78846 h/s
+Time escaped = 1.0 min, left time expected = 1.1 min
+time cost to generate particle = 0.185135 s
+max dose = 75.3125, min dose = 0
+time cost to execute kernels = 0.066939 s
+GPU processed ------------------------ 47.1%,   speed = 78859 h/s
+Time escaped = 1.0 min, left time expected = 1.1 min
+time cost to generate particle = 0.185813 s
+max dose = 91.9563, min dose = 0
+time cost to execute kernels = 0.067550 s
+GPU processed ------------------------ 47.3%,   speed = 78943 h/s
+Time escaped = 1.0 min, left time expected = 1.1 min
+time cost to generate particle = 0.205784 s
+max dose = 74.8285, min dose = 0
+time cost to execute kernels = 0.067361 s
+GPU processed ------------------------ 47.5%,   speed = 78992 h/s
+Time escaped = 1.0 min, left time expected = 1.1 min
+time cost to generate particle = 0.200481 s
+max dose = 72.9668, min dose = 0
+time cost to execute kernels = 0.067019 s
+GPU processed ------------------------ 47.7%,   speed = 79045 h/s
+Time escaped = 1.0 min, left time expected = 1.1 min
+time cost to generate particle = 0.192057 s
+max dose = 84.3994, min dose = 0
+time cost to execute kernels = 0.067463 s
+GPU processed ------------------------ 47.9%,   speed = 79060 h/s
+Time escaped = 1.0 min, left time expected = 1.1 min
+time cost to generate particle = 0.180680 s
+max dose = 71.1821, min dose = 0
+time cost to execute kernels = 0.067137 s
+GPU processed ------------------------ 48.2%,   speed = 79142 h/s
+Time escaped = 1.0 min, left time expected = 1.1 min
+time cost to generate particle = 0.186127 s
+max dose = 76.3195, min dose = 0
+time cost to execute kernels = 0.067254 s
+GPU processed ------------------------ 48.4%,   speed = 79193 h/s
+Time escaped = 1.0 min, left time expected = 1.1 min
+time cost to generate particle = 0.192632 s
+max dose = 82.5691, min dose = 0
+time cost to execute kernels = 0.067118 s
+GPU processed ------------------------ 48.6%,   speed = 79205 h/s
+Time escaped = 1.0 min, left time expected = 1.1 min
+time cost to generate particle = 0.190565 s
+max dose = 79.5417, min dose = 0
+time cost to execute kernels = 0.067586 s
+GPU processed ------------------------ 48.8%,   speed = 79281 h/s
+Time escaped = 1.0 min, left time expected = 1.1 min
+time cost to generate particle = 0.182368 s
+max dose = 76.8674, min dose = 0
+time cost to execute kernels = 0.067742 s
+GPU processed ------------------------ 49.0%,   speed = 79301 h/s
+Time escaped = 1.0 min, left time expected = 1.1 min
+time cost to generate particle = 0.185498 s
+max dose = 90.4004, min dose = 0
+time cost to execute kernels = 0.068321 s
+GPU processed ------------------------ 49.2%,   speed = 79381 h/s
+Time escaped = 1.0 min, left time expected = 1.1 min
+time cost to generate particle = 0.200473 s
+max dose = 70.8058, min dose = 0
+time cost to execute kernels = 0.067964 s
+GPU processed ------------------------ 49.4%,   speed = 79429 h/s
+Time escaped = 1.0 min, left time expected = 1.1 min
+time cost to generate particle = 0.182578 s
+max dose = 74.274, min dose = 0
+time cost to execute kernels = 0.067729 s
+GPU processed ------------------------ 49.7%,   speed = 79448 h/s
+Time escaped = 1.0 min, left time expected = 1.1 min
+time cost to generate particle = 0.183205 s
+max dose = 81.1264, min dose = 0
+time cost to execute kernels = 0.067036 s
+GPU processed ------------------------ 49.9%,   speed = 79527 h/s
+Time escaped = 1.0 min, left time expected = 1.1 min
+time cost to generate particle = 0.203094 s
+max dose = 79.5934, min dose = 0
+time cost to execute kernels = 0.069351 s
+GPU processed ------------------------ 50.1%,   speed = 79571 h/s
+Time escaped = 1.0 min, left time expected = 1.0 min
+time cost to generate particle = 0.197910 s
+max dose = 71.402, min dose = 0
+time cost to execute kernels = 0.067144 s
+GPU processed ------------------------ 50.3%,   speed = 79599 h/s
+Time escaped = 1.1 min, left time expected = 1.0 min
+time cost to generate particle = 0.182562 s
+max dose = 73.1026, min dose = 0
+time cost to execute kernels = 0.067045 s
+GPU processed ------------------------ 50.5%,   speed = 79625 h/s
+Time escaped = 1.1 min, left time expected = 1.0 min
+time cost to generate particle = 0.178813 s
+max dose = 78.3902, min dose = 0
+time cost to execute kernels = 0.067805 s
+GPU processed ------------------------ 50.7%,   speed = 79701 h/s
+Time escaped = 1.1 min, left time expected = 1.0 min
+time cost to generate particle = 0.183186 s
+max dose = 73.7778, min dose = 0
+time cost to execute kernels = 0.067953 s
+GPU processed ------------------------ 50.9%,   speed = 79752 h/s
+Time escaped = 1.1 min, left time expected = 1.0 min
+time cost to generate particle = 0.181300 s
+max dose = 74.9331, min dose = 0
+time cost to execute kernels = 0.067331 s
+GPU processed ------------------------ 51.1%,   speed = 79785 h/s
+Time escaped = 1.1 min, left time expected = 1.0 min
+time cost to generate particle = 0.176729 s
+max dose = 69.9144, min dose = 0
+time cost to execute kernels = 0.068305 s
+GPU processed ------------------------ 51.4%,   speed = 79850 h/s
+Time escaped = 1.1 min, left time expected = 1.0 min
+time cost to generate particle = 0.176115 s
+max dose = 83.3802, min dose = 0
+time cost to execute kernels = 0.067274 s
+GPU processed ------------------------ 51.6%,   speed = 79867 h/s
+Time escaped = 1.1 min, left time expected = 1.0 min
+time cost to generate particle = 0.186757 s
+max dose = 75.4198, min dose = 0
+time cost to execute kernels = 0.067040 s
+GPU processed ------------------------ 51.8%,   speed = 79923 h/s
+Time escaped = 1.1 min, left time expected = 1.0 min
+time cost to generate particle = 0.179181 s
+max dose = 71.2756, min dose = 0
+time cost to execute kernels = 0.068647 s
+GPU processed ------------------------ 52.0%,   speed = 79929 h/s
+Time escaped = 1.1 min, left time expected = 1.0 min
+time cost to generate particle = 0.182351 s
+max dose = 76.0552, min dose = 0
+time cost to execute kernels = 0.068010 s
+GPU processed ------------------------ 52.2%,   speed = 79972 h/s
+Time escaped = 1.1 min, left time expected = 1.0 min
+time cost to generate particle = 0.184705 s
+max dose = 77.9438, min dose = 0
+time cost to execute kernels = 0.067568 s
+GPU processed ------------------------ 52.4%,   speed = 80042 h/s
+Time escaped = 1.1 min, left time expected = 1.0 min
+time cost to generate particle = 0.188994 s
+max dose = 72.5267, min dose = 0
+time cost to execute kernels = 0.068231 s
+GPU processed ------------------------ 52.6%,   speed = 80060 h/s
+Time escaped = 1.1 min, left time expected = 1.0 min
+time cost to generate particle = 0.177007 s
+max dose = 73.9446, min dose = 0
+time cost to execute kernels = 0.068455 s
+GPU processed ------------------------ 52.9%,   speed = 80139 h/s
+Time escaped = 1.1 min, left time expected = 1.0 min
+time cost to generate particle = 0.171646 s
+max dose = 82.3161, min dose = 0
+time cost to execute kernels = 0.067313 s
+GPU processed ------------------------ 53.1%,   speed = 80165 h/s
+Time escaped = 1.1 min, left time expected = 1.0 min
+time cost to generate particle = 0.178303 s
+max dose = 77.1998, min dose = 0
+time cost to execute kernels = 0.068607 s
+GPU processed ------------------------ 53.3%,   speed = 80199 h/s
+Time escaped = 1.1 min, left time expected = 1.0 min
+time cost to generate particle = 0.171849 s
+max dose = 86.3789, min dose = 0
+time cost to execute kernels = 0.068641 s
+GPU processed ------------------------ 53.5%,   speed = 80295 h/s
+Time escaped = 1.1 min, left time expected = 1.0 min
+time cost to generate particle = 0.179036 s
+max dose = 72.1008, min dose = 0
+time cost to execute kernels = 0.067949 s
+GPU processed ------------------------ 53.7%,   speed = 80315 h/s
+Time escaped = 1.1 min, left time expected = 1.0 min
+time cost to generate particle = 0.179644 s
+max dose = 77.0513, min dose = 0
+time cost to execute kernels = 0.067522 s
+GPU processed ------------------------ 53.9%,   speed = 80363 h/s
+Time escaped = 1.1 min, left time expected = 1.0 min
+time cost to generate particle = 0.181729 s
+max dose = 83.6359, min dose = 0
+time cost to execute kernels = 0.066874 s
+GPU processed ------------------------ 54.1%,   speed = 80424 h/s
+Time escaped = 1.1 min, left time expected = 1.0 min
+time cost to generate particle = 0.185036 s
+max dose = 74.0656, min dose = 0
+time cost to execute kernels = 0.067991 s
+GPU processed ------------------------ 54.3%,   speed = 80460 h/s
+Time escaped = 1.1 min, left time expected = 0.9 min
+time cost to generate particle = 0.171316 s
+max dose = 77.6011, min dose = 0
+time cost to execute kernels = 0.067406 s
+GPU processed ------------------------ 54.6%,   speed = 80531 h/s
+Time escaped = 1.1 min, left time expected = 0.9 min
+time cost to generate particle = 0.175557 s
+max dose = 73.5808, min dose = 0
+time cost to execute kernels = 0.068224 s
+GPU processed ------------------------ 54.8%,   speed = 80550 h/s
+Time escaped = 1.1 min, left time expected = 0.9 min
+time cost to generate particle = 0.173500 s
+max dose = 71.8432, min dose = 0
+time cost to execute kernels = 0.067395 s
+GPU processed ------------------------ 55.0%,   speed = 80606 h/s
+Time escaped = 1.1 min, left time expected = 0.9 min
+time cost to generate particle = 0.174358 s
+max dose = 73.5205, min dose = 0
+time cost to execute kernels = 0.067597 s
+GPU processed ------------------------ 55.2%,   speed = 80651 h/s
+Time escaped = 1.1 min, left time expected = 0.9 min
+time cost to generate particle = 0.182683 s
+max dose = 75.5571, min dose = 0
+time cost to execute kernels = 0.067547 s
+GPU processed ------------------------ 55.4%,   speed = 80674 h/s
+Time escaped = 1.1 min, left time expected = 0.9 min
+time cost to generate particle = 0.173987 s
+max dose = 74.5369, min dose = 0
+time cost to execute kernels = 0.068025 s
+GPU processed ------------------------ 55.6%,   speed = 80748 h/s
+Time escaped = 1.1 min, left time expected = 0.9 min
+time cost to generate particle = 0.172287 s
+max dose = 72.4413, min dose = 0
+time cost to execute kernels = 0.067323 s
+GPU processed ------------------------ 55.8%,   speed = 80763 h/s
+Time escaped = 1.2 min, left time expected = 0.9 min
+time cost to generate particle = 0.182229 s
+max dose = 73.6189, min dose = 0
+time cost to execute kernels = 0.066311 s
+GPU processed ------------------------ 56.1%,   speed = 80808 h/s
+Time escaped = 1.2 min, left time expected = 0.9 min
+time cost to generate particle = 0.182650 s
+max dose = 70.8973, min dose = 0
+time cost to execute kernels = 0.067749 s
+GPU processed ------------------------ 56.3%,   speed = 80875 h/s
+Time escaped = 1.2 min, left time expected = 0.9 min
+time cost to generate particle = 0.176744 s
+max dose = 77.035, min dose = 0
+time cost to execute kernels = 0.066908 s
+GPU processed ------------------------ 56.5%,   speed = 80900 h/s
+Time escaped = 1.2 min, left time expected = 0.9 min
+time cost to generate particle = 0.175001 s
+max dose = 80.8198, min dose = 0
+time cost to execute kernels = 0.068344 s
+GPU processed ------------------------ 56.7%,   speed = 80965 h/s
+Time escaped = 1.2 min, left time expected = 0.9 min
+time cost to generate particle = 0.178185 s
+max dose = 70.1647, min dose = 0
+time cost to execute kernels = 0.066887 s
+GPU processed ------------------------ 56.9%,   speed = 81007 h/s
+Time escaped = 1.2 min, left time expected = 0.9 min
+time cost to generate particle = 0.173389 s
+max dose = 69.9366, min dose = 0
+time cost to execute kernels = 0.067068 s
+GPU processed ------------------------ 57.1%,   speed = 81049 h/s
+Time escaped = 1.2 min, left time expected = 0.9 min
+time cost to generate particle = 0.172807 s
+max dose = 71.791, min dose = 0
+time cost to execute kernels = 0.068013 s
+GPU processed ------------------------ 57.3%,   speed = 81082 h/s
+Time escaped = 1.2 min, left time expected = 0.9 min
+time cost to generate particle = 0.179560 s
+max dose = 75.4656, min dose = 0
+time cost to execute kernels = 0.067459 s
+GPU processed ------------------------ 57.5%,   speed = 81131 h/s
+Time escaped = 1.2 min, left time expected = 0.9 min
+time cost to generate particle = 0.187722 s
+max dose = 74.2986, min dose = 0
+time cost to execute kernels = 0.067848 s
+GPU processed ------------------------ 57.8%,   speed = 81162 h/s
+Time escaped = 1.2 min, left time expected = 0.9 min
+time cost to generate particle = 0.174857 s
+max dose = 79.5115, min dose = 0
+time cost to execute kernels = 0.067542 s
+GPU processed ------------------------ 58.0%,   speed = 81227 h/s
+Time escaped = 1.2 min, left time expected = 0.9 min
+time cost to generate particle = 0.177247 s
+max dose = 74.2087, min dose = 0
+time cost to execute kernels = 0.067371 s
+GPU processed ------------------------ 58.2%,   speed = 81282 h/s
+Time escaped = 1.2 min, left time expected = 0.9 min
+time cost to generate particle = 0.177079 s
+max dose = 78.6845, min dose = 0
+time cost to execute kernels = 0.067957 s
+GPU processed ------------------------ 58.4%,   speed = 81328 h/s
+Time escaped = 1.2 min, left time expected = 0.9 min
+time cost to generate particle = 0.169801 s
+max dose = 77.1106, min dose = 0
+time cost to execute kernels = 0.068688 s
+GPU processed ------------------------ 58.6%,   speed = 81352 h/s
+Time escaped = 1.2 min, left time expected = 0.8 min
+time cost to generate particle = 0.171482 s
+max dose = 75.8017, min dose = 0
+time cost to execute kernels = 0.066756 s
+GPU processed ------------------------ 58.8%,   speed = 81427 h/s
+Time escaped = 1.2 min, left time expected = 0.8 min
+time cost to generate particle = 0.172999 s
+max dose = 74.1152, min dose = 0
+time cost to execute kernels = 0.067571 s
+GPU processed ------------------------ 59.0%,   speed = 81453 h/s
+Time escaped = 1.2 min, left time expected = 0.8 min
+time cost to generate particle = 0.175389 s
+max dose = 84.5464, min dose = 0
+time cost to execute kernels = 0.068771 s
+GPU processed ------------------------ 59.3%,   speed = 81520 h/s
+Time escaped = 1.2 min, left time expected = 0.8 min
+time cost to generate particle = 0.177590 s
+max dose = 95.715, min dose = 0
+time cost to execute kernels = 0.068068 s
+GPU processed ------------------------ 59.5%,   speed = 81572 h/s
+Time escaped = 1.2 min, left time expected = 0.8 min
+time cost to generate particle = 0.170186 s
+max dose = 84.2036, min dose = 0
+time cost to execute kernels = 0.067311 s
+GPU processed ------------------------ 59.7%,   speed = 81614 h/s
+Time escaped = 1.2 min, left time expected = 0.8 min
+time cost to generate particle = 0.191858 s
+max dose = 78.4024, min dose = 0
+time cost to execute kernels = 0.066561 s
+GPU processed ------------------------ 59.9%,   speed = 81626 h/s
+Time escaped = 1.2 min, left time expected = 0.8 min
+time cost to generate particle = 0.173684 s
+max dose = 72.1232, min dose = 0
+time cost to execute kernels = 0.068190 s
+GPU processed ------------------------ 60.1%,   speed = 81695 h/s
+Time escaped = 1.2 min, left time expected = 0.8 min
+time cost to generate particle = 0.184426 s
+max dose = 72.1566, min dose = 0
+time cost to execute kernels = 0.068108 s
+GPU processed ------------------------ 60.3%,   speed = 81711 h/s
+Time escaped = 1.2 min, left time expected = 0.8 min
+time cost to generate particle = 0.170554 s
+max dose = 76.244, min dose = 0
+time cost to execute kernels = 0.067417 s
+GPU processed ------------------------ 60.5%,   speed = 81751 h/s
+Time escaped = 1.2 min, left time expected = 0.8 min
+time cost to generate particle = 0.171404 s
+max dose = 74.4427, min dose = 0
+time cost to execute kernels = 0.067335 s
+GPU processed ------------------------ 60.8%,   speed = 81800 h/s
+Time escaped = 1.2 min, left time expected = 0.8 min
+time cost to generate particle = 0.168189 s
+max dose = 74.3523, min dose = 0
+time cost to execute kernels = 0.069848 s
+GPU processed ------------------------ 61.0%,   speed = 81837 h/s
+Time escaped = 1.2 min, left time expected = 0.8 min
+time cost to generate particle = 0.166900 s
+max dose = 82.4224, min dose = 0
+time cost to execute kernels = 0.067495 s
+GPU processed ------------------------ 61.2%,   speed = 81912 h/s
+Time escaped = 1.2 min, left time expected = 0.8 min
+time cost to generate particle = 0.172243 s
+max dose = 75.7604, min dose = 0
+time cost to execute kernels = 0.067504 s
+GPU processed ------------------------ 61.4%,   speed = 81960 h/s
+Time escaped = 1.2 min, left time expected = 0.8 min
+time cost to generate particle = 0.173923 s
+max dose = 74.8107, min dose = 0
+time cost to execute kernels = 0.068815 s
+GPU processed ------------------------ 61.6%,   speed = 82000 h/s
+Time escaped = 1.3 min, left time expected = 0.8 min
+time cost to generate particle = 0.169017 s
+max dose = 72.9936, min dose = 0
+time cost to execute kernels = 0.068729 s
+GPU processed ------------------------ 61.8%,   speed = 82004 h/s
+Time escaped = 1.3 min, left time expected = 0.8 min
+time cost to generate particle = 0.172926 s
+max dose = 84.8895, min dose = 0
+time cost to execute kernels = 0.068804 s
+GPU processed ------------------------ 62.0%,   speed = 82086 h/s
+Time escaped = 1.3 min, left time expected = 0.8 min
+time cost to generate particle = 0.184564 s
+max dose = 75.6885, min dose = 0
+time cost to execute kernels = 0.067762 s
+GPU processed ------------------------ 62.2%,   speed = 82101 h/s
+Time escaped = 1.3 min, left time expected = 0.8 min
+time cost to generate particle = 0.174421 s
+max dose = 76.9775, min dose = 0
+time cost to execute kernels = 0.066879 s
+GPU processed ------------------------ 62.5%,   speed = 82146 h/s
+Time escaped = 1.3 min, left time expected = 0.8 min
+time cost to generate particle = 0.184647 s
+max dose = 69.3712, min dose = 0
+time cost to execute kernels = 0.066547 s
+GPU processed ------------------------ 62.7%,   speed = 82193 h/s
+Time escaped = 1.3 min, left time expected = 0.8 min
+time cost to generate particle = 0.216503 s
+max dose = 90.8567, min dose = 0
+time cost to execute kernels = 0.068137 s
+GPU processed ------------------------ 62.9%,   speed = 82221 h/s
+Time escaped = 1.3 min, left time expected = 0.8 min
+time cost to generate particle = 0.201395 s
+max dose = 74.9652, min dose = 0
+time cost to execute kernels = 0.067602 s
+GPU processed ------------------------ 63.1%,   speed = 82203 h/s
+Time escaped = 1.3 min, left time expected = 0.7 min
+time cost to generate particle = 0.195171 s
+max dose = 74.3567, min dose = 0
+time cost to execute kernels = 0.069971 s
+GPU processed ------------------------ 63.3%,   speed = 82208 h/s
+Time escaped = 1.3 min, left time expected = 0.7 min
+time cost to generate particle = 0.206783 s
+max dose = 77.5326, min dose = 0
+time cost to execute kernels = 0.067948 s
+GPU processed ------------------------ 63.5%,   speed = 82194 h/s
+Time escaped = 1.3 min, left time expected = 0.7 min
+time cost to generate particle = 0.228429 s
+max dose = 86.3449, min dose = 0
+time cost to execute kernels = 0.067765 s
+GPU processed ------------------------ 63.7%,   speed = 82185 h/s
+Time escaped = 1.3 min, left time expected = 0.7 min
+time cost to generate particle = 0.208366 s
+max dose = 74.1552, min dose = 0
+time cost to execute kernels = 0.066758 s
+GPU processed ------------------------ 64.0%,   speed = 82178 h/s
+Time escaped = 1.3 min, left time expected = 0.7 min
+time cost to generate particle = 0.201866 s
+max dose = 77.4409, min dose = 0
+time cost to execute kernels = 0.066817 s
+GPU processed ------------------------ 64.2%,   speed = 82158 h/s
+Time escaped = 1.3 min, left time expected = 0.7 min
+time cost to generate particle = 0.202478 s
+max dose = 72.4886, min dose = 0
+time cost to execute kernels = 0.067086 s
+GPU processed ------------------------ 64.4%,   speed = 82144 h/s
+Time escaped = 1.3 min, left time expected = 0.7 min
+time cost to generate particle = 0.209556 s
+max dose = 72.5602, min dose = 0
+time cost to execute kernels = 0.067492 s
+GPU processed ------------------------ 64.6%,   speed = 82139 h/s
+Time escaped = 1.3 min, left time expected = 0.7 min
+time cost to generate particle = 0.215920 s
+max dose = 84.5997, min dose = 0
+time cost to execute kernels = 0.067467 s
+GPU processed ------------------------ 64.8%,   speed = 82118 h/s
+Time escaped = 1.3 min, left time expected = 0.7 min
+time cost to generate particle = 0.220396 s
+max dose = 74.3246, min dose = 0
+time cost to execute kernels = 0.067925 s
+GPU processed ------------------------ 65.0%,   speed = 82110 h/s
+Time escaped = 1.3 min, left time expected = 0.7 min
+time cost to generate particle = 0.204280 s
+max dose = 69.8351, min dose = 0
+time cost to execute kernels = 0.067466 s
+GPU processed ------------------------ 65.2%,   speed = 82097 h/s
+Time escaped = 1.3 min, left time expected = 0.7 min
+time cost to generate particle = 0.225474 s
+max dose = 72.6678, min dose = 0
+time cost to execute kernels = 0.068729 s
+GPU processed ------------------------ 65.5%,   speed = 82073 h/s
+Time escaped = 1.3 min, left time expected = 0.7 min
+time cost to generate particle = 0.221656 s
+max dose = 78.3507, min dose = 0
+time cost to execute kernels = 0.068167 s
+GPU processed ------------------------ 65.7%,   speed = 82067 h/s
+Time escaped = 1.3 min, left time expected = 0.7 min
+time cost to generate particle = 0.203983 s
+max dose = 79.1543, min dose = 0
+time cost to execute kernels = 0.068601 s
+GPU processed ------------------------ 65.9%,   speed = 82062 h/s
+Time escaped = 1.3 min, left time expected = 0.7 min
+time cost to generate particle = 0.198374 s
+max dose = 78.3922, min dose = 0
+time cost to execute kernels = 0.067437 s
+GPU processed ------------------------ 66.1%,   speed = 82045 h/s
+Time escaped = 1.3 min, left time expected = 0.7 min
+time cost to generate particle = 0.194639 s
+max dose = 82.6709, min dose = 0
+time cost to execute kernels = 0.068474 s
+GPU processed ------------------------ 66.3%,   speed = 82056 h/s
+Time escaped = 1.3 min, left time expected = 0.7 min
+time cost to generate particle = 0.198531 s
+max dose = 78.4023, min dose = 0
+time cost to execute kernels = 0.067675 s
+GPU processed ------------------------ 66.5%,   speed = 82048 h/s
+Time escaped = 1.4 min, left time expected = 0.7 min
+time cost to generate particle = 0.217910 s
+max dose = 76.601, min dose = 0
+time cost to execute kernels = 0.067652 s
+GPU processed ------------------------ 66.7%,   speed = 82034 h/s
+Time escaped = 1.4 min, left time expected = 0.7 min
+time cost to generate particle = 0.188659 s
+max dose = 74.4181, min dose = 0
+time cost to execute kernels = 0.066832 s
+GPU processed ------------------------ 67.0%,   speed = 82030 h/s
+Time escaped = 1.4 min, left time expected = 0.7 min
+time cost to generate particle = 0.195202 s
+max dose = 77.0149, min dose = 0
+time cost to execute kernels = 0.067201 s
+GPU processed ------------------------ 67.2%,   speed = 82042 h/s
+Time escaped = 1.4 min, left time expected = 0.7 min
+time cost to generate particle = 0.188062 s
+max dose = 82.7553, min dose = 0
+time cost to execute kernels = 0.067935 s
+GPU processed ------------------------ 67.4%,   speed = 82039 h/s
+Time escaped = 1.4 min, left time expected = 0.7 min
+time cost to generate particle = 0.217020 s
+max dose = 73.5906, min dose = 0
+time cost to execute kernels = 0.067886 s
+GPU processed ------------------------ 67.6%,   speed = 82045 h/s
+Time escaped = 1.4 min, left time expected = 0.7 min
+time cost to generate particle = 0.214947 s
+max dose = 73.1312, min dose = 0
+time cost to execute kernels = 0.067347 s
+GPU processed ------------------------ 67.8%,   speed = 82031 h/s
+Time escaped = 1.4 min, left time expected = 0.7 min
+time cost to generate particle = 0.207404 s
+max dose = 74.5936, min dose = 0
+time cost to execute kernels = 0.068156 s
+GPU processed ------------------------ 68.0%,   speed = 82039 h/s
+Time escaped = 1.4 min, left time expected = 0.6 min
+time cost to generate particle = 0.197863 s
+max dose = 86.9285, min dose = 0
+time cost to execute kernels = 0.067282 s
+GPU processed ------------------------ 68.2%,   speed = 82050 h/s
+Time escaped = 1.4 min, left time expected = 0.6 min
+time cost to generate particle = 0.198396 s
+max dose = 86.2966, min dose = 0
+time cost to execute kernels = 0.066706 s
+GPU processed ------------------------ 68.5%,   speed = 82047 h/s
+Time escaped = 1.4 min, left time expected = 0.6 min
+time cost to generate particle = 0.196854 s
+max dose = 79.3588, min dose = 0
+time cost to execute kernels = 0.067290 s
+GPU processed ------------------------ 68.7%,   speed = 82047 h/s
+Time escaped = 1.4 min, left time expected = 0.6 min
+time cost to generate particle = 0.203758 s
+max dose = 77.0961, min dose = 0
+time cost to execute kernels = 0.067212 s
+GPU processed ------------------------ 68.9%,   speed = 82034 h/s
+Time escaped = 1.4 min, left time expected = 0.6 min
+time cost to generate particle = 0.189137 s
+max dose = 84.1799, min dose = 0
+time cost to execute kernels = 0.067779 s
+GPU processed ------------------------ 69.1%,   speed = 82064 h/s
+Time escaped = 1.4 min, left time expected = 0.6 min
+time cost to generate particle = 0.204894 s
+max dose = 82.4431, min dose = 0
+time cost to execute kernels = 0.067747 s
+GPU processed ------------------------ 69.3%,   speed = 82064 h/s
+Time escaped = 1.4 min, left time expected = 0.6 min
+time cost to generate particle = 0.188953 s
+max dose = 77.3533, min dose = 0
+time cost to execute kernels = 0.066240 s
+GPU processed ------------------------ 69.5%,   speed = 82066 h/s
+Time escaped = 1.4 min, left time expected = 0.6 min
+time cost to generate particle = 0.184485 s
+max dose = 75.296, min dose = 0
+time cost to execute kernels = 0.068242 s
+GPU processed ------------------------ 69.7%,   speed = 82076 h/s
+Time escaped = 1.4 min, left time expected = 0.6 min
+time cost to generate particle = 0.193471 s
+max dose = 76.7256, min dose = 0
+time cost to execute kernels = 0.066888 s
+GPU processed ------------------------ 69.9%,   speed = 82091 h/s
+Time escaped = 1.4 min, left time expected = 0.6 min
+time cost to generate particle = 0.186866 s
+max dose = 78.6612, min dose = 0
+time cost to execute kernels = 0.067655 s
+GPU processed ------------------------ 70.2%,   speed = 82109 h/s
+Time escaped = 1.4 min, left time expected = 0.6 min
+time cost to generate particle = 0.180872 s
+max dose = 73.205, min dose = 0
+time cost to execute kernels = 0.068520 s
+GPU processed ------------------------ 70.4%,   speed = 82128 h/s
+Time escaped = 1.4 min, left time expected = 0.6 min
+time cost to generate particle = 0.184166 s
+max dose = 71.9438, min dose = 0
+time cost to execute kernels = 0.067090 s
+GPU processed ------------------------ 70.6%,   speed = 82129 h/s
+Time escaped = 1.4 min, left time expected = 0.6 min
+time cost to generate particle = 0.183784 s
+max dose = 76.588, min dose = 0
+time cost to execute kernels = 0.067596 s
+GPU processed ------------------------ 70.8%,   speed = 82141 h/s
+Time escaped = 1.4 min, left time expected = 0.6 min
+time cost to generate particle = 0.184553 s
+max dose = 72.0558, min dose = 0
+time cost to execute kernels = 0.067712 s
+GPU processed ------------------------ 71.0%,   speed = 82155 h/s
+Time escaped = 1.4 min, left time expected = 0.6 min
+time cost to generate particle = 0.190121 s
+max dose = 77.2703, min dose = 0
+time cost to execute kernels = 0.067053 s
+GPU processed ------------------------ 71.2%,   speed = 82168 h/s
+Time escaped = 1.4 min, left time expected = 0.6 min
+time cost to generate particle = 0.183687 s
+max dose = 74.1008, min dose = 0
+time cost to execute kernels = 0.067557 s
+GPU processed ------------------------ 71.4%,   speed = 82187 h/s
+Time escaped = 1.4 min, left time expected = 0.6 min
+time cost to generate particle = 0.203344 s
+max dose = 91.6171, min dose = 0
+time cost to execute kernels = 0.067311 s
+GPU processed ------------------------ 71.7%,   speed = 82199 h/s
+Time escaped = 1.5 min, left time expected = 0.6 min
+time cost to generate particle = 0.182294 s
+max dose = 70.6974, min dose = 0
+time cost to execute kernels = 0.067161 s
+GPU processed ------------------------ 71.9%,   speed = 82209 h/s
+Time escaped = 1.5 min, left time expected = 0.6 min
+time cost to generate particle = 0.186418 s
+max dose = 79.4572, min dose = 0
+time cost to execute kernels = 0.068490 s
+GPU processed ------------------------ 72.1%,   speed = 82223 h/s
+Time escaped = 1.5 min, left time expected = 0.6 min
+time cost to generate particle = 0.198234 s
+max dose = 73.0439, min dose = 0
+time cost to execute kernels = 0.067356 s
+GPU processed ------------------------ 72.3%,   speed = 82232 h/s
+Time escaped = 1.5 min, left time expected = 0.6 min
+time cost to generate particle = 0.203852 s
+max dose = 69.4006, min dose = 0
+time cost to execute kernels = 0.066492 s
+GPU processed ------------------------ 72.5%,   speed = 82246 h/s
+Time escaped = 1.5 min, left time expected = 0.6 min
+time cost to generate particle = 0.205096 s
+max dose = 73.7085, min dose = 0
+time cost to execute kernels = 0.068443 s
+GPU processed ------------------------ 72.7%,   speed = 82254 h/s
+Time escaped = 1.5 min, left time expected = 0.6 min
+time cost to generate particle = 0.193413 s
+max dose = 82.026, min dose = 0
+time cost to execute kernels = 0.068909 s
+GPU processed ------------------------ 72.9%,   speed = 82271 h/s
+Time escaped = 1.5 min, left time expected = 0.5 min
+time cost to generate particle = 0.175722 s
+max dose = 69.7314, min dose = 0
+time cost to execute kernels = 0.067668 s
+GPU processed ------------------------ 73.1%,   speed = 82284 h/s
+Time escaped = 1.5 min, left time expected = 0.5 min
+time cost to generate particle = 0.201669 s
+max dose = 84.1314, min dose = 0
+time cost to execute kernels = 0.067408 s
+GPU processed ------------------------ 73.4%,   speed = 82295 h/s
+Time escaped = 1.5 min, left time expected = 0.5 min
+time cost to generate particle = 0.178185 s
+max dose = 68.5273, min dose = 0
+time cost to execute kernels = 0.066518 s
+GPU processed ------------------------ 73.6%,   speed = 82306 h/s
+Time escaped = 1.5 min, left time expected = 0.5 min
+time cost to generate particle = 0.198759 s
+max dose = 70.4294, min dose = 0
+time cost to execute kernels = 0.066487 s
+GPU processed ------------------------ 73.8%,   speed = 82316 h/s
+Time escaped = 1.5 min, left time expected = 0.5 min
+time cost to generate particle = 0.200596 s
+max dose = 71.7039, min dose = 0
+time cost to execute kernels = 0.067068 s
+GPU processed ------------------------ 74.0%,   speed = 82334 h/s
+Time escaped = 1.5 min, left time expected = 0.5 min
+time cost to generate particle = 0.203308 s
+max dose = 75.9101, min dose = 0
+time cost to execute kernels = 0.067533 s
+GPU processed ------------------------ 74.2%,   speed = 82355 h/s
+Time escaped = 1.5 min, left time expected = 0.5 min
+time cost to generate particle = 0.184217 s
+max dose = 83.6944, min dose = 0
+time cost to execute kernels = 0.067433 s
+GPU processed ------------------------ 74.4%,   speed = 82377 h/s
+Time escaped = 1.5 min, left time expected = 0.5 min
+time cost to generate particle = 0.197907 s
+max dose = 86.7854, min dose = 0
+time cost to execute kernels = 0.068064 s
+GPU processed ------------------------ 74.6%,   speed = 82385 h/s
+Time escaped = 1.5 min, left time expected = 0.5 min
+time cost to generate particle = 0.174886 s
+max dose = 74.362, min dose = 0
+time cost to execute kernels = 0.067381 s
+GPU processed ------------------------ 74.9%,   speed = 82408 h/s
+Time escaped = 1.5 min, left time expected = 0.5 min
+time cost to generate particle = 0.171459 s
+max dose = 74.189, min dose = 0
+time cost to execute kernels = 0.066396 s
+GPU processed ------------------------ 75.1%,   speed = 82437 h/s
+Time escaped = 1.5 min, left time expected = 0.5 min
+time cost to generate particle = 0.197476 s
+max dose = 76.2935, min dose = 0
+time cost to execute kernels = 0.067073 s
+GPU processed ------------------------ 75.3%,   speed = 82459 h/s
+Time escaped = 1.5 min, left time expected = 0.5 min
+time cost to generate particle = 0.197094 s
+max dose = 76.6403, min dose = 0
+time cost to execute kernels = 0.067032 s
+GPU processed ------------------------ 75.5%,   speed = 82477 h/s
+Time escaped = 1.5 min, left time expected = 0.5 min
+time cost to generate particle = 0.172320 s
+max dose = 69.2734, min dose = 0
+time cost to execute kernels = 0.068126 s
+GPU processed ------------------------ 75.7%,   speed = 82495 h/s
+Time escaped = 1.5 min, left time expected = 0.5 min
+time cost to generate particle = 0.193699 s
+max dose = 75.8066, min dose = 0
+time cost to execute kernels = 0.068023 s
+GPU processed ------------------------ 75.9%,   speed = 82515 h/s
+Time escaped = 1.5 min, left time expected = 0.5 min
+time cost to generate particle = 0.166117 s
+max dose = 73.8076, min dose = 0
+time cost to execute kernels = 0.068640 s
+GPU processed ------------------------ 76.1%,   speed = 82534 h/s
+Time escaped = 1.5 min, left time expected = 0.5 min
+time cost to generate particle = 0.176961 s
+max dose = 74.6527, min dose = 0
+time cost to execute kernels = 0.067893 s
+GPU processed ------------------------ 76.3%,   speed = 82561 h/s
+Time escaped = 1.5 min, left time expected = 0.5 min
+time cost to generate particle = 0.193511 s
+max dose = 81.8206, min dose = 0
+time cost to execute kernels = 0.066785 s
+GPU processed ------------------------ 76.6%,   speed = 82582 h/s
+Time escaped = 1.5 min, left time expected = 0.5 min
+time cost to generate particle = 0.193563 s
+max dose = 74.8449, min dose = 0
+time cost to execute kernels = 0.066904 s
+GPU processed ------------------------ 76.8%,   speed = 82599 h/s
+Time escaped = 1.5 min, left time expected = 0.5 min
+time cost to generate particle = 0.195932 s
+max dose = 71.2946, min dose = 0
+time cost to execute kernels = 0.066742 s
+GPU processed ------------------------ 77.0%,   speed = 82621 h/s
+Time escaped = 1.6 min, left time expected = 0.5 min
+time cost to generate particle = 0.196225 s
+max dose = 71.934, min dose = 0
+time cost to execute kernels = 0.067075 s
+GPU processed ------------------------ 77.2%,   speed = 82640 h/s
+Time escaped = 1.6 min, left time expected = 0.5 min
+time cost to generate particle = 0.169267 s
+max dose = 74.6618, min dose = 0
+time cost to execute kernels = 0.069108 s
+GPU processed ------------------------ 77.4%,   speed = 82667 h/s
+Time escaped = 1.6 min, left time expected = 0.5 min
+time cost to generate particle = 0.194075 s
+max dose = 71.5403, min dose = 0
+time cost to execute kernels = 0.068128 s
+GPU processed ------------------------ 77.6%,   speed = 82699 h/s
+Time escaped = 1.6 min, left time expected = 0.5 min
+time cost to generate particle = 0.173521 s
+max dose = 73.287, min dose = 0
+time cost to execute kernels = 0.069580 s
+GPU processed ------------------------ 77.8%,   speed = 82725 h/s
+Time escaped = 1.6 min, left time expected = 0.4 min
+time cost to generate particle = 0.168239 s
+max dose = 73.2401, min dose = 0
+time cost to execute kernels = 0.067709 s
+GPU processed ------------------------ 78.1%,   speed = 82748 h/s
+Time escaped = 1.6 min, left time expected = 0.4 min
+time cost to generate particle = 0.189277 s
+max dose = 83.2792, min dose = 0
+time cost to execute kernels = 0.067737 s
+GPU processed ------------------------ 78.3%,   speed = 82772 h/s
+Time escaped = 1.6 min, left time expected = 0.4 min
+time cost to generate particle = 0.197587 s
+max dose = 77.798, min dose = 0
+time cost to execute kernels = 0.067983 s
+GPU processed ------------------------ 78.5%,   speed = 82789 h/s
+Time escaped = 1.6 min, left time expected = 0.4 min
+time cost to generate particle = 0.190322 s
+max dose = 77.2436, min dose = 0
+time cost to execute kernels = 0.067533 s
+GPU processed ------------------------ 78.7%,   speed = 82811 h/s
+Time escaped = 1.6 min, left time expected = 0.4 min
+time cost to generate particle = 0.175454 s
+max dose = 87.7138, min dose = 0
+time cost to execute kernels = 0.068047 s
+GPU processed ------------------------ 78.9%,   speed = 82838 h/s
+Time escaped = 1.6 min, left time expected = 0.4 min
+time cost to generate particle = 0.192942 s
+max dose = 73.8134, min dose = 0
+time cost to execute kernels = 0.066553 s
+GPU processed ------------------------ 79.1%,   speed = 82860 h/s
+Time escaped = 1.6 min, left time expected = 0.4 min
+time cost to generate particle = 0.166388 s
+max dose = 80.2373, min dose = 0
+time cost to execute kernels = 0.067527 s
+GPU processed ------------------------ 79.3%,   speed = 82888 h/s
+Time escaped = 1.6 min, left time expected = 0.4 min
+time cost to generate particle = 0.167751 s
+max dose = 79.9787, min dose = 0
+time cost to execute kernels = 0.067126 s
+GPU processed ------------------------ 79.6%,   speed = 82916 h/s
+Time escaped = 1.6 min, left time expected = 0.4 min
+time cost to generate particle = 0.166902 s
+max dose = 70.902, min dose = 0
+time cost to execute kernels = 0.066672 s
+GPU processed ------------------------ 79.8%,   speed = 82941 h/s
+Time escaped = 1.6 min, left time expected = 0.4 min
+time cost to generate particle = 0.175956 s
+max dose = 81.8341, min dose = 0
+time cost to execute kernels = 0.066559 s
+GPU processed ------------------------ 80.0%,   speed = 82968 h/s
+Time escaped = 1.6 min, left time expected = 0.4 min
+time cost to generate particle = 0.161223 s
+max dose = 74.1539, min dose = 0
+time cost to execute kernels = 0.067817 s
+GPU processed ------------------------ 80.2%,   speed = 82991 h/s
+Time escaped = 1.6 min, left time expected = 0.4 min
+time cost to generate particle = 0.160304 s
+max dose = 88.0781, min dose = 0
+time cost to execute kernels = 0.067507 s
+GPU processed ------------------------ 80.4%,   speed = 83021 h/s
+Time escaped = 1.6 min, left time expected = 0.4 min
+time cost to generate particle = 0.190571 s
+max dose = 70.7213, min dose = 0
+time cost to execute kernels = 0.067828 s
+GPU processed ------------------------ 80.6%,   speed = 83042 h/s
+Time escaped = 1.6 min, left time expected = 0.4 min
+time cost to generate particle = 0.164930 s
+max dose = 74.6837, min dose = 0
+time cost to execute kernels = 0.068373 s
+GPU processed ------------------------ 80.8%,   speed = 83070 h/s
+Time escaped = 1.6 min, left time expected = 0.4 min
+time cost to generate particle = 0.174695 s
+max dose = 71.9148, min dose = 0
+time cost to execute kernels = 0.069206 s
+GPU processed ------------------------ 81.1%,   speed = 83095 h/s
+Time escaped = 1.6 min, left time expected = 0.4 min
+time cost to generate particle = 0.167200 s
+max dose = 79.8471, min dose = 0
+time cost to execute kernels = 0.067072 s
+GPU processed ------------------------ 81.3%,   speed = 83122 h/s
+Time escaped = 1.6 min, left time expected = 0.4 min
+time cost to generate particle = 0.165537 s
+max dose = 77.5186, min dose = 0
+time cost to execute kernels = 0.066805 s
+GPU processed ------------------------ 81.5%,   speed = 83152 h/s
+Time escaped = 1.6 min, left time expected = 0.4 min
+time cost to generate particle = 0.194108 s
+max dose = 74.1886, min dose = 0
+time cost to execute kernels = 0.067495 s
+GPU processed ------------------------ 81.7%,   speed = 83171 h/s
+Time escaped = 1.6 min, left time expected = 0.4 min
+time cost to generate particle = 0.192093 s
+max dose = 75.0173, min dose = 0
+time cost to execute kernels = 0.068936 s
+GPU processed ------------------------ 81.9%,   speed = 83194 h/s
+Time escaped = 1.6 min, left time expected = 0.4 min
+time cost to generate particle = 0.163805 s
+max dose = 82.2284, min dose = 0
+time cost to execute kernels = 0.066875 s
+GPU processed ------------------------ 82.1%,   speed = 83223 h/s
+Time escaped = 1.6 min, left time expected = 0.4 min
+max dose = 86.9352, min dose = 0
+time cost to generate particle = 0.255345 s
+time cost to execute kernels = 0.067349 s
+GPU processed ------------------------ 82.3%,   speed = 83224 h/s
+Time escaped = 1.6 min, left time expected = 0.4 min
+time cost to generate particle = 0.173431 s
+max dose = 74.6678, min dose = 0
+time cost to execute kernels = 0.067449 s
+GPU processed ------------------------ 82.6%,   speed = 83252 h/s
+Time escaped = 1.7 min, left time expected = 0.3 min
+time cost to generate particle = 0.170913 s
+max dose = 82.2814, min dose = 0
+time cost to execute kernels = 0.067838 s
+GPU processed ------------------------ 82.8%,   speed = 83277 h/s
+Time escaped = 1.7 min, left time expected = 0.3 min
+time cost to generate particle = 0.164583 s
+max dose = 72.8111, min dose = 0
+time cost to execute kernels = 0.066834 s
+GPU processed ------------------------ 83.0%,   speed = 83309 h/s
+Time escaped = 1.7 min, left time expected = 0.3 min
+time cost to generate particle = 0.160052 s
+max dose = 71.651, min dose = 0
+time cost to execute kernels = 0.068352 s
+GPU processed ------------------------ 83.2%,   speed = 83333 h/s
+Time escaped = 1.7 min, left time expected = 0.3 min
+time cost to generate particle = 0.168425 s
+max dose = 78.5146, min dose = 0
+time cost to execute kernels = 0.068096 s
+GPU processed ------------------------ 83.4%,   speed = 83363 h/s
+Time escaped = 1.7 min, left time expected = 0.3 min
+time cost to generate particle = 0.185099 s
+max dose = 76.2647, min dose = 0
+time cost to execute kernels = 0.067319 s
+GPU processed ------------------------ 83.6%,   speed = 83389 h/s
+Time escaped = 1.7 min, left time expected = 0.3 min
+time cost to generate particle = 0.190496 s
+max dose = 69.6675, min dose = 0
+time cost to execute kernels = 0.068115 s
+GPU processed ------------------------ 83.8%,   speed = 83425 h/s
+Time escaped = 1.7 min, left time expected = 0.3 min
+time cost to generate particle = 0.164361 s
+max dose = 75.2609, min dose = 0
+time cost to execute kernels = 0.067455 s
+GPU processed ------------------------ 84.0%,   speed = 83452 h/s
+Time escaped = 1.7 min, left time expected = 0.3 min
+time cost to generate particle = 0.161184 s
+max dose = 78.6722, min dose = 0
+time cost to execute kernels = 0.066822 s
+GPU processed ------------------------ 84.3%,   speed = 83484 h/s
+Time escaped = 1.7 min, left time expected = 0.3 min
+time cost to generate particle = 0.163216 s
+max dose = 78.1983, min dose = 0
+time cost to execute kernels = 0.067460 s
+GPU processed ------------------------ 84.5%,   speed = 83511 h/s
+Time escaped = 1.7 min, left time expected = 0.3 min
+time cost to generate particle = 0.170624 s
+max dose = 78.2257, min dose = 0
+time cost to execute kernels = 0.067186 s
+GPU processed ------------------------ 84.7%,   speed = 83539 h/s
+Time escaped = 1.7 min, left time expected = 0.3 min
+max dose = 80.0013, min dose = 0
+time cost to generate particle = 0.750036 s
+time cost to execute kernels = 0.066762 s
+GPU processed ------------------------ 84.9%,   speed = 83131 h/s
+Time escaped = 1.7 min, left time expected = 0.3 min
+time cost to generate particle = 0.153818 s
+max dose = 71.1888, min dose = 0
+time cost to execute kernels = 0.068251 s
+GPU processed ------------------------ 85.1%,   speed = 83174 h/s
+Time escaped = 1.7 min, left time expected = 0.3 min
+time cost to generate particle = 0.155276 s
+max dose = 82.1614, min dose = 0
+time cost to execute kernels = 0.070037 s
+GPU processed ------------------------ 85.3%,   speed = 83219 h/s
+Time escaped = 1.7 min, left time expected = 0.3 min
+time cost to generate particle = 0.159370 s
+max dose = 76.7037, min dose = 0
+time cost to execute kernels = 0.067042 s
+GPU processed ------------------------ 85.5%,   speed = 83252 h/s
+Time escaped = 1.7 min, left time expected = 0.3 min
+time cost to generate particle = 0.167233 s
+max dose = 74.1445, min dose = 0
+time cost to execute kernels = 0.068502 s
+GPU processed ------------------------ 85.8%,   speed = 83280 h/s
+Time escaped = 1.7 min, left time expected = 0.3 min
+time cost to generate particle = 0.165154 s
+max dose = 76.7234, min dose = 0
+time cost to execute kernels = 0.067020 s
+GPU processed ------------------------ 86.0%,   speed = 83307 h/s
+Time escaped = 1.7 min, left time expected = 0.3 min
+time cost to generate particle = 0.163511 s
+max dose = 75.9896, min dose = 0
+time cost to execute kernels = 0.067291 s
+GPU processed ------------------------ 86.2%,   speed = 83337 h/s
+Time escaped = 1.7 min, left time expected = 0.3 min
+time cost to generate particle = 0.188433 s
+max dose = 73.5856, min dose = 0
+time cost to execute kernels = 0.067715 s
+GPU processed ------------------------ 86.4%,   speed = 83360 h/s
+Time escaped = 1.7 min, left time expected = 0.3 min
+time cost to generate particle = 0.172740 s
+max dose = 69.7288, min dose = 0
+time cost to execute kernels = 0.067851 s
+GPU processed ------------------------ 86.6%,   speed = 83385 h/s
+Time escaped = 1.7 min, left time expected = 0.3 min
+time cost to generate particle = 0.163328 s
+max dose = 79.6676, min dose = 0
+time cost to execute kernels = 0.068791 s
+GPU processed ------------------------ 86.8%,   speed = 83413 h/s
+Time escaped = 1.7 min, left time expected = 0.3 min
+time cost to generate particle = 0.164548 s
+max dose = 80.2203, min dose = 0
+time cost to execute kernels = 0.067337 s
+GPU processed ------------------------ 87.0%,   speed = 83442 h/s
+Time escaped = 1.7 min, left time expected = 0.3 min
+time cost to generate particle = 0.168336 s
+max dose = 73.298, min dose = 0
+time cost to execute kernels = 0.066756 s
+GPU processed ------------------------ 87.3%,   speed = 83484 h/s
+Time escaped = 1.7 min, left time expected = 0.3 min
+time cost to generate particle = 0.165887 s
+max dose = 74.3272, min dose = 0
+time cost to execute kernels = 0.067773 s
+GPU processed ------------------------ 87.5%,   speed = 83509 h/s
+Time escaped = 1.7 min, left time expected = 0.3 min
+time cost to generate particle = 0.186174 s
+max dose = 85.1249, min dose = 0
+time cost to execute kernels = 0.067604 s
+GPU processed ------------------------ 87.7%,   speed = 83530 h/s
+Time escaped = 1.7 min, left time expected = 0.2 min
+time cost to generate particle = 0.189226 s
+max dose = 77.5701, min dose = 0
+time cost to execute kernels = 0.067817 s
+GPU processed ------------------------ 87.9%,   speed = 83552 h/s
+Time escaped = 1.8 min, left time expected = 0.2 min
+time cost to generate particle = 0.168876 s
+max dose = 75.6907, min dose = 0
+time cost to execute kernels = 0.067414 s
+GPU processed ------------------------ 88.1%,   speed = 83578 h/s
+Time escaped = 1.8 min, left time expected = 0.2 min
+time cost to generate particle = 0.162017 s
+max dose = 74.3596, min dose = 0
+time cost to execute kernels = 0.067710 s
+GPU processed ------------------------ 88.3%,   speed = 83603 h/s
+Time escaped = 1.8 min, left time expected = 0.2 min
+time cost to generate particle = 0.160801 s
+max dose = 72.9964, min dose = 0
+time cost to execute kernels = 0.067964 s
+GPU processed ------------------------ 88.5%,   speed = 83634 h/s
+Time escaped = 1.8 min, left time expected = 0.2 min
+time cost to generate particle = 0.163774 s
+max dose = 72.6668, min dose = 0
+time cost to execute kernels = 0.066932 s
+GPU processed ------------------------ 88.8%,   speed = 83664 h/s
+Time escaped = 1.8 min, left time expected = 0.2 min
+time cost to generate particle = 0.165808 s
+max dose = 76.5652, min dose = 0
+time cost to execute kernels = 0.066770 s
+GPU processed ------------------------ 89.0%,   speed = 83692 h/s
+Time escaped = 1.8 min, left time expected = 0.2 min
+time cost to generate particle = 0.187283 s
+max dose = 69.4532, min dose = 0
+time cost to execute kernels = 0.068380 s
+GPU processed ------------------------ 89.2%,   speed = 83715 h/s
+Time escaped = 1.8 min, left time expected = 0.2 min
+time cost to generate particle = 0.161432 s
+max dose = 73.1122, min dose = 0
+time cost to execute kernels = 0.068096 s
+GPU processed ------------------------ 89.4%,   speed = 83745 h/s
+Time escaped = 1.8 min, left time expected = 0.2 min
+time cost to generate particle = 0.159402 s
+max dose = 81.9255, min dose = 0
+time cost to execute kernels = 0.067239 s
+GPU processed ------------------------ 89.6%,   speed = 83772 h/s
+Time escaped = 1.8 min, left time expected = 0.2 min
+time cost to generate particle = 0.163295 s
+max dose = 74.9438, min dose = 0
+time cost to execute kernels = 0.066889 s
+GPU processed ------------------------ 89.8%,   speed = 83799 h/s
+Time escaped = 1.8 min, left time expected = 0.2 min
+time cost to generate particle = 0.161997 s
+max dose = 78.1219, min dose = 0
+time cost to execute kernels = 0.067697 s
+GPU processed ------------------------ 90.0%,   speed = 83828 h/s
+Time escaped = 1.8 min, left time expected = 0.2 min
+time cost to generate particle = 0.171912 s
+max dose = 73.4515, min dose = 0
+time cost to execute kernels = 0.068512 s
+GPU processed ------------------------ 90.3%,   speed = 83851 h/s
+Time escaped = 1.8 min, left time expected = 0.2 min
+time cost to generate particle = 0.169349 s
+max dose = 87.0831, min dose = 0
+time cost to execute kernels = 0.067482 s
+GPU processed ------------------------ 90.5%,   speed = 83874 h/s
+Time escaped = 1.8 min, left time expected = 0.2 min
+time cost to generate particle = 0.192365 s
+max dose = 81.3796, min dose = 0
+time cost to execute kernels = 0.067716 s
+GPU processed ------------------------ 90.7%,   speed = 83893 h/s
+Time escaped = 1.8 min, left time expected = 0.2 min
+time cost to generate particle = 0.167315 s
+max dose = 74.0002, min dose = 0
+time cost to execute kernels = 0.067346 s
+GPU processed ------------------------ 90.9%,   speed = 83912 h/s
+Time escaped = 1.8 min, left time expected = 0.2 min
+time cost to generate particle = 0.165056 s
+max dose = 72.9036, min dose = 0
+time cost to execute kernels = 0.066464 s
+GPU processed ------------------------ 91.1%,   speed = 83935 h/s
+Time escaped = 1.8 min, left time expected = 0.2 min
+time cost to generate particle = 0.168182 s
+max dose = 72.6105, min dose = 0
+time cost to execute kernels = 0.067004 s
+GPU processed ------------------------ 91.3%,   speed = 83955 h/s
+Time escaped = 1.8 min, left time expected = 0.2 min
+time cost to generate particle = 0.188759 s
+max dose = 83.3821, min dose = 0
+time cost to execute kernels = 0.068210 s
+GPU processed ------------------------ 91.5%,   speed = 83977 h/s
+Time escaped = 1.8 min, left time expected = 0.2 min
+time cost to generate particle = 0.168736 s
+max dose = 88.3237, min dose = 0
+time cost to execute kernels = 0.069960 s
+GPU processed ------------------------ 91.7%,   speed = 83997 h/s
+Time escaped = 1.8 min, left time expected = 0.2 min
+time cost to generate particle = 0.164486 s
+max dose = 77.5158, min dose = 0
+time cost to execute kernels = 0.066846 s
+GPU processed ------------------------ 92.0%,   speed = 84023 h/s
+Time escaped = 1.8 min, left time expected = 0.2 min
+time cost to generate particle = 0.187702 s
+max dose = 84.8321, min dose = 0
+time cost to execute kernels = 0.066717 s
+GPU processed ------------------------ 92.2%,   speed = 84042 h/s
+Time escaped = 1.8 min, left time expected = 0.2 min
+time cost to generate particle = 0.192357 s
+max dose = 76.818, min dose = 0
+time cost to execute kernels = 0.068828 s
+GPU processed ------------------------ 92.4%,   speed = 84031 h/s
+Time escaped = 1.8 min, left time expected = 0.2 min
+time cost to generate particle = 0.171621 s
+max dose = 74.0756, min dose = 0
+time cost to execute kernels = 0.068003 s
+GPU processed ------------------------ 92.6%,   speed = 84079 h/s
+Time escaped = 1.8 min, left time expected = 0.1 min
+time cost to generate particle = 0.169344 s
+max dose = 80.1701, min dose = 0
+time cost to execute kernels = 0.067571 s
+GPU processed ------------------------ 92.8%,   speed = 84104 h/s
+Time escaped = 1.8 min, left time expected = 0.1 min
+time cost to generate particle = 0.167544 s
+max dose = 80.0773, min dose = 0
+time cost to execute kernels = 0.068596 s
+GPU processed ------------------------ 93.0%,   speed = 84129 h/s
+Time escaped = 1.8 min, left time expected = 0.1 min
+time cost to generate particle = 0.187397 s
+max dose = 76.6417, min dose = 0
+time cost to execute kernels = 0.068378 s
+GPU processed ------------------------ 93.2%,   speed = 84145 h/s
+Time escaped = 1.8 min, left time expected = 0.1 min
+time cost to generate particle = 0.163128 s
+max dose = 78.2005, min dose = 0
+time cost to execute kernels = 0.068366 s
+GPU processed ------------------------ 93.5%,   speed = 84170 h/s
+Time escaped = 1.9 min, left time expected = 0.1 min
+time cost to generate particle = 0.163547 s
+max dose = 74.7444, min dose = 0
+time cost to execute kernels = 0.068066 s
+GPU processed ------------------------ 93.7%,   speed = 84192 h/s
+Time escaped = 1.9 min, left time expected = 0.1 min
+time cost to generate particle = 0.165270 s
+max dose = 79.025, min dose = 0
+time cost to execute kernels = 0.067725 s
+GPU processed ------------------------ 93.9%,   speed = 84216 h/s
+Time escaped = 1.9 min, left time expected = 0.1 min
+time cost to generate particle = 0.164714 s
+max dose = 77.8756, min dose = 0
+time cost to execute kernels = 0.066850 s
+GPU processed ------------------------ 94.1%,   speed = 84245 h/s
+Time escaped = 1.9 min, left time expected = 0.1 min
+time cost to generate particle = 0.158887 s
+max dose = 72.005, min dose = 0
+time cost to execute kernels = 0.067440 s
+GPU processed ------------------------ 94.3%,   speed = 84269 h/s
+Time escaped = 1.9 min, left time expected = 0.1 min
+time cost to generate particle = 0.191990 s
+max dose = 82.2329, min dose = 0
+time cost to execute kernels = 0.067819 s
+GPU processed ------------------------ 94.5%,   speed = 84285 h/s
+Time escaped = 1.9 min, left time expected = 0.1 min
+time cost to generate particle = 0.167889 s
+max dose = 74.9146, min dose = 0
+time cost to execute kernels = 0.073011 s
+GPU processed ------------------------ 94.7%,   speed = 84304 h/s
+Time escaped = 1.9 min, left time expected = 0.1 min
+time cost to generate particle = 0.165350 s
+max dose = 75.7046, min dose = 0
+time cost to execute kernels = 0.066594 s
+GPU processed ------------------------ 95.0%,   speed = 84323 h/s
+Time escaped = 1.9 min, left time expected = 0.1 min
+time cost to generate particle = 0.187142 s
+max dose = 81.4071, min dose = 0
+time cost to execute kernels = 0.067682 s
+GPU processed ------------------------ 95.2%,   speed = 84341 h/s
+Time escaped = 1.9 min, left time expected = 0.1 min
+time cost to generate particle = 0.191734 s
+max dose = 77.356, min dose = 0
+time cost to execute kernels = 0.066854 s
+GPU processed ------------------------ 95.4%,   speed = 84356 h/s
+Time escaped = 1.9 min, left time expected = 0.1 min
+time cost to generate particle = 0.190601 s
+max dose = 77.6741, min dose = 0
+time cost to execute kernels = 0.067319 s
+GPU processed ------------------------ 95.6%,   speed = 84369 h/s
+Time escaped = 1.9 min, left time expected = 0.1 min
+time cost to generate particle = 0.188820 s
+max dose = 91.4337, min dose = 0
+time cost to execute kernels = 0.067443 s
+GPU processed ------------------------ 95.8%,   speed = 84385 h/s
+Time escaped = 1.9 min, left time expected = 0.1 min
+time cost to generate particle = 0.165780 s
+max dose = 73.957, min dose = 0
+time cost to execute kernels = 0.067257 s
+GPU processed ------------------------ 96.0%,   speed = 84408 h/s
+Time escaped = 1.9 min, left time expected = 0.1 min
+time cost to generate particle = 0.174880 s
+max dose = 80.9775, min dose = 0
+time cost to execute kernels = 0.066806 s
+GPU processed ------------------------ 96.2%,   speed = 84427 h/s
+Time escaped = 1.9 min, left time expected = 0.1 min
+time cost to generate particle = 0.168816 s
+max dose = 77.0293, min dose = 0
+time cost to execute kernels = 0.067408 s
+GPU processed ------------------------ 96.4%,   speed = 84451 h/s
+Time escaped = 1.9 min, left time expected = 0.1 min
+time cost to generate particle = 0.161340 s
+max dose = 80.0299, min dose = 0
+time cost to execute kernels = 0.068506 s
+GPU processed ------------------------ 96.7%,   speed = 84473 h/s
+Time escaped = 1.9 min, left time expected = 0.1 min
+time cost to generate particle = 0.173503 s
+max dose = 70.9594, min dose = 0
+time cost to execute kernels = 0.066238 s
+GPU processed ------------------------ 96.9%,   speed = 84512 h/s
+Time escaped = 1.9 min, left time expected = 0.1 min
+time cost to generate particle = 0.162022 s
+max dose = 71.9077, min dose = 0
+time cost to execute kernels = 0.066812 s
+GPU processed ------------------------ 97.1%,   speed = 84520 h/s
+Time escaped = 1.9 min, left time expected = 0.1 min
+time cost to generate particle = 0.188715 s
+max dose = 75.9575, min dose = 0
+time cost to execute kernels = 0.067224 s
+GPU processed ------------------------ 97.3%,   speed = 84539 h/s
+Time escaped = 1.9 min, left time expected = 0.1 min
+time cost to generate particle = 0.167327 s
+max dose = 76.7351, min dose = 0
+time cost to execute kernels = 0.067128 s
+GPU processed ------------------------ 97.5%,   speed = 84558 h/s
+Time escaped = 1.9 min, left time expected = 0.0 min
+time cost to generate particle = 0.187346 s
+max dose = 74.9731, min dose = 0
+time cost to execute kernels = 0.067781 s
+GPU processed ------------------------ 97.7%,   speed = 84578 h/s
+Time escaped = 1.9 min, left time expected = 0.0 min
+time cost to generate particle = 0.160803 s
+max dose = 69.4958, min dose = 0
+time cost to execute kernels = 0.067548 s
+GPU processed ------------------------ 98.0%,   speed = 84599 h/s
+Time escaped = 1.9 min, left time expected = 0.0 min
+time cost to generate particle = 0.188069 s
+max dose = 72.3371, min dose = 0
+time cost to execute kernels = 0.068077 s
+GPU processed ------------------------ 98.2%,   speed = 84619 h/s
+Time escaped = 1.9 min, left time expected = 0.0 min
+time cost to generate particle = 0.162064 s
+max dose = 83.0899, min dose = 0
+time cost to execute kernels = 0.067816 s
+GPU processed ------------------------ 98.4%,   speed = 84642 h/s
+Time escaped = 1.9 min, left time expected = 0.0 min
+time cost to generate particle = 0.186421 s
+max dose = 77.9986, min dose = 0
+time cost to execute kernels = 0.068174 s
+GPU processed ------------------------ 98.6%,   speed = 84659 h/s
+Time escaped = 1.9 min, left time expected = 0.0 min
+time cost to generate particle = 0.158929 s
+max dose = 81.3885, min dose = 0
+time cost to execute kernels = 0.067158 s
+GPU processed ------------------------ 98.8%,   speed = 84683 h/s
+Time escaped = 1.9 min, left time expected = 0.0 min
+time cost to generate particle = 0.178769 s
+max dose = 71.7419, min dose = 0
+time cost to execute kernels = 0.067839 s
+GPU processed ------------------------ 99.0%,   speed = 84703 h/s
+Time escaped = 1.9 min, left time expected = 0.0 min
+time cost to generate particle = 0.194240 s
+max dose = 94.1113, min dose = 0
+time cost to execute kernels = 0.067348 s
+GPU processed ------------------------ 99.2%,   speed = 84713 h/s
+Time escaped = 2.0 min, left time expected = 0.0 min
+time cost to generate particle = 0.169258 s
+max dose = 77.7958, min dose = 0
+time cost to execute kernels = 0.067947 s
+GPU processed ------------------------ 99.4%,   speed = 84734 h/s
+Time escaped = 2.0 min, left time expected = 0.0 min
+time cost to generate particle = 0.165036 s
+max dose = 79.7753, min dose = 0
+time cost to execute kernels = 0.067289 s
+GPU processed ------------------------ 99.7%,   speed = 84754 h/s
+Time escaped = 2.0 min, left time expected = 0.0 min
+time cost to generate particle = 0.165312 s
+max dose = 75.3488, min dose = 0
+time cost to execute kernels = 0.067499 s
+GPU processed ------------------------ 99.9%,   speed = 84776 h/s
+Time escaped = 2.0 min, left time expected = 0.0 min
+time cost to generate particle = 0.191108 s
+max dose = 73.2602, min dose = 0
+time cost to execute kernels = 0.068132 s
+GPU processed ------------------------ 100.1%,   speed = 84789 h/s
+Time escaped = 2.0 min, left time expected = 0.0 min
+time cost to generate particle = 0.167276 s
+max dose = 75.2726, min dose = 0
+GPU processed ------------------------ 100%,   speed = 84700 h/s
+
+Wait all GPUs to finish their job...
+All GPUs have finished their simulation job! Collecting dose...
+
+
+Total batch number = 468
+D>50%*Dmax region occupies 0.1% all voxels, with average uncertainty = 1.9%
+Accumulated history number in dose file = 10008375
+The dose file named <BatchMode\test\gZeus.dose> has been generated ^_^
+
+Wait for the source generating thread to finish...
+Source reuse times = 1
+
+Time statistics for main GPU:
+Total kernel time = 31.79 s
+Total SourceHead time = 94.50 s
+
+Mixed running time = 1.97 minutes, total history number = 1.00084e+07
+The overall simulating speed = 84505 hist/sec
+
+End log time = Wed Jul 26 11:48:33 2017
+
+
+/##############################################################################/
+

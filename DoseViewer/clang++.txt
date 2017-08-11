@@ -1,0 +1,9 @@
+clang++  -o DoseViewer -pthread -Wall -O3 -DHAVE_CONFIG_H -D__WXGTK__ -D_FILE_OFFSET_BITS=64 -I/usr/lib/i386-linux-gnu/wx/include/gtk2-unicode-3.0-unofficial -I/usr/include/wx-3.0-unofficial -L/usr/lib/i386-linux-gnu -lwx_gtk2u_unofficial_xrc-3.0 -lwx_gtk2u_unofficial_html-3.0  -lwx_gtk2u_unofficial_adv-3.0 -lwx_gtk2u_unofficial_core-3.0 -lwx_baseu_unofficial_xml-3.0 -lwx_baseu_unofficial_net-3.0 -lwx_baseu_unofficial-3.0 -lwx_gtk2u_unofficial_gl-3.0 -lGL -lGLU -ldcmdata -ldcmimgle -lofstd -loflog PreCompile.cpp DVApp.cpp DVFrame.cpp GLView.cpp CTOptionDlg.cpp
+
+depends:
+clang++
+wxWidets3.0 or 2.8
+dcmtk
+openGL: libgl1-mesa-dev libglu1-mesa-dev
+
+Note: you should download the dev version of above libs, which also provide head files.

@@ -1,0 +1,3182 @@
+ViewRay Plan Information
+Exported During: QA Export
+
+Patient ID: TG-119
+Patient Name: TG-119, TG-119 
+Patient Birthdate: 05/19/2013
+Diagnosis: TG119.1
+Prescription: TG_119_MULTITARGET
+Plan Name: TG_119_MULTITARGET_AAPM2
+Plan Approved By:  
+Plan ID: 6070
+Plan Last Modified: 4/5/2014 1:56:43 PM
+Physician: 
+Physicist: 
+Dosimetrist: 
+
+Machine Name: VR-TPS-04
+  Serial Number: 1004
+  Software Version: ViewRay™ System-3.4.0.32
+  Equipment Model: VIEWRAY IGRT 5
+  Institution: Barnes Jewish Hospital
+  Department: Radiation Oncology
+  Beam-On Time Reported As: Nominal/Planning Source Strength
+
+
+Total Prescription Dose for 'MULTITARGET_CENT': 50.00 Gy to 100%
+Prescription Dose Per Fraction for 'MULTITARGET_CENT': 2.00 Gy to 100%
+
+Patient Setup
+    Patient Orientation: Head First Supine
+    Couch Position (cm) (x,y,z): 0.00, 225.09, -7.57
+
+Plan Images
+  Primary Series UID: 1.2.246.352.71.2.868778376374.1695077.20130515162028
+      Series Modality: CT
+      Series Description: Generated empty phantom image set
+      Series Number: 1
+      Slice Thickness (cm): 0.0000
+      Pixel Spacing (cm): (0.0977, 0.0977)
+      Rows/Columns/Slices (#): 512, 512, 129
+
+Contours (cc)
+  Skin                : 13815.71
+  PROSTATE_PROSTAT    : 38.79
+  PROSTATE_PTV        : 84.93
+  PROSTATE_RECTUM     : 19.39
+  PROSTATE_BLADDER    : 52.04
+  BODY2               : 13815.71
+  HN_CORD             : 14.07
+  HN_PAROTID_LT       : 5.47
+  HN_PAROTID_RT       : 7.51
+  HN_PTV              : 526.81
+  C_CORE              : 32.29
+  C_OUTER             : 175.21
+  LUNG_SLAB           : 4097.56
+  PTV+5MM             : 811.69
+  PAROTID_R_OPT       : 3.31
+  PAROTID_L_OPT       : 2.28
+  ptv+3mm             : 127.54
+  PROSTATE_RCTM_OPT   : 13.28
+  PROSTATE_BLDR_OPT   : 48.42
+  ptv+8mm             : 353.71
+  CORE_OPT            : 21.36
+  MULTITARGET_CENT    : 53.22
+  MULTITARGET_SUP     : 50.10
+  MULTITARGET_INF     : 50.10
+  IC_CENTRAL          : 0.77
+  IC_SUP              : 0.79
+  IC_INF              : 0.82
+  IC_INF_HOW          : 0.04
+
+
+RealTarget Settings
+  Isocenter: ISO,  Location (cm) (x,y,z): (0.0, 0.1, 0.1)
+    Imaging Enabled: No
+    RealTarget Enabled: N/A
+    FOV: N/A
+    Resolution: N/A
+    Planes: N/A
+    Plane Type: N/A
+    Target: N/A
+    Boundary: N/A
+    Delay Time (s): N/A
+    Terminate Wait Time (s): N/A
+    Percent ROI: N/A
+    Use Numerical Margins: N/A
+
+  Isocenter: DMAX,  Location (cm) (x,y,z): (0.0, 0.0, 7.0)
+    Imaging Enabled: No
+    RealTarget Enabled: N/A
+    FOV: N/A
+    Resolution: N/A
+    Planes: N/A
+    Plane Type: N/A
+    Target: N/A
+    Boundary: N/A
+    Delay Time (s): N/A
+    Terminate Wait Time (s): N/A
+    Percent ROI: N/A
+    Use Numerical Margins: N/A
+
+  Isocenter: IC_SUP,  Location (cm) (x,y,z): (0.0, 4.0, 0.1)
+    Imaging Enabled: No
+    RealTarget Enabled: N/A
+    FOV: N/A
+    Resolution: N/A
+    Planes: N/A
+    Plane Type: N/A
+    Target: N/A
+    Boundary: N/A
+    Delay Time (s): N/A
+    Terminate Wait Time (s): N/A
+    Percent ROI: N/A
+    Use Numerical Margins: N/A
+
+  Isocenter: IC_INF,  Location (cm) (x,y,z): (0.0, -4.0, 0.1)
+    Imaging Enabled: No
+    RealTarget Enabled: N/A
+    FOV: N/A
+    Resolution: N/A
+    Planes: N/A
+    Plane Type: N/A
+    Target: N/A
+    Boundary: N/A
+    Delay Time (s): N/A
+    Terminate Wait Time (s): N/A
+    Percent ROI: N/A
+    Use Numerical Margins: N/A
+
+
+Optimization Constraints
+  Skin                : Critical Structure, Upper Importance: 20, Upper Power: 2, Threshold: 35
+  MULTITARGET_CENT    : Target, Lower Importance: 30, Upper Importance: 80, Lower Power: 8, Upper Power: 16, Rx: 50, Offset: 2.5
+  MULTITARGET_SUP     : Target, Lower Importance: 30, Upper Importance: 20, Lower Power: 3, Upper Power: 2, Rx: 25, Offset: 2
+  MULTITARGET_INF     : Target, Lower Importance: 30, Upper Importance: 10, Lower Power: 3, Upper Power: 2, Rx: 12.5, Offset: 2
+
+Electron Density Settings
+  CT Base Image UID: 1.2.246.352.71.2.868778376374.1695077.20130515162028
+  CT-Density Curve Points (CT, Relative Density):
+    (-1000, 0.000)
+    (-803, 0.190)
+    (-507, 0.489)
+    (-72, 0.949)
+    (-29, 0.976)
+    (-6, 1.002)
+    (49, 1.043)
+    (51, 1.052)
+    (243, 1.117)
+    (887, 1.456)
+    (1371, 1.695)
+    (1858, 1.976)
+    (3015, 3.735)
+  Structure Density Overrides:
+    Skin                : 1.00 (Priority 99)
+
+Planning Beam Angle Group: Group 2
+  Isocenter: 'ISO'
+  Isocenter Coordinate (cm): (0.02,0.11,0.05)
+  Gantry angle: 36°
+  Beam 1:
+    Angle: 36°
+    Fraction Beam-On Time: 6.0803 sec
+    Beam Type: IMRT
+    Open Field Eq. Sq. (cm): N/A
+    Source to Skin (SSD): 
+      Point: 'ISO'
+        SSD (cm): 95.65
+      Point: 'DMAX'
+        SSD (cm): 98.69
+      Point: 'IC_SUP'
+        SSD (cm): 95.71
+      Point: 'IC_INF'
+        SSD (cm): 95.72
+    Depths: 
+      Point: 'ISO'
+        - Physical (cm): 9.35
+        - Effective (cm): 9.35
+      Point: 'DMAX'
+        - Physical (cm): 0.79
+        - Effective (cm): 0.79
+      Point: 'IC_SUP'
+        - Physical (cm): 9.36
+        - Effective (cm): 9.36
+      Point: 'IC_INF'
+        - Physical (cm): 9.36
+        - Effective (cm): 9.36
+    Off-Axis Distances (OAD): 
+      From Axis Point: 'ISO'
+      Point: 'ISO'
+        OAD (cm): 0.00
+      Point: 'DMAX'
+        OAD (cm): 4.07
+      Point: 'IC_SUP'
+        OAD (cm): 3.89
+      Point: 'IC_INF'
+        OAD (cm): 4.11
+
+    Total Segments: 4
+
+    Segment Id: 24
+    Segment 1 of 4
+      Fraction Beam-On Time (s): 1.2166
+      Total Beam-On Time (s): 30.4148
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      -3.1500               -3.1500             
+      29      -3.1500               -3.1500             
+      28      -3.1500               -3.1500             
+      27      -3.1500               -3.1500             
+      26      -3.1500               -3.1500             
+      25      -3.1500               -3.1500             
+      24      -3.1500               -3.1500             
+      23      -3.1500               -3.1500             
+      22      -3.1500               -3.1500             
+      21      -3.1500               2.1000              
+      20      -3.1500               2.1000              
+      19      -3.1500               -2.1000             
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               -2.1000             
+      15      -3.1500               -2.1000             
+      14      -3.1500               0.0000              
+      13      -3.1500               0.0000              
+      12      -3.1500               -2.1000             
+      11      -3.1500               0.0000              
+      10      -3.1500               3.1500              
+      9       -3.1500               3.1500              
+      8       -3.1500               -3.1500             
+      7       -3.1500               -3.1500             
+      6       -3.1500               -3.1500             
+      5       -3.1500               -3.1500             
+      4       -3.1500               -3.1500             
+      3       -3.1500               -3.1500             
+      2       -3.1500               -3.1500             
+      1       -3.1500               -3.1500             
+
+    Segment Id: 25
+    Segment 2 of 4
+      Fraction Beam-On Time (s): 0.9110
+      Total Beam-On Time (s): 22.7751
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      -3.1500               -3.1500             
+      29      -3.1500               -3.1500             
+      28      -3.1500               -3.1500             
+      27      -3.1500               -3.1500             
+      26      -3.1500               -3.1500             
+      25      -3.1500               -3.1500             
+      24      -3.1500               -3.1500             
+      23      -3.1500               -3.1500             
+      22      -3.1500               -3.1500             
+      21      -3.1500               2.1000              
+      20      -3.1500               2.1000              
+      19      -3.1500               -2.1000             
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      3.1500                3.1500              
+      11      3.1500                3.1500              
+      10      3.1500                3.1500              
+      9       3.1500                3.1500              
+      8       3.1500                3.1500              
+      7       3.1500                3.1500              
+      6       3.1500                3.1500              
+      5       3.1500                3.1500              
+      4       3.1500                3.1500              
+      3       3.1500                3.1500              
+      2       3.1500                3.1500              
+      1       3.1500                3.1500              
+
+    Segment Id: 26
+    Segment 3 of 4
+      Fraction Beam-On Time (s): 2.0313
+      Total Beam-On Time (s): 50.7837
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      2.1000                2.1000              
+      29      2.1000                2.1000              
+      28      2.1000                2.1000              
+      27      2.1000                2.1000              
+      26      2.1000                2.1000              
+      25      2.1000                2.1000              
+      24      2.1000                2.1000              
+      23      2.1000                2.1000              
+      22      2.1000                2.1000              
+      21      2.1000                2.1000              
+      20      2.1000                2.1000              
+      19      2.1000                2.1000              
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      3.1500                3.1500              
+      11      3.1500                3.1500              
+      10      3.1500                3.1500              
+      9       3.1500                3.1500              
+      8       3.1500                3.1500              
+      7       3.1500                3.1500              
+      6       3.1500                3.1500              
+      5       3.1500                3.1500              
+      4       3.1500                3.1500              
+      3       3.1500                3.1500              
+      2       3.1500                3.1500              
+      1       3.1500                3.1500              
+
+    Segment Id: 27
+    Segment 4 of 4
+      Fraction Beam-On Time (s): 1.9213
+      Total Beam-On Time (s): 48.0331
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      3.1500                3.1500              
+      29      3.1500                3.1500              
+      28      3.1500                3.1500              
+      27      3.1500                3.1500              
+      26      3.1500                3.1500              
+      25      3.1500                3.1500              
+      24      3.1500                3.1500              
+      23      3.1500                3.1500              
+      22      3.1500                3.1500              
+      21      3.1500                3.1500              
+      20      3.1500                3.1500              
+      19      3.1500                3.1500              
+      18      3.1500                3.1500              
+      17      3.1500                3.1500              
+      16      3.1500                3.1500              
+      15      3.1500                3.1500              
+      14      0.0000                3.1500              
+      13      -1.0500               3.1500              
+      12      3.1500                3.1500              
+      11      3.1500                3.1500              
+      10      3.1500                3.1500              
+      9       3.1500                3.1500              
+      8       3.1500                3.1500              
+      7       3.1500                3.1500              
+      6       3.1500                3.1500              
+      5       3.1500                3.1500              
+      4       3.1500                3.1500              
+      3       3.1500                3.1500              
+      2       3.1500                3.1500              
+      1       3.1500                3.1500              
+
+  Beam 2:
+    Angle: 156°
+    Fraction Beam-On Time: 11.9302 sec
+    Beam Type: IMRT
+    Open Field Eq. Sq. (cm): N/A
+    Source to Skin (SSD): 
+      Point: 'ISO'
+        SSD (cm): 96.71
+      Point: 'DMAX'
+        SSD (cm): 95.67
+      Point: 'IC_SUP'
+        SSD (cm): 96.77
+      Point: 'IC_INF'
+        SSD (cm): 96.78
+    Depths: 
+      Point: 'ISO'
+        - Physical (cm): 8.29
+        - Effective (cm): 8.29
+      Point: 'DMAX'
+        - Physical (cm): 15.72
+        - Effective (cm): 15.72
+      Point: 'IC_SUP'
+        - Physical (cm): 8.29
+        - Effective (cm): 8.29
+      Point: 'IC_INF'
+        - Physical (cm): 8.29
+        - Effective (cm): 8.29
+    Off-Axis Distances (OAD): 
+      From Axis Point: 'ISO'
+      Point: 'ISO'
+        OAD (cm): 0.00
+      Point: 'DMAX'
+        OAD (cm): 2.84
+      Point: 'IC_SUP'
+        OAD (cm): 3.89
+      Point: 'IC_INF'
+        OAD (cm): 4.11
+
+    Total Segments: 5
+
+    Segment Id: 13
+    Segment 1 of 5
+      Fraction Beam-On Time (s): 1.2971
+      Total Beam-On Time (s): 32.4275
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      -3.1500               -3.1500             
+      29      -3.1500               -3.1500             
+      28      -3.1500               -3.1500             
+      27      -3.1500               -3.1500             
+      26      -3.1500               -3.1500             
+      25      -3.1500               -3.1500             
+      24      -3.1500               -3.1500             
+      23      -3.1500               -3.1500             
+      22      -3.1500               -2.1000             
+      21      -3.1500               -2.1000             
+      20      -3.1500               -2.1000             
+      19      -3.1500               -2.1000             
+      18      -3.1500               -2.1000             
+      17      -3.1500               -2.1000             
+      16      -3.1500               -2.1000             
+      15      -3.1500               -2.1000             
+      14      -3.1500               -2.1000             
+      13      -3.1500               -2.1000             
+      12      -3.1500               -2.1000             
+      11      -3.1500               -2.1000             
+      10      -3.1500               -2.1000             
+      9       -3.1500               -2.1000             
+      8       -3.1500               -3.1500             
+      7       -3.1500               -3.1500             
+      6       -3.1500               -3.1500             
+      5       -3.1500               -3.1500             
+      4       -3.1500               -3.1500             
+      3       -3.1500               -3.1500             
+      2       -3.1500               -3.1500             
+      1       -3.1500               -3.1500             
+
+    Segment Id: 14
+    Segment 2 of 5
+      Fraction Beam-On Time (s): 1.5204
+      Total Beam-On Time (s): 38.0096
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      -3.1500               -3.1500             
+      29      -3.1500               -3.1500             
+      28      -3.1500               -3.1500             
+      27      -3.1500               -3.1500             
+      26      -3.1500               -3.1500             
+      25      -3.1500               -3.1500             
+      24      -3.1500               -3.1500             
+      23      -3.1500               -3.1500             
+      22      -3.1500               1.0500              
+      21      -3.1500               1.0500              
+      20      -3.1500               1.0500              
+      19      -3.1500               -2.1000             
+      18      -3.1500               -1.0500             
+      17      -3.1500               3.1500              
+      16      -3.1500               -2.1000             
+      15      -3.1500               -2.1000             
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      -3.1500               -2.1000             
+      11      -3.1500               -2.1000             
+      10      -3.1500               1.0500              
+      9       -3.1500               1.0500              
+      8       -3.1500               -3.1500             
+      7       -3.1500               -3.1500             
+      6       -3.1500               -3.1500             
+      5       -3.1500               -3.1500             
+      4       -3.1500               -3.1500             
+      3       -3.1500               -3.1500             
+      2       -3.1500               -3.1500             
+      1       -3.1500               -3.1500             
+
+    Segment Id: 15
+    Segment 3 of 5
+      Fraction Beam-On Time (s): 1.1208
+      Total Beam-On Time (s): 28.0194
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      -2.1000               -2.1000             
+      29      -2.1000               -2.1000             
+      28      -2.1000               -2.1000             
+      27      -2.1000               -2.1000             
+      26      -2.1000               -2.1000             
+      25      -2.1000               -2.1000             
+      24      -2.1000               -2.1000             
+      23      -2.1000               -2.1000             
+      22      -2.1000               2.1000              
+      21      -3.1500               2.1000              
+      20      -3.1500               2.1000              
+      19      -3.1500               -2.1000             
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      -3.1500               -1.0500             
+      11      -3.1500               -1.0500             
+      10      -3.1500               3.1500              
+      9       -3.1500               3.1500              
+      8       -3.1500               -3.1500             
+      7       -3.1500               -3.1500             
+      6       -3.1500               -3.1500             
+      5       -3.1500               -3.1500             
+      4       -3.1500               -3.1500             
+      3       -3.1500               -3.1500             
+      2       -3.1500               -3.1500             
+      1       -3.1500               -3.1500             
+
+    Segment Id: 16
+    Segment 4 of 5
+      Fraction Beam-On Time (s): 5.1533
+      Total Beam-On Time (s): 128.8324
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      2.1000                2.1000              
+      29      2.1000                2.1000              
+      28      2.1000                2.1000              
+      27      2.1000                2.1000              
+      26      2.1000                2.1000              
+      25      2.1000                2.1000              
+      24      2.1000                2.1000              
+      23      2.1000                2.1000              
+      22      2.1000                2.1000              
+      21      -3.1500               2.1000              
+      20      -3.1500               2.1000              
+      19      -3.1500               -2.1000             
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      3.1500                3.1500              
+      11      3.1500                3.1500              
+      10      3.1500                3.1500              
+      9       3.1500                3.1500              
+      8       3.1500                3.1500              
+      7       3.1500                3.1500              
+      6       3.1500                3.1500              
+      5       3.1500                3.1500              
+      4       3.1500                3.1500              
+      3       3.1500                3.1500              
+      2       3.1500                3.1500              
+      1       3.1500                3.1500              
+
+    Segment Id: 17
+    Segment 5 of 5
+      Fraction Beam-On Time (s): 2.8386
+      Total Beam-On Time (s): 70.9653
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      2.1000                2.1000              
+      29      2.1000                2.1000              
+      28      2.1000                2.1000              
+      27      2.1000                2.1000              
+      26      2.1000                2.1000              
+      25      2.1000                2.1000              
+      24      2.1000                2.1000              
+      23      2.1000                2.1000              
+      22      2.1000                3.1500              
+      21      -3.1500               3.1500              
+      20      -3.1500               3.1500              
+      19      -3.1500               -1.0500             
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      3.1500                3.1500              
+      11      3.1500                3.1500              
+      10      3.1500                3.1500              
+      9       3.1500                3.1500              
+      8       3.1500                3.1500              
+      7       3.1500                3.1500              
+      6       3.1500                3.1500              
+      5       3.1500                3.1500              
+      4       3.1500                3.1500              
+      3       3.1500                3.1500              
+      2       3.1500                3.1500              
+      1       3.1500                3.1500              
+
+  Beam 3:
+    Angle: 276°
+    Fraction Beam-On Time: 9.0399 sec
+    Beam Type: IMRT
+    Open Field Eq. Sq. (cm): N/A
+    Source to Skin (SSD): 
+      Point: 'ISO'
+        SSD (cm): 89.86
+      Point: 'DMAX'
+        SSD (cm): 89.43
+      Point: 'IC_SUP'
+        SSD (cm): 89.92
+      Point: 'IC_INF'
+        SSD (cm): 89.93
+    Depths: 
+      Point: 'ISO'
+        - Physical (cm): 15.14
+        - Effective (cm): 15.14
+      Point: 'DMAX'
+        - Physical (cm): 15.05
+        - Effective (cm): 15.05
+      Point: 'IC_SUP'
+        - Physical (cm): 15.15
+        - Effective (cm): 15.15
+      Point: 'IC_INF'
+        - Physical (cm): 15.15
+        - Effective (cm): 15.15
+    Off-Axis Distances (OAD): 
+      From Axis Point: 'ISO'
+      Point: 'ISO'
+        OAD (cm): 0.00
+      Point: 'DMAX'
+        OAD (cm): 6.91
+      Point: 'IC_SUP'
+        OAD (cm): 3.89
+      Point: 'IC_INF'
+        OAD (cm): 4.11
+
+    Total Segments: 6
+
+    Segment Id: 18
+    Segment 1 of 6
+      Fraction Beam-On Time (s): 0.2195
+      Total Beam-On Time (s): 5.4866
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      -3.1500               -3.1500             
+      29      -3.1500               -3.1500             
+      28      -3.1500               -3.1500             
+      27      -3.1500               -3.1500             
+      26      -3.1500               -3.1500             
+      25      -3.1500               -3.1500             
+      24      -3.1500               -3.1500             
+      23      -3.1500               -3.1500             
+      22      -3.1500               -2.1000             
+      21      -3.1500               -2.1000             
+      20      -3.1500               -2.1000             
+      19      -3.1500               -2.1000             
+      18      -3.1500               -1.0500             
+      17      -3.1500               -1.0500             
+      16      -3.1500               -1.0500             
+      15      -3.1500               -1.0500             
+      14      -3.1500               -1.0500             
+      13      -3.1500               -1.0500             
+      12      -3.1500               -2.1000             
+      11      -3.1500               -2.1000             
+      10      -3.1500               -2.1000             
+      9       -3.1500               -2.1000             
+      8       -3.1500               -3.1500             
+      7       -3.1500               -3.1500             
+      6       -3.1500               -3.1500             
+      5       -3.1500               -3.1500             
+      4       -3.1500               -3.1500             
+      3       -3.1500               -3.1500             
+      2       -3.1500               -3.1500             
+      1       -3.1500               -3.1500             
+
+    Segment Id: 19
+    Segment 2 of 6
+      Fraction Beam-On Time (s): 0.2970
+      Total Beam-On Time (s): 7.4248
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      -3.1500               -3.1500             
+      29      -3.1500               -3.1500             
+      28      -3.1500               -3.1500             
+      27      -3.1500               -3.1500             
+      26      -3.1500               -3.1500             
+      25      -3.1500               -3.1500             
+      24      -3.1500               -3.1500             
+      23      -3.1500               -3.1500             
+      22      -3.1500               1.0500              
+      21      -3.1500               1.0500              
+      20      -3.1500               1.0500              
+      19      -3.1500               -2.1000             
+      18      -3.1500               -1.0500             
+      17      -3.1500               0.0000              
+      16      -3.1500               -1.0500             
+      15      -3.1500               -1.0500             
+      14      -3.1500               -1.0500             
+      13      -3.1500               -1.0500             
+      12      -3.1500               -2.1000             
+      11      -3.1500               -2.1000             
+      10      -3.1500               2.1000              
+      9       -3.1500               2.1000              
+      8       -3.1500               -3.1500             
+      7       -3.1500               -3.1500             
+      6       -3.1500               -3.1500             
+      5       -3.1500               -3.1500             
+      4       -3.1500               -3.1500             
+      3       -3.1500               -3.1500             
+      2       -3.1500               -3.1500             
+      1       -3.1500               -3.1500             
+
+    Segment Id: 20
+    Segment 3 of 6
+      Fraction Beam-On Time (s): 0.8276
+      Total Beam-On Time (s): 20.6908
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      -3.1500               -3.1500             
+      29      -3.1500               -3.1500             
+      28      -3.1500               -3.1500             
+      27      -3.1500               -3.1500             
+      26      -3.1500               -3.1500             
+      25      -3.1500               -3.1500             
+      24      -3.1500               -3.1500             
+      23      -3.1500               -3.1500             
+      22      -3.1500               2.1000              
+      21      -3.1500               2.1000              
+      20      -3.1500               2.1000              
+      19      -3.1500               -1.0500             
+      18      -3.1500               2.1000              
+      17      -3.1500               2.1000              
+      16      -3.1500               2.1000              
+      15      -3.1500               2.1000              
+      14      -3.1500               2.1000              
+      13      -3.1500               2.1000              
+      12      -3.1500               -1.0500             
+      11      -3.1500               0.0000              
+      10      -3.1500               3.1500              
+      9       -3.1500               3.1500              
+      8       -3.1500               -3.1500             
+      7       -3.1500               -3.1500             
+      6       -3.1500               -3.1500             
+      5       -3.1500               -3.1500             
+      4       -3.1500               -3.1500             
+      3       -3.1500               -3.1500             
+      2       -3.1500               -3.1500             
+      1       -3.1500               -3.1500             
+
+    Segment Id: 21
+    Segment 4 of 6
+      Fraction Beam-On Time (s): 1.4123
+      Total Beam-On Time (s): 35.3084
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      -3.1500               -3.1500             
+      29      -3.1500               -3.1500             
+      28      -3.1500               -3.1500             
+      27      -3.1500               -3.1500             
+      26      -3.1500               -3.1500             
+      25      -3.1500               -3.1500             
+      24      -3.1500               -3.1500             
+      23      -3.1500               -3.1500             
+      22      -3.1500               2.1000              
+      21      -3.1500               3.1500              
+      20      -3.1500               3.1500              
+      19      -3.1500               3.1500              
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      -3.1500               3.1500              
+      11      -3.1500               3.1500              
+      10      -3.1500               3.1500              
+      9       -3.1500               3.1500              
+      8       -3.1500               -3.1500             
+      7       -3.1500               -3.1500             
+      6       -3.1500               -3.1500             
+      5       -3.1500               -3.1500             
+      4       -3.1500               -3.1500             
+      3       -3.1500               -3.1500             
+      2       -3.1500               -3.1500             
+      1       -3.1500               -3.1500             
+
+    Segment Id: 22
+    Segment 5 of 6
+      Fraction Beam-On Time (s): 1.4771
+      Total Beam-On Time (s): 36.9281
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      -2.1000               -2.1000             
+      29      -2.1000               -2.1000             
+      28      -2.1000               -2.1000             
+      27      -2.1000               -2.1000             
+      26      -2.1000               -2.1000             
+      25      -2.1000               -2.1000             
+      24      -2.1000               -2.1000             
+      23      -2.1000               -2.1000             
+      22      -2.1000               3.1500              
+      21      -3.1500               3.1500              
+      20      -3.1500               3.1500              
+      19      -3.1500               3.1500              
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      3.1500                3.1500              
+      11      3.1500                3.1500              
+      10      3.1500                3.1500              
+      9       3.1500                3.1500              
+      8       3.1500                3.1500              
+      7       3.1500                3.1500              
+      6       3.1500                3.1500              
+      5       3.1500                3.1500              
+      4       3.1500                3.1500              
+      3       3.1500                3.1500              
+      2       3.1500                3.1500              
+      1       3.1500                3.1500              
+
+    Segment Id: 23
+    Segment 6 of 6
+      Fraction Beam-On Time (s): 4.8064
+      Total Beam-On Time (s): 120.1596
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      3.1500                3.1500              
+      29      3.1500                3.1500              
+      28      3.1500                3.1500              
+      27      3.1500                3.1500              
+      26      3.1500                3.1500              
+      25      3.1500                3.1500              
+      24      3.1500                3.1500              
+      23      3.1500                3.1500              
+      22      3.1500                3.1500              
+      21      3.1500                3.1500              
+      20      3.1500                3.1500              
+      19      3.1500                3.1500              
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      3.1500                3.1500              
+      11      3.1500                3.1500              
+      10      3.1500                3.1500              
+      9       3.1500                3.1500              
+      8       3.1500                3.1500              
+      7       3.1500                3.1500              
+      6       3.1500                3.1500              
+      5       3.1500                3.1500              
+      4       3.1500                3.1500              
+      3       3.1500                3.1500              
+      2       3.1500                3.1500              
+      1       3.1500                3.1500              
+
+Planning Beam Angle Group: Group 3
+  Isocenter: 'ISO'
+  Isocenter Coordinate (cm): (0.02,0.11,0.05)
+  Gantry angle: 60°
+  Beam 1:
+    Angle: 60°
+    Fraction Beam-On Time: 14.6405 sec
+    Beam Type: IMRT
+    Open Field Eq. Sq. (cm): N/A
+    Source to Skin (SSD): 
+      Point: 'ISO'
+        SSD (cm): 89.88
+      Point: 'DMAX'
+        SSD (cm): 100.34
+      Point: 'IC_SUP'
+        SSD (cm): 89.93
+      Point: 'IC_INF'
+        SSD (cm): 89.94
+    Depths: 
+      Point: 'ISO'
+        - Physical (cm): 15.12
+        - Effective (cm): 15.12
+      Point: 'DMAX'
+        - Physical (cm): 1.38
+        - Effective (cm): 1.38
+      Point: 'IC_SUP'
+        - Physical (cm): 15.14
+        - Effective (cm): 15.14
+      Point: 'IC_INF'
+        - Physical (cm): 15.14
+        - Effective (cm): 15.14
+    Off-Axis Distances (OAD): 
+      From Axis Point: 'ISO'
+      Point: 'ISO'
+        OAD (cm): 0.00
+      Point: 'DMAX'
+        OAD (cm): 6.01
+      Point: 'IC_SUP'
+        OAD (cm): 3.89
+      Point: 'IC_INF'
+        OAD (cm): 4.11
+
+    Total Segments: 7
+
+    Segment Id: 28
+    Segment 1 of 7
+      Fraction Beam-On Time (s): 1.2813
+      Total Beam-On Time (s): 32.0337
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      -3.1500               -3.1500             
+      29      -3.1500               -3.1500             
+      28      -3.1500               -3.1500             
+      27      -3.1500               -3.1500             
+      26      -3.1500               -3.1500             
+      25      -3.1500               -3.1500             
+      24      -3.1500               -3.1500             
+      23      -3.1500               -3.1500             
+      22      -3.1500               -2.1000             
+      21      -3.1500               -2.1000             
+      20      -3.1500               -2.1000             
+      19      -3.1500               -2.1000             
+      18      -3.1500               -2.1000             
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      -3.1500               -2.1000             
+      11      -3.1500               -2.1000             
+      10      -3.1500               -2.1000             
+      9       -3.1500               -2.1000             
+      8       -3.1500               -3.1500             
+      7       -3.1500               -3.1500             
+      6       -3.1500               -3.1500             
+      5       -3.1500               -3.1500             
+      4       -3.1500               -3.1500             
+      3       -3.1500               -3.1500             
+      2       -3.1500               -3.1500             
+      1       -3.1500               -3.1500             
+
+    Segment Id: 29
+    Segment 2 of 7
+      Fraction Beam-On Time (s): 3.2185
+      Total Beam-On Time (s): 80.4624
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      -3.1500               -3.1500             
+      29      -3.1500               -3.1500             
+      28      -3.1500               -3.1500             
+      27      -3.1500               -3.1500             
+      26      -3.1500               -3.1500             
+      25      -3.1500               -3.1500             
+      24      -3.1500               -3.1500             
+      23      -3.1500               -3.1500             
+      22      -3.1500               2.1000              
+      21      -3.1500               2.1000              
+      20      -3.1500               2.1000              
+      19      -3.1500               -2.1000             
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      -3.1500               -2.1000             
+      11      -3.1500               -2.1000             
+      10      -3.1500               1.0500              
+      9       -3.1500               1.0500              
+      8       -3.1500               -3.1500             
+      7       -3.1500               -3.1500             
+      6       -3.1500               -3.1500             
+      5       -3.1500               -3.1500             
+      4       -3.1500               -3.1500             
+      3       -3.1500               -3.1500             
+      2       -3.1500               -3.1500             
+      1       -3.1500               -3.1500             
+
+    Segment Id: 30
+    Segment 3 of 7
+      Fraction Beam-On Time (s): 1.8219
+      Total Beam-On Time (s): 45.5472
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      -3.1500               -3.1500             
+      29      -3.1500               -3.1500             
+      28      -3.1500               -3.1500             
+      27      -3.1500               -3.1500             
+      26      -3.1500               -3.1500             
+      25      -3.1500               -3.1500             
+      24      -3.1500               -3.1500             
+      23      -3.1500               -3.1500             
+      22      -3.1500               3.1500              
+      21      -3.1500               3.1500              
+      20      -3.1500               3.1500              
+      19      -3.1500               3.1500              
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      -3.1500               -2.1000             
+      11      -3.1500               -2.1000             
+      10      -3.1500               3.1500              
+      9       -3.1500               3.1500              
+      8       -3.1500               -3.1500             
+      7       -3.1500               -3.1500             
+      6       -3.1500               -3.1500             
+      5       -3.1500               -3.1500             
+      4       -3.1500               -3.1500             
+      3       -3.1500               -3.1500             
+      2       -3.1500               -3.1500             
+      1       -3.1500               -3.1500             
+
+    Segment Id: 31
+    Segment 4 of 7
+      Fraction Beam-On Time (s): 2.1379
+      Total Beam-On Time (s): 53.4464
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      -3.1500               -3.1500             
+      29      -3.1500               -3.1500             
+      28      -3.1500               -3.1500             
+      27      -3.1500               -3.1500             
+      26      -3.1500               -3.1500             
+      25      -3.1500               -3.1500             
+      24      -3.1500               -3.1500             
+      23      -3.1500               -3.1500             
+      22      -3.1500               3.1500              
+      21      -3.1500               3.1500              
+      20      -3.1500               3.1500              
+      19      -3.1500               3.1500              
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      -3.1500               -2.1000             
+      11      -3.1500               0.0000              
+      10      -3.1500               3.1500              
+      9       -3.1500               3.1500              
+      8       -3.1500               -3.1500             
+      7       -3.1500               -3.1500             
+      6       -3.1500               -3.1500             
+      5       -3.1500               -3.1500             
+      4       -3.1500               -3.1500             
+      3       -3.1500               -3.1500             
+      2       -3.1500               -3.1500             
+      1       -3.1500               -3.1500             
+
+    Segment Id: 32
+    Segment 5 of 7
+      Fraction Beam-On Time (s): 0.2747
+      Total Beam-On Time (s): 6.8676
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      -3.1500               -3.1500             
+      29      -3.1500               -3.1500             
+      28      -3.1500               -3.1500             
+      27      -3.1500               -3.1500             
+      26      -3.1500               -3.1500             
+      25      -3.1500               -3.1500             
+      24      -3.1500               -3.1500             
+      23      -3.1500               -3.1500             
+      22      -3.1500               3.1500              
+      21      -3.1500               3.1500              
+      20      -3.1500               3.1500              
+      19      -3.1500               3.1500              
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      -3.1500               3.1500              
+      11      -3.1500               3.1500              
+      10      -3.1500               3.1500              
+      9       -3.1500               3.1500              
+      8       -3.1500               -3.1500             
+      7       -3.1500               -3.1500             
+      6       -3.1500               -3.1500             
+      5       -3.1500               -3.1500             
+      4       -3.1500               -3.1500             
+      3       -3.1500               -3.1500             
+      2       -3.1500               -3.1500             
+      1       -3.1500               -3.1500             
+
+    Segment Id: 33
+    Segment 6 of 7
+      Fraction Beam-On Time (s): 0.7194
+      Total Beam-On Time (s): 17.9858
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      -2.1000               -2.1000             
+      29      -2.1000               -2.1000             
+      28      -2.1000               -2.1000             
+      27      -2.1000               -2.1000             
+      26      -2.1000               -2.1000             
+      25      -2.1000               -2.1000             
+      24      -2.1000               -2.1000             
+      23      -2.1000               -2.1000             
+      22      -2.1000               3.1500              
+      21      -3.1500               3.1500              
+      20      -3.1500               3.1500              
+      19      -3.1500               3.1500              
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      -3.1500               3.1500              
+      11      -3.1500               3.1500              
+      10      -2.1000               3.1500              
+      9       -2.1000               3.1500              
+      8       -2.1000               -2.1000             
+      7       -2.1000               -2.1000             
+      6       -2.1000               -2.1000             
+      5       -2.1000               -2.1000             
+      4       -2.1000               -2.1000             
+      3       -2.1000               -2.1000             
+      2       -2.1000               -2.1000             
+      1       -2.1000               -2.1000             
+
+    Segment Id: 34
+    Segment 7 of 7
+      Fraction Beam-On Time (s): 5.1867
+      Total Beam-On Time (s): 129.6684
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      3.1500                3.1500              
+      29      3.1500                3.1500              
+      28      3.1500                3.1500              
+      27      3.1500                3.1500              
+      26      3.1500                3.1500              
+      25      3.1500                3.1500              
+      24      3.1500                3.1500              
+      23      3.1500                3.1500              
+      22      3.1500                3.1500              
+      21      3.1500                3.1500              
+      20      3.1500                3.1500              
+      19      3.1500                3.1500              
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      3.1500                3.1500              
+      11      3.1500                3.1500              
+      10      3.1500                3.1500              
+      9       3.1500                3.1500              
+      8       3.1500                3.1500              
+      7       3.1500                3.1500              
+      6       3.1500                3.1500              
+      5       3.1500                3.1500              
+      4       3.1500                3.1500              
+      3       3.1500                3.1500              
+      2       3.1500                3.1500              
+      1       3.1500                3.1500              
+
+  Beam 2:
+    Angle: 180°
+    Fraction Beam-On Time: 11.4980 sec
+    Beam Type: IMRT
+    Open Field Eq. Sq. (cm): N/A
+    Source to Skin (SSD): 
+      Point: 'ISO'
+        SSD (cm): 97.43
+      Point: 'DMAX'
+        SSD (cm): 97.43
+      Point: 'IC_SUP'
+        SSD (cm): 97.49
+      Point: 'IC_INF'
+        SSD (cm): 97.50
+    Depths: 
+      Point: 'ISO'
+        - Physical (cm): 7.57
+        - Effective (cm): 7.57
+      Point: 'DMAX'
+        - Physical (cm): 14.52
+        - Effective (cm): 14.52
+      Point: 'IC_SUP'
+        - Physical (cm): 7.57
+        - Effective (cm): 7.57
+      Point: 'IC_INF'
+        - Physical (cm): 7.58
+        - Effective (cm): 7.58
+    Off-Axis Distances (OAD): 
+      From Axis Point: 'ISO'
+      Point: 'ISO'
+        OAD (cm): 0.00
+      Point: 'DMAX'
+        OAD (cm): 0.11
+      Point: 'IC_SUP'
+        OAD (cm): 3.89
+      Point: 'IC_INF'
+        OAD (cm): 4.11
+
+    Total Segments: 5
+
+    Segment Id: 35
+    Segment 1 of 5
+      Fraction Beam-On Time (s): 1.0766
+      Total Beam-On Time (s): 26.9140
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      -3.1500               -3.1500             
+      29      -3.1500               -3.1500             
+      28      -3.1500               -3.1500             
+      27      -3.1500               -3.1500             
+      26      -3.1500               -3.1500             
+      25      -3.1500               -3.1500             
+      24      -3.1500               -3.1500             
+      23      -3.1500               -3.1500             
+      22      -3.1500               1.0500              
+      21      -3.1500               1.0500              
+      20      -3.1500               1.0500              
+      19      -3.1500               -2.1000             
+      18      -3.1500               -2.1000             
+      17      -3.1500               -2.1000             
+      16      -3.1500               -2.1000             
+      15      -3.1500               -2.1000             
+      14      -3.1500               -2.1000             
+      13      -3.1500               -2.1000             
+      12      -3.1500               -2.1000             
+      11      -3.1500               -2.1000             
+      10      -3.1500               -2.1000             
+      9       -3.1500               -2.1000             
+      8       -3.1500               -3.1500             
+      7       -3.1500               -3.1500             
+      6       -3.1500               -3.1500             
+      5       -3.1500               -3.1500             
+      4       -3.1500               -3.1500             
+      3       -3.1500               -3.1500             
+      2       -3.1500               -3.1500             
+      1       -3.1500               -3.1500             
+
+    Segment Id: 36
+    Segment 2 of 5
+      Fraction Beam-On Time (s): 1.4126
+      Total Beam-On Time (s): 35.3154
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      -3.1500               -3.1500             
+      29      -3.1500               -3.1500             
+      28      -3.1500               -3.1500             
+      27      -3.1500               -3.1500             
+      26      -3.1500               -3.1500             
+      25      -3.1500               -3.1500             
+      24      -3.1500               -3.1500             
+      23      -3.1500               -3.1500             
+      22      -3.1500               2.1000              
+      21      -3.1500               2.1000              
+      20      -3.1500               2.1000              
+      19      -3.1500               -2.1000             
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               -2.1000             
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      -3.1500               -2.1000             
+      11      -3.1500               1.0500              
+      10      -3.1500               2.1000              
+      9       -3.1500               2.1000              
+      8       -3.1500               -3.1500             
+      7       -3.1500               -3.1500             
+      6       -3.1500               -3.1500             
+      5       -3.1500               -3.1500             
+      4       -3.1500               -3.1500             
+      3       -3.1500               -3.1500             
+      2       -3.1500               -3.1500             
+      1       -3.1500               -3.1500             
+
+    Segment Id: 37
+    Segment 3 of 5
+      Fraction Beam-On Time (s): 2.5378
+      Total Beam-On Time (s): 63.4453
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      1.0500                1.0500              
+      29      1.0500                1.0500              
+      28      1.0500                1.0500              
+      27      1.0500                1.0500              
+      26      1.0500                1.0500              
+      25      1.0500                1.0500              
+      24      1.0500                1.0500              
+      23      1.0500                1.0500              
+      22      1.0500                3.1500              
+      21      -3.1500               3.1500              
+      20      -3.1500               3.1500              
+      19      -3.1500               -1.0500             
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      -3.1500               -2.1000             
+      11      -3.1500               1.0500              
+      10      -3.1500               3.1500              
+      9       -3.1500               3.1500              
+      8       -3.1500               -3.1500             
+      7       -3.1500               -3.1500             
+      6       -3.1500               -3.1500             
+      5       -3.1500               -3.1500             
+      4       -3.1500               -3.1500             
+      3       -3.1500               -3.1500             
+      2       -3.1500               -3.1500             
+      1       -3.1500               -3.1500             
+
+    Segment Id: 38
+    Segment 4 of 5
+      Fraction Beam-On Time (s): 4.2295
+      Total Beam-On Time (s): 105.7367
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      2.1000                2.1000              
+      29      2.1000                2.1000              
+      28      2.1000                2.1000              
+      27      2.1000                2.1000              
+      26      2.1000                2.1000              
+      25      2.1000                2.1000              
+      24      2.1000                2.1000              
+      23      2.1000                2.1000              
+      22      2.1000                3.1500              
+      21      2.1000                3.1500              
+      20      2.1000                3.1500              
+      19      2.1000                3.1500              
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      3.1500                3.1500              
+      11      3.1500                3.1500              
+      10      3.1500                3.1500              
+      9       3.1500                3.1500              
+      8       3.1500                3.1500              
+      7       3.1500                3.1500              
+      6       3.1500                3.1500              
+      5       3.1500                3.1500              
+      4       3.1500                3.1500              
+      3       3.1500                3.1500              
+      2       3.1500                3.1500              
+      1       3.1500                3.1500              
+
+    Segment Id: 39
+    Segment 5 of 5
+      Fraction Beam-On Time (s): 2.2415
+      Total Beam-On Time (s): 56.0386
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      3.1500                3.1500              
+      29      3.1500                3.1500              
+      28      3.1500                3.1500              
+      27      3.1500                3.1500              
+      26      3.1500                3.1500              
+      25      3.1500                3.1500              
+      24      3.1500                3.1500              
+      23      3.1500                3.1500              
+      22      3.1500                3.1500              
+      21      3.1500                3.1500              
+      20      3.1500                3.1500              
+      19      3.1500                3.1500              
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      3.1500                3.1500              
+      11      3.1500                3.1500              
+      10      3.1500                3.1500              
+      9       3.1500                3.1500              
+      8       3.1500                3.1500              
+      7       3.1500                3.1500              
+      6       3.1500                3.1500              
+      5       3.1500                3.1500              
+      4       3.1500                3.1500              
+      3       3.1500                3.1500              
+      2       3.1500                3.1500              
+      1       3.1500                3.1500              
+
+  Beam 3:
+    Angle: 300°
+    Fraction Beam-On Time: 11.3880 sec
+    Beam Type: IMRT
+    Open Field Eq. Sq. (cm): N/A
+    Source to Skin (SSD): 
+      Point: 'ISO'
+        SSD (cm): 89.88
+      Point: 'DMAX'
+        SSD (cm): 100.31
+      Point: 'IC_SUP'
+        SSD (cm): 89.93
+      Point: 'IC_INF'
+        SSD (cm): 89.94
+    Depths: 
+      Point: 'ISO'
+        - Physical (cm): 15.12
+        - Effective (cm): 15.12
+      Point: 'DMAX'
+        - Physical (cm): 1.38
+        - Effective (cm): 1.38
+      Point: 'IC_SUP'
+        - Physical (cm): 15.14
+        - Effective (cm): 15.14
+      Point: 'IC_INF'
+        - Physical (cm): 15.15
+        - Effective (cm): 15.15
+    Off-Axis Distances (OAD): 
+      From Axis Point: 'ISO'
+      Point: 'ISO'
+        OAD (cm): 0.00
+      Point: 'DMAX'
+        OAD (cm): 6.02
+      Point: 'IC_SUP'
+        OAD (cm): 3.89
+      Point: 'IC_INF'
+        OAD (cm): 4.11
+
+    Total Segments: 5
+
+    Segment Id: 40
+    Segment 1 of 5
+      Fraction Beam-On Time (s): 1.9958
+      Total Beam-On Time (s): 49.8940
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      -3.1500               -3.1500             
+      29      -3.1500               -3.1500             
+      28      -3.1500               -3.1500             
+      27      -3.1500               -3.1500             
+      26      -3.1500               -3.1500             
+      25      -3.1500               -3.1500             
+      24      -3.1500               -3.1500             
+      23      -3.1500               -3.1500             
+      22      -3.1500               -2.1000             
+      21      -3.1500               -2.1000             
+      20      -3.1500               -2.1000             
+      19      -3.1500               -2.1000             
+      18      -3.1500               -2.1000             
+      17      -3.1500               -2.1000             
+      16      -3.1500               -2.1000             
+      15      -3.1500               -2.1000             
+      14      -3.1500               -2.1000             
+      13      -3.1500               -2.1000             
+      12      -3.1500               -2.1000             
+      11      -3.1500               -2.1000             
+      10      -3.1500               0.0000              
+      9       -3.1500               0.0000              
+      8       -3.1500               -3.1500             
+      7       -3.1500               -3.1500             
+      6       -3.1500               -3.1500             
+      5       -3.1500               -3.1500             
+      4       -3.1500               -3.1500             
+      3       -3.1500               -3.1500             
+      2       -3.1500               -3.1500             
+      1       -3.1500               -3.1500             
+
+    Segment Id: 41
+    Segment 2 of 5
+      Fraction Beam-On Time (s): 1.0619
+      Total Beam-On Time (s): 26.5472
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      -3.1500               -3.1500             
+      29      -3.1500               -3.1500             
+      28      -3.1500               -3.1500             
+      27      -3.1500               -3.1500             
+      26      -3.1500               -3.1500             
+      25      -3.1500               -3.1500             
+      24      -3.1500               -3.1500             
+      23      -3.1500               -3.1500             
+      22      -3.1500               0.0000              
+      21      -3.1500               0.0000              
+      20      -3.1500               0.0000              
+      19      -3.1500               -1.0500             
+      18      -3.1500               -1.0500             
+      17      -3.1500               1.0500              
+      16      -3.1500               -1.0500             
+      15      -3.1500               -1.0500             
+      14      -3.1500               1.0500              
+      13      -3.1500               1.0500              
+      12      -3.1500               -2.1000             
+      11      -3.1500               -2.1000             
+      10      -3.1500               2.1000              
+      9       -3.1500               2.1000              
+      8       -3.1500               -3.1500             
+      7       -3.1500               -3.1500             
+      6       -3.1500               -3.1500             
+      5       -3.1500               -3.1500             
+      4       -3.1500               -3.1500             
+      3       -3.1500               -3.1500             
+      2       -3.1500               -3.1500             
+      1       -3.1500               -3.1500             
+
+    Segment Id: 42
+    Segment 3 of 5
+      Fraction Beam-On Time (s): 2.7533
+      Total Beam-On Time (s): 68.8318
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      -3.1500               -3.1500             
+      29      -3.1500               -3.1500             
+      28      -3.1500               -3.1500             
+      27      -3.1500               -3.1500             
+      26      -3.1500               -3.1500             
+      25      -3.1500               -3.1500             
+      24      -3.1500               -3.1500             
+      23      -3.1500               -3.1500             
+      22      -3.1500               2.1000              
+      21      -3.1500               2.1000              
+      20      -3.1500               2.1000              
+      19      -3.1500               -1.0500             
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      -3.1500               -2.1000             
+      11      -3.1500               -2.1000             
+      10      -3.1500               3.1500              
+      9       -3.1500               3.1500              
+      8       -3.1500               -3.1500             
+      7       -3.1500               -3.1500             
+      6       -3.1500               -3.1500             
+      5       -3.1500               -3.1500             
+      4       -3.1500               -3.1500             
+      3       -3.1500               -3.1500             
+      2       -3.1500               -3.1500             
+      1       -3.1500               -3.1500             
+
+    Segment Id: 43
+    Segment 4 of 5
+      Fraction Beam-On Time (s): 1.5770
+      Total Beam-On Time (s): 39.4252
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      0.0000                0.0000              
+      29      0.0000                0.0000              
+      28      0.0000                0.0000              
+      27      0.0000                0.0000              
+      26      0.0000                0.0000              
+      25      0.0000                0.0000              
+      24      0.0000                0.0000              
+      23      0.0000                0.0000              
+      22      0.0000                3.1500              
+      21      -2.1000               3.1500              
+      20      -2.1000               3.1500              
+      19      -2.1000               3.1500              
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      3.1500                3.1500              
+      11      3.1500                3.1500              
+      10      3.1500                3.1500              
+      9       3.1500                3.1500              
+      8       3.1500                3.1500              
+      7       3.1500                3.1500              
+      6       3.1500                3.1500              
+      5       3.1500                3.1500              
+      4       3.1500                3.1500              
+      3       3.1500                3.1500              
+      2       3.1500                3.1500              
+      1       3.1500                3.1500              
+
+    Segment Id: 44
+    Segment 5 of 5
+      Fraction Beam-On Time (s): 4.0000
+      Total Beam-On Time (s): 100.0009
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      3.1500                3.1500              
+      29      3.1500                3.1500              
+      28      3.1500                3.1500              
+      27      3.1500                3.1500              
+      26      3.1500                3.1500              
+      25      3.1500                3.1500              
+      24      3.1500                3.1500              
+      23      3.1500                3.1500              
+      22      3.1500                3.1500              
+      21      3.1500                3.1500              
+      20      3.1500                3.1500              
+      19      3.1500                3.1500              
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      3.1500                3.1500              
+      11      3.1500                3.1500              
+      10      3.1500                3.1500              
+      9       3.1500                3.1500              
+      8       3.1500                3.1500              
+      7       3.1500                3.1500              
+      6       3.1500                3.1500              
+      5       3.1500                3.1500              
+      4       3.1500                3.1500              
+      3       3.1500                3.1500              
+      2       3.1500                3.1500              
+      1       3.1500                3.1500              
+
+Planning Beam Angle Group: Group 4
+  Isocenter: 'ISO'
+  Isocenter Coordinate (cm): (0.02,0.11,0.05)
+  Gantry angle: 84°
+  Beam 1:
+    Angle: 84°
+    Fraction Beam-On Time: 6.5115 sec
+    Beam Type: IMRT
+    Open Field Eq. Sq. (cm): N/A
+    Source to Skin (SSD): 
+      Point: 'ISO'
+        SSD (cm): 89.80
+      Point: 'DMAX'
+        SSD (cm): 89.37
+      Point: 'IC_SUP'
+        SSD (cm): 89.86
+      Point: 'IC_INF'
+        SSD (cm): 89.87
+    Depths: 
+      Point: 'ISO'
+        - Physical (cm): 15.20
+        - Effective (cm): 15.20
+      Point: 'DMAX'
+        - Physical (cm): 15.15
+        - Effective (cm): 15.15
+      Point: 'IC_SUP'
+        - Physical (cm): 15.21
+        - Effective (cm): 15.21
+      Point: 'IC_INF'
+        - Physical (cm): 15.21
+        - Effective (cm): 15.21
+    Off-Axis Distances (OAD): 
+      From Axis Point: 'ISO'
+      Point: 'ISO'
+        OAD (cm): 0.00
+      Point: 'DMAX'
+        OAD (cm): 6.91
+      Point: 'IC_SUP'
+        OAD (cm): 3.89
+      Point: 'IC_INF'
+        OAD (cm): 4.11
+
+    Total Segments: 4
+
+    Segment Id: 45
+    Segment 1 of 4
+      Fraction Beam-On Time (s): 2.4138
+      Total Beam-On Time (s): 60.3444
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      -3.1500               -3.1500             
+      29      -3.1500               -3.1500             
+      28      -3.1500               -3.1500             
+      27      -3.1500               -3.1500             
+      26      -3.1500               -3.1500             
+      25      -3.1500               -3.1500             
+      24      -3.1500               -3.1500             
+      23      -3.1500               -3.1500             
+      22      -3.1500               2.1000              
+      21      -3.1500               2.1000              
+      20      -3.1500               2.1000              
+      19      -3.1500               -1.0500             
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      -3.1500               -1.0500             
+      11      -3.1500               -1.0500             
+      10      -3.1500               2.1000              
+      9       -3.1500               2.1000              
+      8       -3.1500               -3.1500             
+      7       -3.1500               -3.1500             
+      6       -3.1500               -3.1500             
+      5       -3.1500               -3.1500             
+      4       -3.1500               -3.1500             
+      3       -3.1500               -3.1500             
+      2       -3.1500               -3.1500             
+      1       -3.1500               -3.1500             
+
+    Segment Id: 46
+    Segment 2 of 4
+      Fraction Beam-On Time (s): 0.2242
+      Total Beam-On Time (s): 5.6060
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      -3.1500               -3.1500             
+      29      -3.1500               -3.1500             
+      28      -3.1500               -3.1500             
+      27      -3.1500               -3.1500             
+      26      -3.1500               -3.1500             
+      25      -3.1500               -3.1500             
+      24      -3.1500               -3.1500             
+      23      -3.1500               -3.1500             
+      22      -3.1500               3.1500              
+      21      -3.1500               3.1500              
+      20      -3.1500               3.1500              
+      19      -3.1500               3.1500              
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      -3.1500               3.1500              
+      11      -3.1500               3.1500              
+      10      -3.1500               3.1500              
+      9       -3.1500               3.1500              
+      8       -3.1500               -3.1500             
+      7       -3.1500               -3.1500             
+      6       -3.1500               -3.1500             
+      5       -3.1500               -3.1500             
+      4       -3.1500               -3.1500             
+      3       -3.1500               -3.1500             
+      2       -3.1500               -3.1500             
+      1       -3.1500               -3.1500             
+
+    Segment Id: 47
+    Segment 3 of 4
+      Fraction Beam-On Time (s): 1.1075
+      Total Beam-On Time (s): 27.6885
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      -2.1000               -2.1000             
+      29      -2.1000               -2.1000             
+      28      -2.1000               -2.1000             
+      27      -2.1000               -2.1000             
+      26      -2.1000               -2.1000             
+      25      -2.1000               -2.1000             
+      24      -2.1000               -2.1000             
+      23      -2.1000               -2.1000             
+      22      -2.1000               3.1500              
+      21      -3.1500               3.1500              
+      20      -3.1500               3.1500              
+      19      -3.1500               3.1500              
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      3.1500                3.1500              
+      11      3.1500                3.1500              
+      10      3.1500                3.1500              
+      9       3.1500                3.1500              
+      8       3.1500                3.1500              
+      7       3.1500                3.1500              
+      6       3.1500                3.1500              
+      5       3.1500                3.1500              
+      4       3.1500                3.1500              
+      3       3.1500                3.1500              
+      2       3.1500                3.1500              
+      1       3.1500                3.1500              
+
+    Segment Id: 48
+    Segment 4 of 4
+      Fraction Beam-On Time (s): 2.7659
+      Total Beam-On Time (s): 69.1480
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      3.1500                3.1500              
+      29      3.1500                3.1500              
+      28      3.1500                3.1500              
+      27      3.1500                3.1500              
+      26      3.1500                3.1500              
+      25      3.1500                3.1500              
+      24      3.1500                3.1500              
+      23      3.1500                3.1500              
+      22      3.1500                3.1500              
+      21      3.1500                3.1500              
+      20      3.1500                3.1500              
+      19      3.1500                3.1500              
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      3.1500                3.1500              
+      11      3.1500                3.1500              
+      10      3.1500                3.1500              
+      9       3.1500                3.1500              
+      8       3.1500                3.1500              
+      7       3.1500                3.1500              
+      6       3.1500                3.1500              
+      5       3.1500                3.1500              
+      4       3.1500                3.1500              
+      3       3.1500                3.1500              
+      2       3.1500                3.1500              
+      1       3.1500                3.1500              
+
+  Beam 2:
+    Angle: 204°
+    Fraction Beam-On Time: 6.8561 sec
+    Beam Type: IMRT
+    Open Field Eq. Sq. (cm): N/A
+    Source to Skin (SSD): 
+      Point: 'ISO'
+        SSD (cm): 96.71
+      Point: 'DMAX'
+        SSD (cm): 95.65
+      Point: 'IC_SUP'
+        SSD (cm): 96.78
+      Point: 'IC_INF'
+        SSD (cm): 96.78
+    Depths: 
+      Point: 'ISO'
+        - Physical (cm): 8.29
+        - Effective (cm): 8.29
+      Point: 'DMAX'
+        - Physical (cm): 15.72
+        - Effective (cm): 15.72
+      Point: 'IC_SUP'
+        - Physical (cm): 8.29
+        - Effective (cm): 8.29
+      Point: 'IC_INF'
+        - Physical (cm): 8.29
+        - Effective (cm): 8.29
+    Off-Axis Distances (OAD): 
+      From Axis Point: 'ISO'
+      Point: 'ISO'
+        OAD (cm): 0.00
+      Point: 'DMAX'
+        OAD (cm): 2.81
+      Point: 'IC_SUP'
+        OAD (cm): 3.89
+      Point: 'IC_INF'
+        OAD (cm): 4.11
+
+    Total Segments: 5
+
+    Segment Id: 49
+    Segment 1 of 5
+      Fraction Beam-On Time (s): 1.7326
+      Total Beam-On Time (s): 43.3152
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      -3.1500               -3.1500             
+      29      -3.1500               -3.1500             
+      28      -3.1500               -3.1500             
+      27      -3.1500               -3.1500             
+      26      -3.1500               -3.1500             
+      25      -3.1500               -3.1500             
+      24      -3.1500               -3.1500             
+      23      -3.1500               -3.1500             
+      22      -3.1500               -1.0500             
+      21      -3.1500               0.0000              
+      20      -3.1500               0.0000              
+      19      -3.1500               -2.1000             
+      18      -3.1500               -2.1000             
+      17      -3.1500               -2.1000             
+      16      -3.1500               -2.1000             
+      15      -3.1500               -2.1000             
+      14      -3.1500               -2.1000             
+      13      -3.1500               -2.1000             
+      12      -3.1500               -2.1000             
+      11      -3.1500               -2.1000             
+      10      -3.1500               -2.1000             
+      9       -3.1500               -2.1000             
+      8       -3.1500               -3.1500             
+      7       -3.1500               -3.1500             
+      6       -3.1500               -3.1500             
+      5       -3.1500               -3.1500             
+      4       -3.1500               -3.1500             
+      3       -3.1500               -3.1500             
+      2       -3.1500               -3.1500             
+      1       -3.1500               -3.1500             
+
+    Segment Id: 50
+    Segment 2 of 5
+      Fraction Beam-On Time (s): 1.1523
+      Total Beam-On Time (s): 28.8066
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      -3.1500               -3.1500             
+      29      -3.1500               -3.1500             
+      28      -3.1500               -3.1500             
+      27      -3.1500               -3.1500             
+      26      -3.1500               -3.1500             
+      25      -3.1500               -3.1500             
+      24      -3.1500               -3.1500             
+      23      -3.1500               -3.1500             
+      22      -3.1500               1.0500              
+      21      -3.1500               1.0500              
+      20      -3.1500               1.0500              
+      19      -3.1500               -2.1000             
+      18      -3.1500               -1.0500             
+      17      -3.1500               0.0000              
+      16      -3.1500               -2.1000             
+      15      -3.1500               -2.1000             
+      14      -3.1500               -1.0500             
+      13      -3.1500               -1.0500             
+      12      -3.1500               -2.1000             
+      11      -3.1500               -2.1000             
+      10      -3.1500               2.1000              
+      9       -3.1500               2.1000              
+      8       -3.1500               -3.1500             
+      7       -3.1500               -3.1500             
+      6       -3.1500               -3.1500             
+      5       -3.1500               -3.1500             
+      4       -3.1500               -3.1500             
+      3       -3.1500               -3.1500             
+      2       -3.1500               -3.1500             
+      1       -3.1500               -3.1500             
+
+    Segment Id: 51
+    Segment 3 of 5
+      Fraction Beam-On Time (s): 1.0344
+      Total Beam-On Time (s): 25.8610
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      -3.1500               -3.1500             
+      29      -3.1500               -3.1500             
+      28      -3.1500               -3.1500             
+      27      -3.1500               -3.1500             
+      26      -3.1500               -3.1500             
+      25      -3.1500               -3.1500             
+      24      -3.1500               -3.1500             
+      23      -3.1500               -3.1500             
+      22      -3.1500               2.1000              
+      21      -3.1500               2.1000              
+      20      -3.1500               2.1000              
+      19      -3.1500               -1.0500             
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               0.0000              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      -3.1500               -2.1000             
+      11      -3.1500               1.0500              
+      10      -3.1500               3.1500              
+      9       -3.1500               3.1500              
+      8       -3.1500               -3.1500             
+      7       -3.1500               -3.1500             
+      6       -3.1500               -3.1500             
+      5       -3.1500               -3.1500             
+      4       -3.1500               -3.1500             
+      3       -3.1500               -3.1500             
+      2       -3.1500               -3.1500             
+      1       -3.1500               -3.1500             
+
+    Segment Id: 52
+    Segment 4 of 5
+      Fraction Beam-On Time (s): 0.5674
+      Total Beam-On Time (s): 14.1842
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      1.0500                1.0500              
+      29      1.0500                1.0500              
+      28      1.0500                1.0500              
+      27      1.0500                1.0500              
+      26      1.0500                1.0500              
+      25      1.0500                1.0500              
+      24      1.0500                1.0500              
+      23      1.0500                1.0500              
+      22      1.0500                3.1500              
+      21      -3.1500               3.1500              
+      20      -3.1500               3.1500              
+      19      -3.1500               -1.0500             
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      3.1500                3.1500              
+      11      3.1500                3.1500              
+      10      3.1500                3.1500              
+      9       3.1500                3.1500              
+      8       3.1500                3.1500              
+      7       3.1500                3.1500              
+      6       3.1500                3.1500              
+      5       3.1500                3.1500              
+      4       3.1500                3.1500              
+      3       3.1500                3.1500              
+      2       3.1500                3.1500              
+      1       3.1500                3.1500              
+
+    Segment Id: 53
+    Segment 5 of 5
+      Fraction Beam-On Time (s): 2.3695
+      Total Beam-On Time (s): 59.2363
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      3.1500                3.1500              
+      29      3.1500                3.1500              
+      28      3.1500                3.1500              
+      27      3.1500                3.1500              
+      26      3.1500                3.1500              
+      25      3.1500                3.1500              
+      24      3.1500                3.1500              
+      23      3.1500                3.1500              
+      22      3.1500                3.1500              
+      21      3.1500                3.1500              
+      20      3.1500                3.1500              
+      19      3.1500                3.1500              
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      3.1500                3.1500              
+      11      3.1500                3.1500              
+      10      3.1500                3.1500              
+      9       3.1500                3.1500              
+      8       3.1500                3.1500              
+      7       3.1500                3.1500              
+      6       3.1500                3.1500              
+      5       3.1500                3.1500              
+      4       3.1500                3.1500              
+      3       3.1500                3.1500              
+      2       3.1500                3.1500              
+      1       3.1500                3.1500              
+
+  Beam 3:
+    Angle: 324°
+    Fraction Beam-On Time: 11.1449 sec
+    Beam Type: IMRT
+    Open Field Eq. Sq. (cm): N/A
+    Source to Skin (SSD): 
+      Point: 'ISO'
+        SSD (cm): 95.65
+      Point: 'DMAX'
+        SSD (cm): 98.67
+      Point: 'IC_SUP'
+        SSD (cm): 95.72
+      Point: 'IC_INF'
+        SSD (cm): 95.73
+    Depths: 
+      Point: 'ISO'
+        - Physical (cm): 9.35
+        - Effective (cm): 9.35
+      Point: 'DMAX'
+        - Physical (cm): 0.79
+        - Effective (cm): 0.79
+      Point: 'IC_SUP'
+        - Physical (cm): 9.36
+        - Effective (cm): 9.36
+      Point: 'IC_INF'
+        - Physical (cm): 9.36
+        - Effective (cm): 9.36
+    Off-Axis Distances (OAD): 
+      From Axis Point: 'ISO'
+      Point: 'ISO'
+        OAD (cm): 0.00
+      Point: 'DMAX'
+        OAD (cm): 4.10
+      Point: 'IC_SUP'
+        OAD (cm): 3.89
+      Point: 'IC_INF'
+        OAD (cm): 4.11
+
+    Total Segments: 6
+
+    Segment Id: 54
+    Segment 1 of 6
+      Fraction Beam-On Time (s): 1.1108
+      Total Beam-On Time (s): 27.7703
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      -3.1500               -3.1500             
+      29      -3.1500               -3.1500             
+      28      -3.1500               -3.1500             
+      27      -3.1500               -3.1500             
+      26      -3.1500               -3.1500             
+      25      -3.1500               -3.1500             
+      24      -3.1500               -3.1500             
+      23      -3.1500               -3.1500             
+      22      -3.1500               0.0000              
+      21      -3.1500               0.0000              
+      20      -3.1500               0.0000              
+      19      -3.1500               -2.1000             
+      18      -3.1500               -2.1000             
+      17      -3.1500               -2.1000             
+      16      -3.1500               -2.1000             
+      15      -3.1500               -2.1000             
+      14      -3.1500               -2.1000             
+      13      -3.1500               -2.1000             
+      12      -3.1500               -2.1000             
+      11      -3.1500               -2.1000             
+      10      -3.1500               -2.1000             
+      9       -3.1500               -2.1000             
+      8       -3.1500               -3.1500             
+      7       -3.1500               -3.1500             
+      6       -3.1500               -3.1500             
+      5       -3.1500               -3.1500             
+      4       -3.1500               -3.1500             
+      3       -3.1500               -3.1500             
+      2       -3.1500               -3.1500             
+      1       -3.1500               -3.1500             
+
+    Segment Id: 55
+    Segment 2 of 6
+      Fraction Beam-On Time (s): 0.9783
+      Total Beam-On Time (s): 24.4584
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      -3.1500               -3.1500             
+      29      -3.1500               -3.1500             
+      28      -3.1500               -3.1500             
+      27      -3.1500               -3.1500             
+      26      -3.1500               -3.1500             
+      25      -3.1500               -3.1500             
+      24      -3.1500               -3.1500             
+      23      -3.1500               -3.1500             
+      22      -3.1500               2.1000              
+      21      -3.1500               2.1000              
+      20      -3.1500               2.1000              
+      19      -3.1500               -2.1000             
+      18      -3.1500               -2.1000             
+      17      -3.1500               0.0000              
+      16      -3.1500               -2.1000             
+      15      -3.1500               -2.1000             
+      14      -3.1500               -1.0500             
+      13      -3.1500               -1.0500             
+      12      -3.1500               -2.1000             
+      11      -3.1500               -2.1000             
+      10      -3.1500               1.0500              
+      9       -3.1500               1.0500              
+      8       -3.1500               -3.1500             
+      7       -3.1500               -3.1500             
+      6       -3.1500               -3.1500             
+      5       -3.1500               -3.1500             
+      4       -3.1500               -3.1500             
+      3       -3.1500               -3.1500             
+      2       -3.1500               -3.1500             
+      1       -3.1500               -3.1500             
+
+    Segment Id: 56
+    Segment 3 of 6
+      Fraction Beam-On Time (s): 1.4173
+      Total Beam-On Time (s): 35.4320
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      2.1000                2.1000              
+      29      2.1000                2.1000              
+      28      2.1000                2.1000              
+      27      2.1000                2.1000              
+      26      2.1000                2.1000              
+      25      2.1000                2.1000              
+      24      2.1000                2.1000              
+      23      2.1000                2.1000              
+      22      2.1000                2.1000              
+      21      -3.1500               2.1000              
+      20      -3.1500               2.1000              
+      19      -3.1500               -2.1000             
+      18      -3.1500               -1.0500             
+      17      -3.1500               1.0500              
+      16      -3.1500               0.0000              
+      15      -3.1500               -2.1000             
+      14      -3.1500               0.0000              
+      13      -3.1500               0.0000              
+      12      -3.1500               -2.1000             
+      11      -3.1500               -2.1000             
+      10      -3.1500               3.1500              
+      9       -3.1500               3.1500              
+      8       -3.1500               -3.1500             
+      7       -3.1500               -3.1500             
+      6       -3.1500               -3.1500             
+      5       -3.1500               -3.1500             
+      4       -3.1500               -3.1500             
+      3       -3.1500               -3.1500             
+      2       -3.1500               -3.1500             
+      1       -3.1500               -3.1500             
+
+    Segment Id: 57
+    Segment 4 of 6
+      Fraction Beam-On Time (s): 2.4491
+      Total Beam-On Time (s): 61.2287
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      2.1000                2.1000              
+      29      2.1000                2.1000              
+      28      2.1000                2.1000              
+      27      2.1000                2.1000              
+      26      2.1000                2.1000              
+      25      2.1000                2.1000              
+      24      2.1000                2.1000              
+      23      2.1000                2.1000              
+      22      2.1000                2.1000              
+      21      -3.1500               2.1000              
+      20      -3.1500               2.1000              
+      19      -3.1500               -2.1000             
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      3.1500                3.1500              
+      11      3.1500                3.1500              
+      10      3.1500                3.1500              
+      9       3.1500                3.1500              
+      8       3.1500                3.1500              
+      7       3.1500                3.1500              
+      6       3.1500                3.1500              
+      5       3.1500                3.1500              
+      4       3.1500                3.1500              
+      3       3.1500                3.1500              
+      2       3.1500                3.1500              
+      1       3.1500                3.1500              
+
+    Segment Id: 58
+    Segment 5 of 6
+      Fraction Beam-On Time (s): 4.2682
+      Total Beam-On Time (s): 106.7044
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      2.1000                2.1000              
+      29      2.1000                2.1000              
+      28      2.1000                2.1000              
+      27      2.1000                2.1000              
+      26      2.1000                2.1000              
+      25      2.1000                2.1000              
+      24      2.1000                2.1000              
+      23      2.1000                2.1000              
+      22      2.1000                2.1000              
+      21      2.1000                2.1000              
+      20      2.1000                2.1000              
+      19      2.1000                2.1000              
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      3.1500                3.1500              
+      11      3.1500                3.1500              
+      10      3.1500                3.1500              
+      9       3.1500                3.1500              
+      8       3.1500                3.1500              
+      7       3.1500                3.1500              
+      6       3.1500                3.1500              
+      5       3.1500                3.1500              
+      4       3.1500                3.1500              
+      3       3.1500                3.1500              
+      2       3.1500                3.1500              
+      1       3.1500                3.1500              
+
+    Segment Id: 59
+    Segment 6 of 6
+      Fraction Beam-On Time (s): 0.9211
+      Total Beam-On Time (s): 23.0278
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      3.1500                3.1500              
+      29      3.1500                3.1500              
+      28      3.1500                3.1500              
+      27      3.1500                3.1500              
+      26      3.1500                3.1500              
+      25      3.1500                3.1500              
+      24      3.1500                3.1500              
+      23      3.1500                3.1500              
+      22      3.1500                3.1500              
+      21      3.1500                3.1500              
+      20      3.1500                3.1500              
+      19      3.1500                3.1500              
+      18      3.1500                3.1500              
+      17      0.0000                3.1500              
+      16      0.0000                3.1500              
+      15      0.0000                3.1500              
+      14      0.0000                3.1500              
+      13      0.0000                3.1500              
+      12      3.1500                3.1500              
+      11      3.1500                3.1500              
+      10      3.1500                3.1500              
+      9       3.1500                3.1500              
+      8       3.1500                3.1500              
+      7       3.1500                3.1500              
+      6       3.1500                3.1500              
+      5       3.1500                3.1500              
+      4       3.1500                3.1500              
+      3       3.1500                3.1500              
+      2       3.1500                3.1500              
+      1       3.1500                3.1500              
+
+Planning Beam Angle Group: Group 5
+  Isocenter: 'ISO'
+  Isocenter Coordinate (cm): (0.02,0.11,0.05)
+  Gantry angle: 108°
+  Beam 1:
+    Angle: N/A
+    Total Segments: 0
+
+  Beam 2:
+    Angle: 228°
+    Fraction Beam-On Time: 11.6227 sec
+    Beam Type: IMRT
+    Open Field Eq. Sq. (cm): N/A
+    Source to Skin (SSD): 
+      Point: 'ISO'
+        SSD (cm): 93.68
+      Point: 'DMAX'
+        SSD (cm): 89.11
+      Point: 'IC_SUP'
+        SSD (cm): 93.75
+      Point: 'IC_INF'
+        SSD (cm): 93.76
+    Depths: 
+      Point: 'ISO'
+        - Physical (cm): 11.32
+        - Effective (cm): 11.32
+      Point: 'DMAX'
+        - Physical (cm): 20.64
+        - Effective (cm): 20.64
+      Point: 'IC_SUP'
+        - Physical (cm): 11.32
+        - Effective (cm): 11.32
+      Point: 'IC_INF'
+        - Physical (cm): 11.32
+        - Effective (cm): 11.32
+    Off-Axis Distances (OAD): 
+      From Axis Point: 'ISO'
+      Point: 'ISO'
+        OAD (cm): 0.00
+      Point: 'DMAX'
+        OAD (cm): 5.15
+      Point: 'IC_SUP'
+        OAD (cm): 3.89
+      Point: 'IC_INF'
+        OAD (cm): 4.11
+
+    Total Segments: 5
+
+    Segment Id: 61
+    Segment 1 of 5
+      Fraction Beam-On Time (s): 0.2710
+      Total Beam-On Time (s): 6.7749
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      -3.1500               -3.1500             
+      29      -3.1500               -3.1500             
+      28      -3.1500               -3.1500             
+      27      -3.1500               -3.1500             
+      26      -3.1500               -3.1500             
+      25      -3.1500               -3.1500             
+      24      -3.1500               -3.1500             
+      23      -3.1500               -3.1500             
+      22      -3.1500               -1.0500             
+      21      -3.1500               -1.0500             
+      20      -3.1500               -1.0500             
+      19      -3.1500               -2.1000             
+      18      -3.1500               -1.0500             
+      17      -3.1500               0.0000              
+      16      -3.1500               -1.0500             
+      15      -3.1500               -1.0500             
+      14      -3.1500               -1.0500             
+      13      -3.1500               -1.0500             
+      12      -3.1500               -2.1000             
+      11      -3.1500               -2.1000             
+      10      -3.1500               0.0000              
+      9       -3.1500               0.0000              
+      8       -3.1500               -3.1500             
+      7       -3.1500               -3.1500             
+      6       -3.1500               -3.1500             
+      5       -3.1500               -3.1500             
+      4       -3.1500               -3.1500             
+      3       -3.1500               -3.1500             
+      2       -3.1500               -3.1500             
+      1       -3.1500               -3.1500             
+
+    Segment Id: 62
+    Segment 2 of 5
+      Fraction Beam-On Time (s): 1.0755
+      Total Beam-On Time (s): 26.8881
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      -3.1500               -3.1500             
+      29      -3.1500               -3.1500             
+      28      -3.1500               -3.1500             
+      27      -3.1500               -3.1500             
+      26      -3.1500               -3.1500             
+      25      -3.1500               -3.1500             
+      24      -3.1500               -3.1500             
+      23      -3.1500               -3.1500             
+      22      -3.1500               0.0000              
+      21      -3.1500               1.0500              
+      20      -3.1500               1.0500              
+      19      -3.1500               -2.1000             
+      18      -3.1500               1.0500              
+      17      -3.1500               1.0500              
+      16      -3.1500               0.0000              
+      15      -3.1500               0.0000              
+      14      -3.1500               1.0500              
+      13      -3.1500               1.0500              
+      12      -3.1500               -2.1000             
+      11      -3.1500               -2.1000             
+      10      -3.1500               2.1000              
+      9       -3.1500               2.1000              
+      8       -3.1500               -3.1500             
+      7       -3.1500               -3.1500             
+      6       -3.1500               -3.1500             
+      5       -3.1500               -3.1500             
+      4       -3.1500               -3.1500             
+      3       -3.1500               -3.1500             
+      2       -3.1500               -3.1500             
+      1       -3.1500               -3.1500             
+
+    Segment Id: 63
+    Segment 3 of 5
+      Fraction Beam-On Time (s): 3.2057
+      Total Beam-On Time (s): 80.1425
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      -3.1500               -3.1500             
+      29      -3.1500               -3.1500             
+      28      -3.1500               -3.1500             
+      27      -3.1500               -3.1500             
+      26      -3.1500               -3.1500             
+      25      -3.1500               -3.1500             
+      24      -3.1500               -3.1500             
+      23      -3.1500               -3.1500             
+      22      -3.1500               2.1000              
+      21      -3.1500               2.1000              
+      20      -3.1500               2.1000              
+      19      -3.1500               -2.1000             
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      -3.1500               -1.0500             
+      11      -3.1500               -1.0500             
+      10      -3.1500               3.1500              
+      9       -3.1500               3.1500              
+      8       -3.1500               -3.1500             
+      7       -3.1500               -3.1500             
+      6       -3.1500               -3.1500             
+      5       -3.1500               -3.1500             
+      4       -3.1500               -3.1500             
+      3       -3.1500               -3.1500             
+      2       -3.1500               -3.1500             
+      1       -3.1500               -3.1500             
+
+    Segment Id: 64
+    Segment 4 of 5
+      Fraction Beam-On Time (s): 2.5945
+      Total Beam-On Time (s): 64.8613
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      -3.1500               -3.1500             
+      29      -3.1500               -3.1500             
+      28      -3.1500               -3.1500             
+      27      -3.1500               -3.1500             
+      26      -3.1500               -3.1500             
+      25      -3.1500               -3.1500             
+      24      -3.1500               -3.1500             
+      23      -3.1500               -3.1500             
+      22      -3.1500               2.1000              
+      21      -3.1500               2.1000              
+      20      -3.1500               2.1000              
+      19      -3.1500               3.1500              
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      -3.1500               3.1500              
+      11      -3.1500               3.1500              
+      10      -3.1500               3.1500              
+      9       -3.1500               3.1500              
+      8       -3.1500               -3.1500             
+      7       -3.1500               -3.1500             
+      6       -3.1500               -3.1500             
+      5       -3.1500               -3.1500             
+      4       -3.1500               -3.1500             
+      3       -3.1500               -3.1500             
+      2       -3.1500               -3.1500             
+      1       -3.1500               -3.1500             
+
+    Segment Id: 65
+    Segment 5 of 5
+      Fraction Beam-On Time (s): 4.4760
+      Total Beam-On Time (s): 111.9010
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      3.1500                3.1500              
+      29      3.1500                3.1500              
+      28      3.1500                3.1500              
+      27      3.1500                3.1500              
+      26      3.1500                3.1500              
+      25      3.1500                3.1500              
+      24      3.1500                3.1500              
+      23      3.1500                3.1500              
+      22      3.1500                3.1500              
+      21      3.1500                3.1500              
+      20      3.1500                3.1500              
+      19      3.1500                3.1500              
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      3.1500                3.1500              
+      11      3.1500                3.1500              
+      10      3.1500                3.1500              
+      9       3.1500                3.1500              
+      8       3.1500                3.1500              
+      7       3.1500                3.1500              
+      6       3.1500                3.1500              
+      5       3.1500                3.1500              
+      4       3.1500                3.1500              
+      3       3.1500                3.1500              
+      2       3.1500                3.1500              
+      1       3.1500                3.1500              
+
+  Beam 3:
+    Angle: 348°
+    Fraction Beam-On Time: 9.3682 sec
+    Beam Type: IMRT
+    Open Field Eq. Sq. (cm): N/A
+    Source to Skin (SSD): 
+      Point: 'ISO'
+        SSD (cm): 97.27
+      Point: 'DMAX'
+        SSD (cm): 97.58
+      Point: 'IC_SUP'
+        SSD (cm): 97.34
+      Point: 'IC_INF'
+        SSD (cm): 97.34
+    Depths: 
+      Point: 'ISO'
+        - Physical (cm): 7.73
+        - Effective (cm): 7.73
+      Point: 'DMAX'
+        - Physical (cm): 0.63
+        - Effective (cm): 0.63
+      Point: 'IC_SUP'
+        - Physical (cm): 7.74
+        - Effective (cm): 7.74
+      Point: 'IC_INF'
+        - Physical (cm): 7.74
+        - Effective (cm): 7.74
+    Off-Axis Distances (OAD): 
+      From Axis Point: 'ISO'
+      Point: 'ISO'
+        OAD (cm): 0.00
+      Point: 'DMAX'
+        OAD (cm): 1.47
+      Point: 'IC_SUP'
+        OAD (cm): 3.89
+      Point: 'IC_INF'
+        OAD (cm): 4.11
+
+    Total Segments: 4
+
+    Segment Id: 66
+    Segment 1 of 4
+      Fraction Beam-On Time (s): 3.0767
+      Total Beam-On Time (s): 76.9180
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      -3.1500               -3.1500             
+      29      -3.1500               -3.1500             
+      28      -3.1500               -3.1500             
+      27      -3.1500               -3.1500             
+      26      -3.1500               -3.1500             
+      25      -3.1500               -3.1500             
+      24      -3.1500               -3.1500             
+      23      -3.1500               -3.1500             
+      22      -3.1500               1.0500              
+      21      -3.1500               1.0500              
+      20      -3.1500               1.0500              
+      19      -3.1500               -2.1000             
+      18      -3.1500               -2.1000             
+      17      -3.1500               -2.1000             
+      16      -3.1500               -2.1000             
+      15      -3.1500               -2.1000             
+      14      -3.1500               -2.1000             
+      13      -3.1500               -2.1000             
+      12      -3.1500               -2.1000             
+      11      -3.1500               -2.1000             
+      10      -3.1500               1.0500              
+      9       -3.1500               1.0500              
+      8       -3.1500               -3.1500             
+      7       -3.1500               -3.1500             
+      6       -3.1500               -3.1500             
+      5       -3.1500               -3.1500             
+      4       -3.1500               -3.1500             
+      3       -3.1500               -3.1500             
+      2       -3.1500               -3.1500             
+      1       -3.1500               -3.1500             
+
+    Segment Id: 67
+    Segment 2 of 4
+      Fraction Beam-On Time (s): 1.0935
+      Total Beam-On Time (s): 27.3385
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      2.1000                2.1000              
+      29      2.1000                2.1000              
+      28      2.1000                2.1000              
+      27      2.1000                2.1000              
+      26      2.1000                2.1000              
+      25      2.1000                2.1000              
+      24      2.1000                2.1000              
+      23      2.1000                2.1000              
+      22      2.1000                3.1500              
+      21      -3.1500               3.1500              
+      20      -3.1500               3.1500              
+      19      -3.1500               -2.1000             
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      1.0500                1.0500              
+      11      1.0500                1.0500              
+      10      1.0500                1.0500              
+      9       1.0500                1.0500              
+      8       1.0500                1.0500              
+      7       1.0500                1.0500              
+      6       1.0500                1.0500              
+      5       1.0500                1.0500              
+      4       1.0500                1.0500              
+      3       1.0500                1.0500              
+      2       1.0500                1.0500              
+      1       1.0500                1.0500              
+
+    Segment Id: 68
+    Segment 3 of 4
+      Fraction Beam-On Time (s): 3.4286
+      Total Beam-On Time (s): 85.7143
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      3.1500                3.1500              
+      29      3.1500                3.1500              
+      28      3.1500                3.1500              
+      27      3.1500                3.1500              
+      26      3.1500                3.1500              
+      25      3.1500                3.1500              
+      24      3.1500                3.1500              
+      23      3.1500                3.1500              
+      22      3.1500                3.1500              
+      21      3.1500                3.1500              
+      20      3.1500                3.1500              
+      19      3.1500                3.1500              
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      1.0500                1.0500              
+      11      1.0500                1.0500              
+      10      1.0500                1.0500              
+      9       1.0500                1.0500              
+      8       1.0500                1.0500              
+      7       1.0500                1.0500              
+      6       1.0500                1.0500              
+      5       1.0500                1.0500              
+      4       1.0500                1.0500              
+      3       1.0500                1.0500              
+      2       1.0500                1.0500              
+      1       1.0500                1.0500              
+
+    Segment Id: 69
+    Segment 4 of 4
+      Fraction Beam-On Time (s): 1.7693
+      Total Beam-On Time (s): 44.2330
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      3.1500                3.1500              
+      29      3.1500                3.1500              
+      28      3.1500                3.1500              
+      27      3.1500                3.1500              
+      26      3.1500                3.1500              
+      25      3.1500                3.1500              
+      24      3.1500                3.1500              
+      23      3.1500                3.1500              
+      22      3.1500                3.1500              
+      21      3.1500                3.1500              
+      20      3.1500                3.1500              
+      19      3.1500                3.1500              
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      3.1500                3.1500              
+      15      3.1500                3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      1.0500                1.0500              
+      11      1.0500                1.0500              
+      10      1.0500                1.0500              
+      9       1.0500                1.0500              
+      8       1.0500                1.0500              
+      7       1.0500                1.0500              
+      6       1.0500                1.0500              
+      5       1.0500                1.0500              
+      4       1.0500                1.0500              
+      3       1.0500                1.0500              
+      2       1.0500                1.0500              
+      1       1.0500                1.0500              
+
+Planning Beam Angle Group: Group 1
+  Isocenter: 'ISO'
+  Isocenter Coordinate (cm): (0.02,0.11,0.05)
+  Gantry angle: 132°
+  Beam 1:
+    Angle: 132°
+    Fraction Beam-On Time: 12.4266 sec
+    Beam Type: IMRT
+    Open Field Eq. Sq. (cm): N/A
+    Source to Skin (SSD): 
+      Point: 'ISO'
+        SSD (cm): 93.68
+      Point: 'DMAX'
+        SSD (cm): 89.13
+      Point: 'IC_SUP'
+        SSD (cm): 93.75
+      Point: 'IC_INF'
+        SSD (cm): 93.75
+    Depths: 
+      Point: 'ISO'
+        - Physical (cm): 11.32
+        - Effective (cm): 11.32
+      Point: 'DMAX'
+        - Physical (cm): 20.65
+        - Effective (cm): 20.65
+      Point: 'IC_SUP'
+        - Physical (cm): 11.32
+        - Effective (cm): 11.32
+      Point: 'IC_INF'
+        - Physical (cm): 11.32
+        - Effective (cm): 11.32
+    Off-Axis Distances (OAD): 
+      From Axis Point: 'ISO'
+      Point: 'ISO'
+        OAD (cm): 0.00
+      Point: 'DMAX'
+        OAD (cm): 5.17
+      Point: 'IC_SUP'
+        OAD (cm): 3.89
+      Point: 'IC_INF'
+        OAD (cm): 4.11
+
+    Total Segments: 5
+
+    Segment Id: 1
+    Segment 1 of 5
+      Fraction Beam-On Time (s): 3.9039
+      Total Beam-On Time (s): 97.5977
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      -3.1500               -3.1500             
+      29      -3.1500               -3.1500             
+      28      -3.1500               -3.1500             
+      27      -3.1500               -3.1500             
+      26      -3.1500               -3.1500             
+      25      -3.1500               -3.1500             
+      24      -3.1500               -3.1500             
+      23      -3.1500               -3.1500             
+      22      -3.1500               -2.1000             
+      21      -3.1500               -2.1000             
+      20      -3.1500               -2.1000             
+      19      -3.1500               -2.1000             
+      18      -3.1500               -2.1000             
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      -3.1500               -2.1000             
+      11      -3.1500               -2.1000             
+      10      -3.1500               -2.1000             
+      9       -3.1500               -2.1000             
+      8       -3.1500               -3.1500             
+      7       -3.1500               -3.1500             
+      6       -3.1500               -3.1500             
+      5       -3.1500               -3.1500             
+      4       -3.1500               -3.1500             
+      3       -3.1500               -3.1500             
+      2       -3.1500               -3.1500             
+      1       -3.1500               -3.1500             
+
+    Segment Id: 2
+    Segment 2 of 5
+      Fraction Beam-On Time (s): 0.5388
+      Total Beam-On Time (s): 13.4690
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      -3.1500               -3.1500             
+      29      -3.1500               -3.1500             
+      28      -3.1500               -3.1500             
+      27      -3.1500               -3.1500             
+      26      -3.1500               -3.1500             
+      25      -3.1500               -3.1500             
+      24      -3.1500               -3.1500             
+      23      -3.1500               -3.1500             
+      22      -3.1500               0.0000              
+      21      -3.1500               2.1000              
+      20      -3.1500               2.1000              
+      19      -3.1500               -1.0500             
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      -3.1500               -1.0500             
+      11      -3.1500               -1.0500             
+      10      -3.1500               2.1000              
+      9       -3.1500               2.1000              
+      8       -3.1500               -3.1500             
+      7       -3.1500               -3.1500             
+      6       -3.1500               -3.1500             
+      5       -3.1500               -3.1500             
+      4       -3.1500               -3.1500             
+      3       -3.1500               -3.1500             
+      2       -3.1500               -3.1500             
+      1       -3.1500               -3.1500             
+
+    Segment Id: 3
+    Segment 3 of 5
+      Fraction Beam-On Time (s): 2.3685
+      Total Beam-On Time (s): 59.2121
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      -3.1500               -3.1500             
+      29      -3.1500               -3.1500             
+      28      -3.1500               -3.1500             
+      27      -3.1500               -3.1500             
+      26      -3.1500               -3.1500             
+      25      -3.1500               -3.1500             
+      24      -3.1500               -3.1500             
+      23      -3.1500               -3.1500             
+      22      -3.1500               2.1000              
+      21      -3.1500               2.1000              
+      20      -3.1500               2.1000              
+      19      -3.1500               -1.0500             
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      -3.1500               -1.0500             
+      11      -3.1500               -1.0500             
+      10      -3.1500               2.1000              
+      9       -3.1500               3.1500              
+      8       -3.1500               -3.1500             
+      7       -3.1500               -3.1500             
+      6       -3.1500               -3.1500             
+      5       -3.1500               -3.1500             
+      4       -3.1500               -3.1500             
+      3       -3.1500               -3.1500             
+      2       -3.1500               -3.1500             
+      1       -3.1500               -3.1500             
+
+    Segment Id: 4
+    Segment 4 of 5
+      Fraction Beam-On Time (s): 0.7284
+      Total Beam-On Time (s): 18.2095
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      -2.1000               -2.1000             
+      29      -2.1000               -2.1000             
+      28      -2.1000               -2.1000             
+      27      -2.1000               -2.1000             
+      26      -2.1000               -2.1000             
+      25      -2.1000               -2.1000             
+      24      -2.1000               -2.1000             
+      23      -2.1000               -2.1000             
+      22      -2.1000               3.1500              
+      21      -3.1500               3.1500              
+      20      -3.1500               3.1500              
+      19      -3.1500               3.1500              
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      3.1500                3.1500              
+      11      3.1500                3.1500              
+      10      3.1500                3.1500              
+      9       3.1500                3.1500              
+      8       3.1500                3.1500              
+      7       3.1500                3.1500              
+      6       3.1500                3.1500              
+      5       3.1500                3.1500              
+      4       3.1500                3.1500              
+      3       3.1500                3.1500              
+      2       3.1500                3.1500              
+      1       3.1500                3.1500              
+
+    Segment Id: 5
+    Segment 5 of 5
+      Fraction Beam-On Time (s): 4.8871
+      Total Beam-On Time (s): 122.1770
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      3.1500                3.1500              
+      29      3.1500                3.1500              
+      28      3.1500                3.1500              
+      27      3.1500                3.1500              
+      26      3.1500                3.1500              
+      25      3.1500                3.1500              
+      24      3.1500                3.1500              
+      23      3.1500                3.1500              
+      22      3.1500                3.1500              
+      21      3.1500                3.1500              
+      20      3.1500                3.1500              
+      19      3.1500                3.1500              
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      3.1500                3.1500              
+      11      3.1500                3.1500              
+      10      3.1500                3.1500              
+      9       3.1500                3.1500              
+      8       3.1500                3.1500              
+      7       3.1500                3.1500              
+      6       3.1500                3.1500              
+      5       3.1500                3.1500              
+      4       3.1500                3.1500              
+      3       3.1500                3.1500              
+      2       3.1500                3.1500              
+      1       3.1500                3.1500              
+
+  Beam 2:
+    Angle: N/A
+    Total Segments: 0
+
+  Beam 3:
+    Angle: 12°
+    Fraction Beam-On Time: 13.1796 sec
+    Beam Type: IMRT
+    Open Field Eq. Sq. (cm): N/A
+    Source to Skin (SSD): 
+      Point: 'ISO'
+        SSD (cm): 97.27
+      Point: 'DMAX'
+        SSD (cm): 97.59
+      Point: 'IC_SUP'
+        SSD (cm): 97.33
+      Point: 'IC_INF'
+        SSD (cm): 97.34
+    Depths: 
+      Point: 'ISO'
+        - Physical (cm): 7.73
+        - Effective (cm): 7.73
+      Point: 'DMAX'
+        - Physical (cm): 0.63
+        - Effective (cm): 0.63
+      Point: 'IC_SUP'
+        - Physical (cm): 7.74
+        - Effective (cm): 7.74
+      Point: 'IC_INF'
+        - Physical (cm): 7.74
+        - Effective (cm): 7.74
+    Off-Axis Distances (OAD): 
+      From Axis Point: 'ISO'
+      Point: 'ISO'
+        OAD (cm): 0.00
+      Point: 'DMAX'
+        OAD (cm): 1.43
+      Point: 'IC_SUP'
+        OAD (cm): 3.89
+      Point: 'IC_INF'
+        OAD (cm): 4.11
+
+    Total Segments: 6
+
+    Segment Id: 7
+    Segment 1 of 6
+      Fraction Beam-On Time (s): 1.4812
+      Total Beam-On Time (s): 37.0303
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      -3.1500               -3.1500             
+      29      -3.1500               -3.1500             
+      28      -3.1500               -3.1500             
+      27      -3.1500               -3.1500             
+      26      -3.1500               -3.1500             
+      25      -3.1500               -3.1500             
+      24      -3.1500               -3.1500             
+      23      -3.1500               -3.1500             
+      22      -3.1500               -1.0500             
+      21      -3.1500               1.0500              
+      20      -3.1500               1.0500              
+      19      -3.1500               -2.1000             
+      18      -3.1500               -2.1000             
+      17      -3.1500               -2.1000             
+      16      -3.1500               -2.1000             
+      15      -3.1500               -2.1000             
+      14      -3.1500               -2.1000             
+      13      -3.1500               -2.1000             
+      12      -3.1500               -2.1000             
+      11      -3.1500               -2.1000             
+      10      -3.1500               0.0000              
+      9       -3.1500               1.0500              
+      8       -3.1500               -3.1500             
+      7       -3.1500               -3.1500             
+      6       -3.1500               -3.1500             
+      5       -3.1500               -3.1500             
+      4       -3.1500               -3.1500             
+      3       -3.1500               -3.1500             
+      2       -3.1500               -3.1500             
+      1       -3.1500               -3.1500             
+
+    Segment Id: 8
+    Segment 2 of 6
+      Fraction Beam-On Time (s): 2.4455
+      Total Beam-On Time (s): 61.1375
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      -3.1500               -3.1500             
+      29      -3.1500               -3.1500             
+      28      -3.1500               -3.1500             
+      27      -3.1500               -3.1500             
+      26      -3.1500               -3.1500             
+      25      -3.1500               -3.1500             
+      24      -3.1500               -3.1500             
+      23      -3.1500               -3.1500             
+      22      -3.1500               2.1000              
+      21      -3.1500               2.1000              
+      20      -3.1500               2.1000              
+      19      -3.1500               -2.1000             
+      18      -3.1500               -1.0500             
+      17      -3.1500               1.0500              
+      16      -3.1500               -2.1000             
+      15      -3.1500               -2.1000             
+      14      -3.1500               -2.1000             
+      13      -3.1500               -2.1000             
+      12      -3.1500               -2.1000             
+      11      -3.1500               1.0500              
+      10      -3.1500               3.1500              
+      9       -3.1500               3.1500              
+      8       -3.1500               -3.1500             
+      7       -3.1500               -3.1500             
+      6       -3.1500               -3.1500             
+      5       -3.1500               -3.1500             
+      4       -3.1500               -3.1500             
+      3       -3.1500               -3.1500             
+      2       -3.1500               -3.1500             
+      1       -3.1500               -3.1500             
+
+    Segment Id: 9
+    Segment 3 of 6
+      Fraction Beam-On Time (s): 1.6810
+      Total Beam-On Time (s): 42.0239
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      2.1000                2.1000              
+      29      2.1000                2.1000              
+      28      2.1000                2.1000              
+      27      2.1000                2.1000              
+      26      2.1000                2.1000              
+      25      2.1000                2.1000              
+      24      2.1000                2.1000              
+      23      2.1000                2.1000              
+      22      2.1000                2.1000              
+      21      -3.1500               2.1000              
+      20      -3.1500               2.1000              
+      19      -3.1500               -2.1000             
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               2.1000              
+      15      -3.1500               -2.1000             
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      3.1500                3.1500              
+      11      3.1500                3.1500              
+      10      3.1500                3.1500              
+      9       3.1500                3.1500              
+      8       3.1500                3.1500              
+      7       3.1500                3.1500              
+      6       3.1500                3.1500              
+      5       3.1500                3.1500              
+      4       3.1500                3.1500              
+      3       3.1500                3.1500              
+      2       3.1500                3.1500              
+      1       3.1500                3.1500              
+
+    Segment Id: 10
+    Segment 4 of 6
+      Fraction Beam-On Time (s): 2.3815
+      Total Beam-On Time (s): 59.5380
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      2.1000                2.1000              
+      29      2.1000                2.1000              
+      28      2.1000                2.1000              
+      27      2.1000                2.1000              
+      26      2.1000                2.1000              
+      25      2.1000                2.1000              
+      24      2.1000                2.1000              
+      23      2.1000                2.1000              
+      22      2.1000                2.1000              
+      21      -3.1500               3.1500              
+      20      -3.1500               3.1500              
+      19      -3.1500               -2.1000             
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      3.1500                3.1500              
+      11      3.1500                3.1500              
+      10      3.1500                3.1500              
+      9       3.1500                3.1500              
+      8       3.1500                3.1500              
+      7       3.1500                3.1500              
+      6       3.1500                3.1500              
+      5       3.1500                3.1500              
+      4       3.1500                3.1500              
+      3       3.1500                3.1500              
+      2       3.1500                3.1500              
+      1       3.1500                3.1500              
+
+    Segment Id: 11
+    Segment 5 of 6
+      Fraction Beam-On Time (s): 3.1777
+      Total Beam-On Time (s): 79.4415
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      3.1500                3.1500              
+      29      3.1500                3.1500              
+      28      3.1500                3.1500              
+      27      3.1500                3.1500              
+      26      3.1500                3.1500              
+      25      3.1500                3.1500              
+      24      3.1500                3.1500              
+      23      3.1500                3.1500              
+      22      3.1500                3.1500              
+      21      3.1500                3.1500              
+      20      3.1500                3.1500              
+      19      3.1500                3.1500              
+      18      -3.1500               3.1500              
+      17      -3.1500               3.1500              
+      16      -3.1500               3.1500              
+      15      -3.1500               3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      3.1500                3.1500              
+      11      3.1500                3.1500              
+      10      3.1500                3.1500              
+      9       3.1500                3.1500              
+      8       3.1500                3.1500              
+      7       3.1500                3.1500              
+      6       3.1500                3.1500              
+      5       3.1500                3.1500              
+      4       3.1500                3.1500              
+      3       3.1500                3.1500              
+      2       3.1500                3.1500              
+      1       3.1500                3.1500              
+
+    Segment Id: 12
+    Segment 6 of 6
+      Fraction Beam-On Time (s): 2.0127
+      Total Beam-On Time (s): 50.3182
+    Leaf Positions
+      Leaf #  Left Position(cm)   Right Position(cm)
+      30      3.1500                3.1500              
+      29      3.1500                3.1500              
+      28      3.1500                3.1500              
+      27      3.1500                3.1500              
+      26      3.1500                3.1500              
+      25      3.1500                3.1500              
+      24      3.1500                3.1500              
+      23      3.1500                3.1500              
+      22      3.1500                3.1500              
+      21      3.1500                3.1500              
+      20      3.1500                3.1500              
+      19      3.1500                3.1500              
+      18      1.0500                3.1500              
+      17      1.0500                3.1500              
+      16      2.1000                3.1500              
+      15      2.1000                3.1500              
+      14      -3.1500               3.1500              
+      13      -3.1500               3.1500              
+      12      3.1500                3.1500              
+      11      3.1500                3.1500              
+      10      3.1500                3.1500              
+      9       3.1500                3.1500              
+      8       3.1500                3.1500              
+      7       3.1500                3.1500              
+      6       3.1500                3.1500              
+      5       3.1500                3.1500              
+      4       3.1500                3.1500              
+      3       3.1500                3.1500              
+      2       3.1500                3.1500              
+      1       3.1500                3.1500              
+

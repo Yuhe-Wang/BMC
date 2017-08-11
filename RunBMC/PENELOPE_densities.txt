@@ -1,0 +1,280 @@
+1|Hydrogen|8.37480000E-05
+2|Helium|1.66322000E-04
+3|Lithium|5.34000000E-01
+4|Beryllium|1.84800000E+00
+5|Boron|2.37000000E+00
+6|Carbon|2.00000000E+00
+7|Nitrogen|1.16528000E-03
+8|Oxygen|1.33151000E-03
+9|Fluorine|1.58029000E-03
+10|Neon|8.38505000E-04
+11|Sodium|9.71000000E-01
+12|Magnesium|1.74000000E+00
+13|Aluminium|2.69890000E+00
+14|Silicon|2.33000000E+00
+15|Phosphorus|2.20000000E+00
+16|Sulfur|2.00000000E+00
+17|Chlorine|2.99473000E-03
+18|Argon|1.66201000E-03
+19|Potassium|8.62000000E-01
+20|Calcium|1.55000000E+00
+21|Scandium|2.98900000E+00
+22|Titanium|4.54000000E+00
+23|Vanadium|6.11000000E+00
+24|Chromium|7.18000000E+00
+25|Manganese|7.44000000E+00
+26|Iron|7.87400000E+00
+27|Cobalt|8.90000000E+00
+28|Nickel|8.90200000E+00
+29|Copper|8.96000000E+00
+30|Zinc|7.13300000E+00
+31|Gallium|5.90400000E+00
+32|Germanium|5.32300000E+00
+33|Arsenic|5.73000000E+00
+34|Selenium|4.50000000E+00
+35|Bromine|7.07218000E-03
+36|Krypton|3.47832000E-03
+37|Rubidium|1.53200000E+00
+38|Strontium|2.54000000E+00
+39|Yttrium|4.46900000E+00
+40|Zirconium|6.50600000E+00
+41|Niobium|8.57000000E+00
+42|Molybdenum|1.02200000E+01
+43|Technetium|1.15000000E+01
+44|Ruthenium|1.24100000E+01
+45|Rhodium|1.24100000E+01
+46|Palladium|1.20200000E+01
+47|Silver|1.05000000E+01
+48|Cadmium|8.65000000E+00
+49|Indium|7.31000000E+00
+50|Tin|7.31000000E+00
+51|Antimony|6.69100000E+00
+52|Tellurium|6.24000000E+00
+53|Iodine|4.93000000E+00
+54|Xenon|5.48536000E-03
+55|Caesium|1.87300000E+00
+56|Barium|3.50000000E+00
+57|Lanthanum|6.15400000E+00
+58|Cerium|6.65700000E+00
+59|Praseodymium|6.71000000E+00
+60|Neodymium|6.90000000E+00
+61|Promethium|7.22000000E+00
+62|Samarium|7.46000000E+00
+63|Europium|5.24300000E+00
+64|Gadolinium|7.90040000E+00
+65|Terbium|8.22900000E+00
+66|Dysprosium|8.55000000E+00
+67|Holmium|8.79500000E+00
+68|Erbium|9.06600000E+00
+69|Thulium|9.32100000E+00
+70|Ytterbium|6.73000000E+00
+71|Lutetium|9.84000000E+00
+72|Hafnium|1.33100000E+01
+73|Tantalum|1.66540000E+01
+74|Tungsten|1.93000000E+01
+75|Rhenium|2.10200000E+01
+76|Osmium|2.25700000E+01
+77|Iridium|2.24200000E+01
+78|Platinum|2.14500000E+01
+79|Gold|1.93200000E+01
+80|Mercury|1.35460000E+01
+81|Thallium|1.17200000E+01
+82|Lead|1.13500000E+01
+83|Bismuth|9.74700000E+00
+84|Polonium|9.32000000E+00
+85|Astatine|9.32000000E+00
+86|Radon|9.06618000E-03
+87|Francium|1.00000000E+00
+88|Radium|5.00000000E+00
+89|Actinium|1.00700000E+01
+90|Thorium|1.17200000E+01
+91|Protactinium|1.53700000E+01
+92|Uranium|1.89500000E+01
+93|Neptunium|2.02500000E+01
+94|Plutonium|1.98400000E+01
+95|Americium|1.36700000E+01
+96|Curium|1.35100000E+01
+97|Berkelium|1.40000000E+01
+98|Californium|1.40000000E+01
+99|Einsteinium|1.40000000E+01
+100|Acetone|7.89900000E-01
+101|Acetylene|1.09670000E-03
+102|Adenine|1.35000000E+00
+103|Adipose tissue (ICRP)|9.20000000E-01
+104|Air, dry (near sea level)|1.20479000E-03
+105|Alanine|1.42000000E+00
+106|Aluminum oxide|3.97000000E+00
+107|Amber|1.10000000E+00
+108|Ammonia|8.26019000E-04
+109|Aniline|1.02350000E+00
+110|Anthracene|1.28300000E+00
+111|B-100 bone-equivalent plastic|1.45000000E+00
+112|Bakelite|1.25000000E+00
+113|Barium fluoride|4.89000000E+00
+114|Barium sulfate|4.50000000E+00
+115|Benzene|8.78650000E-01
+116|Beryllium oxide|3.01000000E+00
+117|Bismuth germanium oxide|7.13000000E+00
+118|Blood (ICRP)|1.06000000E+00
+119|Bone, compact (ICRU)|1.85000000E+00
+120|Bone, cortical (ICRP)|1.85000000E+00
+121|Boron carbide|2.52000000E+00
+122|Boron oxide|1.81200000E+00
+123|Brain (ICRP)|1.03000000E+00
+124|Butane|2.49343000E-03
+125|N-butyl alcohol|8.09800000E-01
+126|C-552 air-equivalent plastic|1.76000000E+00
+127|Cadmium telluride|6.20000000E+00
+128|Cadmium tungstate|7.90000000E+00
+129|Calcium carbonate|2.80000000E+00
+130|Calcium fluoride|3.18000000E+00
+131|Calcium oxide|3.30000000E+00
+132|Calcium sulfate|2.96000000E+00
+133|Calcium tungstate|6.06200000E+00
+134|Carbon dioxide|1.84212000E-03
+135|Carbon tetrachloride|1.59400000E+00
+136|Cellulose acetate, cellophane|1.42000000E+00
+137|Cellulose acetate butyrate|1.20000000E+00
+138|Cellulose nitrate|1.49000000E+00
+139|Ceric sulfate dosimeter solution|1.03000000E+00
+140|Cesium fluoride|4.11500000E+00
+141|Cesium iodide|4.51000000E+00
+142|Chlorobenzene|1.10580000E+00
+143|Chloroform|1.48320000E+00
+144|Concrete, portland|2.30000000E+00
+145|Cyclohexane|7.79000000E-01
+146|1,2-dichlorobenzene|1.30480000E+00
+147|Dichlorodiethyl ether|1.21990000E+00
+148|1,2-dichloroethane|1.23510000E+00
+149|Diethyl ether|7.13780000E-01
+150|N,n-dimethyl formamide|9.48700000E-01
+151|Dimethyl sulfoxide|1.10140000E+00
+152|Ethane|1.25324000E-03
+153|Ethyl alcohol|7.89300000E-01
+154|Ethyl cellulose|1.13000000E+00
+155|Ethylene|1.17497000E-03
+156|Eye lens (ICRP)|1.10000000E+00
+157|Ferric oxide|5.20000000E+00
+158|Ferroboride|7.15000000E+00
+159|Ferrous oxide|5.70000000E+00
+160|Ferrous sulfate dosimeter solution|1.02400000E+00
+161|Freon-12|1.12000000E+00
+162|Freon-12b2|1.80000000E+00
+163|Freon-13|9.50000000E-01
+164|Freon-13b1|1.50000000E+00
+165|Freon-13i1|1.80000000E+00
+166|Gadolinium oxysulfide|7.44000000E+00
+167|Gallium arsenide|5.31000000E+00
+168|Gel in photographic emulsion|1.29140000E+00
+169|Pyrex glass|2.23000000E+00
+170|Glass, lead|6.22000000E+00
+171|Glass, plate|2.40000000E+00
+172|Glucose|1.54000000E+00
+173|Glutamine|1.46000000E+00
+174|Glycerol|1.26130000E+00
+175|Graphite|1.70000000E+00
+176|Guanine|1.58000000E+00
+177|Gypsum, plaster of Paris|2.32000000E+00
+178|N-heptane|6.83760000E-01
+179|N-hexane|6.60300000E-01
+180|Kapton polyimide film|1.42000000E+00
+181|Lanthanum oxybromide|6.28000000E+00
+182|Lanthanum oxysulfide|5.86000000E+00
+183|Lead oxide|9.53000000E+00
+184|Lithium amide|1.17800000E+00
+185|Lithium carbonate|2.11000000E+00
+186|Lithium fluoride|2.63500000E+00
+187|Lithium hydride|8.20000000E-01
+188|Lithium iodide|3.49400000E+00
+189|Lithium oxide|2.01300000E+00
+190|Lithium tetraborate|2.44000000E+00
+191|Lung (ICRP)|3.00000000E-01
+192|M3 wax|1.05000000E+00
+193|Magnesium carbonate|2.95800000E+00
+194|Magnesium fluoride|3.00000000E+00
+195|Magnesium oxide|3.58000000E+00
+196|Magnesium tetraborate|2.53000000E+00
+197|Mercuric iodide|6.36000000E+00
+198|Methane|6.67151000E-04
+199|Methanol|7.91400000E-01
+200|Mix d wax|9.90000000E-01
+201|Ms20 tissue substitute|1.00000000E+00
+202|Muscle, skeletal (ICRP)|1.04000000E+00
+203|Muscle, striated (ICRU)|1.04000000E+00
+204|Muscle-equivalent liquid, with sucrose|1.11000000E+00
+205|Muscle-equivalent liquid, without sucrose|1.07000000E+00
+206|Naphthalene|1.14500000E+00
+207|Nitrobenzene|1.19867000E+00
+208|Nitrous oxide|1.83094000E-03
+209|Nylon, du Pont elvamide 8062|1.08000000E+00
+210|Nylon, type 6 and type 6,6|1.14000000E+00
+211|Nylon, type 6,10|1.14000000E+00
+212|Nylon, type 11 (rilsan)|1.42500000E+00
+213|Octane, liquid|7.02600000E-01
+214|Paraffin wax|9.30000000E-01
+215|N-pentane|6.26200000E-01
+216|Photographic emulsion|3.81500000E+00
+217|Plastic scintillator (vinyltoluene based)|1.03200000E+00
+218|Plutonium dioxide|1.14600000E+01
+219|Polyacrylonitrile|1.17000000E+00
+220|Polycarbonate (makrolon, lexan)|1.20000000E+00
+221|Polychlorostyrene|1.30000000E+00
+222|Polyethylene|9.40000000E-01
+223|Polyethylene terephthalate (mylar)|1.40000000E+00
+224|Polymethyl methacrilate (lucite, perspex, plexiglass)|1.19000000E+00
+225|Polyoxymethylene|1.42500000E+00
+226|Polypropylene|9.00000000E-01
+227|Polystyrene|1.06000000E+00
+228|Polytetrafluoroethylene (teflon)|2.20000000E+00
+229|Polytrifluorochloroethylene|2.10000000E+00
+230|Polyvinyl acetate|1.19000000E+00
+231|Polyvinyl alcohol|1.30000000E+00
+232|Polyvinyl butyral|1.12000000E+00
+233|Polyvinyl chloride|1.30000000E+00
+234|Polyvinylidene chloride (saran)|1.70000000E+00
+235|Polyvinylidene fluoride|1.76000000E+00
+236|Polyvinyl pyrrolidone|1.25000000E+00
+237|Potassium iodide|3.13000000E+00
+238|Potassium oxide|2.32000000E+00
+239|Propane|1.87939000E-03
+240|Propane, liquid|4.30000000E-01
+241|N-propyl alcohol|8.03500000E-01
+242|Pyridine|9.81900000E-01
+243|Rubber, butyl|9.20000000E-01
+244|Rubber, natural|9.20000000E-01
+245|Rubber, neoprene|1.23000000E+00
+246|Silicon dioxide|2.32000000E+00
+247|Silver bromide|6.47300000E+00
+248|Silver chloride|5.56000000E+00
+249|Silver halides in photographic emulsion|6.47000000E+00
+250|Silver iodide|6.01000000E+00
+251|Skin (ICRP)|1.10000000E+00
+252|Sodium carbonate|2.53200000E+00
+253|Sodium iodide|3.66700000E+00
+254|Sodium monoxide|2.27000000E+00
+255|Sodium nitrate|2.26100000E+00
+256|Stilbene|9.70700000E-01
+257|Sucrose|1.58050000E+00
+258|Terphenyl|1.23400000E+00
+259|Testes (ICRP)|1.04000000E+00
+260|Tetrachloroethylene|1.62500000E+00
+261|Thallium chloride|7.00400000E+00
+262|Tissue, soft (ICRP)|1.00000000E+00
+263|Tissue, soft (ICRU four-component)|1.00000000E+00
+264|Tissue-equivalent gas (methane based)|1.06409000E-03
+265|Tissue-equivalent gas (propane based)|1.82628000E-03
+266|Tissue-equivalent plastic (A-150)|1.12700000E+00
+267|Titanium dioxide|4.26000000E+00
+268|Toluene|8.66900000E-01
+269|Trichloroethylene|1.46000000E+00
+270|Triethyl phosphate|1.07000000E+00
+271|Tungsten hexafluoride|2.40000000E+00
+272|Uranium dicarbide|1.12800000E+01
+273|Uranium monocarbide|1.36300000E+01
+274|Uranium oxide|1.09600000E+01
+275|Urea|1.32300000E+00
+276|Valine|1.23000000E+00
+277|Viton fluoroelastomer|1.80000000E+00
+278|Water, liquid|1.00000000E+00
+279|Water vapor|7.56182000E-04
+280|Xylene|8.70000000E-01

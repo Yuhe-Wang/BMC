@@ -1,0 +1,3 @@
+find linux implementation of wglUseFontBitmaps()
+
+performance improvement when preparing the slice with b_globalISOLines
