@@ -46,7 +46,7 @@ then
     cd $proj
     chmod +x ../../Dependencies/${proj}/configure
     installpath=$(readlink -m ../../Build)
-	if ${BuildType}==Debug
+	if [${BuildType}=Debug]
 	then
 		wxflag='--enable-debug'
 	else
@@ -62,9 +62,6 @@ proj="BMC"
 #then
     mkdir $proj 
     cd $proj
-	if ${BuildType}==Debug 
-	then BuildType=MyDebug
-	fi
     cmake -D CMAKE_BUILD_TYPE=$BuildType ../../${proj}
     make -j 8
     cd ..

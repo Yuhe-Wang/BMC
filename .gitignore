@@ -34,5 +34,6 @@
 !/RunBMC/Setup/*.exe
 *.out
 *.app
+*.so.*
 
 ViewRayCo.phsp
