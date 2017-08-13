@@ -16,23 +16,38 @@ matio-1.5.10
 MyProject
 |__BMC
 |__Dependencies
-(3) Install the required tools for Windows or Linux platform, 
+(3) Install the required tools for Windows or Linux platform (Linux have too many distributions, so you have to resovle the dependencies by yourself!) 
 	Linux (Ubuntu 16.04.3 x64)
 	0) sudo apt install clang libomp-dev
 	   sudo update-alternatives --config c++
 	   sudo update-alternatives --config cc
-	1) gfortran
+	1) g++, gfortran
 	2) cmake
 	3) CUDA Toolkit 8 or 9 (8 tested on 14.04, 9 tested on 16.04)
 
-		`sudo dpkg -i cuda-repo-ubuntu1604-9-0-local-rc_9.0.103-1_amd64.deb`
-		`sudo apt-key add /var/cuda-repo-<version>/7fa2af80.pub`
-		`sudo apt-get update`
-		`sudo apt-get install cuda`
+		sudo dpkg -i cuda-repo-ubuntu1604-9-0-local-rc_9.0.103-1_amd64.deb
+		sudo apt-key add /var/cuda-repo-<version>/7fa2af80.pub
+		sudo apt-get update
+		sudo apt-get install cuda
 
-	4) libgtk3-dev
+        for opengl only, should instsall sudo apt install mesa-common-dev libglu1-mesa-dev freeglut3-dev
+
+	4) libgtk-3-dev
 	5) libmatio-dev
 	6) p7zip-full (for gMeshMM to call 7z) & curl (to send email when job is finished)
+
+	Linux (Fedora 26 no fully tested)
+	0) clang
+	1) gfortran
+	2) cmake
+	3) CUDA Toolkit 8 or 9 (9 tested on Federa 26)
+	    sudo rpm -i cuda-repo-fedora25-9-0-local-rc-9.0.103-1.x86_64.rpm
+	    sudo dnf clean all
+	    sudo dnf install cuda
+        may have to install mesa-libGLU mesa-libGLU-devel
+	4) gtk3-devel
+	5) matio-devel
+	6) p7zip + p7zip-plugins, curl 
 
 	Windows (Win10 x64) (PINIT precompiled by ICC)
 	1) Visual Studio 2015/2017 professional
