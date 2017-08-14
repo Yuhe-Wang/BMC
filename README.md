@@ -29,11 +29,10 @@ They are all open-source and available from my another project named Dependencie
 
 - Install the required tools for Windows or Linux platform (Linux have too many distributions, so you have to resolVe the dependencies by yourself!) 
 1) Linux (Ubuntu 16.04.3 x64):
-  - clang and config
+  - clang and config (g++ seems to generate buggy codes for BMC. clang will generate correct codes.)
   
 		    sudo apt install clang libomp-dev
             sudo update-alternatives --config c++
-            sudo update-alternatives --config cc 
   - g++, gfortran
   - cmake
   - CUDA Toolkit 8 or 9 (8 tested on 14.04, 9 tested on 16.04)
@@ -65,7 +64,7 @@ They are all open-source and available from my another project named Dependencie
 
 - Build command
    - For Windows, open the Visual studio prompt (your may need to create it by yourself due to version and installation variance. Please change working directory to BMC) in the folder BMC, and type in `build.bat`
-   - For Linux, open the terminal in the folder BMC and type in `./build.sh` (you may need to do `chmod +x build.sh` and "Dependencies/wxWidgets-3.1/src/stc/gen_iface.py" first)
+   - For Linux, open the terminal in the folder BMC and type in `./build.sh` (you may need to do `chmod +x build.sh` and "Dependencies/wxWidgets-3.1/src/stc/gen_iface.py" first). You may need to retype in `./build.sh` some times because `make -j` may have some file copy conflicts.
 
 
 # Run BMC

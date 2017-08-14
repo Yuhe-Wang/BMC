@@ -37,5 +37,7 @@
 /RunBMC/*.so.*
 /RunBMC/Materials/
 *.log
+*.dose
+*.mdose
 
 ViewRayCo.phsp

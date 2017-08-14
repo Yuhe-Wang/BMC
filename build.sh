@@ -25,7 +25,7 @@ then
     mkdir $proj 
     cd $proj 
     cmake -D CMAKE_BUILD_TYPE=$BuildType ../../Dependencies/${proj}
-    make  -j 8 install
+    make  -j install
     cd ..
 fi
 
@@ -35,13 +35,13 @@ then
     mkdir $proj 
     cd $proj 
     cmake -D CMAKE_BUILD_TYPE=$BuildType ../../Dependencies/${proj}
-    make -j 8 install
+    make -j install
     cd ..
 fi
 
 proj="wxWidgets-3.1"
-#if ! test -d ./${proj}
-#then
+if ! test -d ./${proj}
+then
     mkdir $proj 
     cd $proj
     chmod +x ../../Dependencies/${proj}/configure
@@ -52,10 +52,10 @@ proj="wxWidgets-3.1"
 	else
 		wxflag=''
 	fi
-    ../../Dependencies/${proj}/configure --with-opengl --enable-compat28 --with-x11 --prefix=$installpath --enable-debug ${wxflag}
-    make -j 8 install
+    ../../Dependencies/${proj}/configure --with-opengl --with-gtk=3 --prefix=$installpath --enable-debug ${wxflag}
+    make -j install
     cd ..
-#fi
+fi
 
 proj="BMC"
 #if ! test -d ./${proj}
@@ -63,7 +63,7 @@ proj="BMC"
     mkdir $proj 
     cd $proj
     cmake -D CMAKE_BUILD_TYPE=$BuildType ../../${proj}
-    make -j 8
+    make -j
     cd ..
 #fi
 
