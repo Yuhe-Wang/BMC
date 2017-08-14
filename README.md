@@ -3,7 +3,7 @@ BMC is a cross-platform GPU-accelerated Monte Carlo simulation toolkit for photo
 
 ![DoseViewer](DoseViewer.png)
 
-#Papers
+# Papers
 - [A GPU-accelerated Monte Carlo dose calculation platform and its application toward validating an MRI-guided radiation therapy beam model](MP.pdf)
 
 - [Development of a fast Monte Carlo dose calculation system for online adaptive radiation therapy quality assurance](PMB.pdf)
@@ -17,9 +17,11 @@ BMC is a cross-platform GPU-accelerated Monte Carlo simulation toolkit for photo
 - hdf5-1.8.19 
 - matio-1.5.10
 
+They are all open-source and available from my another project named Dependencies.
+
 # Build guide:
 - Download or git clone this BMC project
-- Download or git clone my another porject named Dependencies, and place it in the same folder of BMC. It should look like this:
+- Download or git clone my another project named Dependencies, and place it in the same folder of BMC. It should look like this:
 
         MyProject
         |-BMC
