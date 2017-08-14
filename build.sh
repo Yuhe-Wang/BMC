@@ -40,8 +40,8 @@ then
 fi
 
 proj="wxWidgets-3.1"
-if ! test -d ./${proj}
-then
+#if ! test -d ./${proj}
+#then
     mkdir $proj 
     cd $proj
     chmod +x ../../Dependencies/${proj}/configure
@@ -52,10 +52,10 @@ then
 	else
 		wxflag=''
 	fi
-    ../../Dependencies/${proj}/configure --with-opengl --prefix=$installpath --enable-debug ${wxflag}
+    ../../Dependencies/${proj}/configure --with-opengl --enable-compat28 --with-x11 --prefix=$installpath --enable-debug ${wxflag}
     make -j 8 install
     cd ..
-fi
+#fi
 
 proj="BMC"
 #if ! test -d ./${proj}
@@ -68,7 +68,8 @@ proj="BMC"
 #fi
 
 cd lib
-cp $(readlink *.so) ../../BMC/RunBMC
+cp $(readlink -e *.so) ../../BMC/RunBMC
+cp PINIT.so ../../BMC/RunBMC
 cd ../../BMC/RunBMC
 chmod +x *.app
 cd .. # cd = BMC

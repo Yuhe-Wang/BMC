@@ -24,13 +24,9 @@ MyProject
 	1) g++, gfortran
 	2) cmake
 	3) CUDA Toolkit 8 or 9 (8 tested on 14.04, 9 tested on 16.04)
+		first install the appropriate Nvidia driver(CUDA 9 minimum 384.00), then install the run file (don't use deb package) with GPU driver unselected.
 
-		sudo dpkg -i cuda-repo-ubuntu1604-9-0-local-rc_9.0.103-1_amd64.deb
-		sudo apt-key add /var/cuda-repo-<version>/7fa2af80.pub
-		sudo apt-get update
-		sudo apt-get install cuda
-
-        for opengl only, should instsall sudo apt install mesa-common-dev libglu1-mesa-dev freeglut3-dev
+        for opengl only, instsall sudo apt install mesa-common-dev libglu1-mesa-dev freeglut3-dev
 
 	4) libgtk-3-dev
 	5) libmatio-dev
@@ -41,10 +37,8 @@ MyProject
 	1) gfortran
 	2) cmake
 	3) CUDA Toolkit 8 or 9 (9 tested on Federa 26)
-	    sudo rpm -i cuda-repo-fedora25-9-0-local-rc-9.0.103-1.x86_64.rpm
-	    sudo dnf clean all
-	    sudo dnf install cuda
-        may have to install mesa-libGLU mesa-libGLU-devel
+		Install Nvidia driver first, then install run file without GPU driver selected
+		For openGL, install mesa-libGLU mesa-libGLU-devel
 	4) gtk3-devel
 	5) matio-devel
 	6) p7zip + p7zip-plugins, curl 
@@ -60,7 +54,9 @@ MyProject
 
 
 (4) For Windows, open the Visual studio promt(your may need to create it by yourself due to version and installation variance. please change working directory to BMC) in the folder BMC, and type in build.bat
-	For Linux, open the terminal in the folder BMCm and type in ./build.sh (you may need to do chmod +x build.sh first)
+
+For Linux, open the terminal in the folder BMCm and type in ./build.sh (you may need to do chmod +x build.sh and Dependencies/wxWidgets-3.1/src/stc/gen_iface.py first)
+
 
 # Run BMC
 The executable files and running configurations are all in folder BMC/RunBMC
