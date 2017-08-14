@@ -15,10 +15,11 @@ GPU accelerated Monte Carlo simulation platform for Photon Therapy. It is the ma
 # Build guide:
 - Download or git clone this BMC project
 - Download or git clone my another porject named Dependencies, and place it in the same folder of BMC. It should look like this:
+...
     MyProject
-    |_BMC
-    |_Dependencies
-
+    BMC
+    Dependencies
+...
 - Install the required tools for Windows or Linux platform (Linux have too many distributions, so you have to resolVe the dependencies by yourself!) 
 1) Linux (Ubuntu 16.04.3 x64)
   - clang and config
