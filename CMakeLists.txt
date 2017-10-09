@@ -31,6 +31,10 @@ if(WIN32)
         CUDA_NVCC_FLAGS
         "-Xcudafe --diag_suppress=field_without_dll_interface -Xcompiler /openmp -Xcompiler /wd4819"
     )
+	if (MSVC_VERSION GREATER 1900)
+		# You may need to modify based on your Visual Studio version
+		set(CUDA_HOST_COMPILER "C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/VC/Tools/MSVC/14.11.25503/bin/HostX64/x64")
+	endif()
 	set(exeExt ".exe")
 elseif(UNIX)
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=gnu++11 -pthread -fopenmp -Wno-unused-result -fvisibility=hidden")

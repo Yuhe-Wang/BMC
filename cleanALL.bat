@@ -9,6 +9,7 @@ rmdir /s /q Build
 cd Dependencies
 rmdir /s /q wxWidgets-3.1\build\msw\vc_mswudll
 rmdir /s /q wxWidgets-3.1\lib\vc_dll
+cd ../BMC/
 
 
 

@@ -41,7 +41,7 @@ echo %proj% building done!
 rem compile cmake dependencies
 set dependsList=mathgl-2.3.2 dcmtk-3.6.1 zlib-1.2.11 szip-2.1.1 hdf5-1.8.19 matio-1.5.10
 for %%i in (%dependsList%) do (
-	if not exist %%i/xxx (
+	if not exist %%i (
 		mkdir %%i
 		cd %%i
 		cmake -G %GEN% -D CMAKE_BUILD_TYPE=%BuildType% ../../Dependencies/%%i
