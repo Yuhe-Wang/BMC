@@ -2791,7 +2791,7 @@ void GLView::loadCT(const wxArrayString & names)
 	//above variables may be overwritten by external file.
 	bool extCTS = false;
 	ConfigFile ext_config;
-	if (ext_config.parse("Settings.py")) extCTS = true;
+	if (ext_config.parse("DoseViewer/Settings.py")) extCTS = true;
 
 	{
 		wxBusyCursor busyCursor;
